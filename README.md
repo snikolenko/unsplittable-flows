@@ -1,12 +1,12 @@
 # unsplittable-flows
 
-Companion repository for the paper *A Planar Lower Bound Above 9/8 for
-Cost-Preserving Single-Source Unsplittable Flows*.
+Companion repository for the paper *A Planar Lower Bound 1.1397… > 9/8 for
+Cost-Preserving Single-Source Unsplittable Flows* by Sergey Nikolenko.
 
-It contains the machine-checkable artifacts behind the paper: independent
-verifiers that rebuild every instance from its raw arc list and re-derive every
-numerical claim in exact rational or symbolic arithmetic. **The paper source
-and PDF will be added here under `paper/` once the manuscript is final.**
+The paper is in [`paper/planar-lower-bound-ssuf.pdf`](paper/planar-lower-bound-ssuf.pdf).
+The rest of the repository holds the machine-checkable artifacts behind it:
+independent verifiers that rebuild every instance from its raw arc list and
+re-derive every numerical claim in exact rational or symbolic arithmetic.
 
 ## The result
 
@@ -51,10 +51,10 @@ incidence.
 
 | path | what it is |
 |---|---|
+| `paper/` | the paper |
 | `verify/` | the independent verifiers (see below) |
 | `certificates/` | the exact rational certificate consumed by `v8` |
 | `VERIFICATION.md` | verification report: what was checked, how, and which claims in earlier drafts had to be corrected |
-| `paper/` | *(to be added)* the paper source, bibliography, figures and PDF |
 
 ## Verification
 
@@ -93,5 +93,4 @@ Tested with Python 3.10, SymPy 1.14, NumPy 1.26, SciPy 1.13, NetworkX 3.2.
 
 ## License
 
-Code: MIT (see `LICENSE`). The paper text and figures, once added, are
-CC BY 4.0.
+Code: MIT (see `LICENSE`). The paper text and figures: CC BY 4.0.

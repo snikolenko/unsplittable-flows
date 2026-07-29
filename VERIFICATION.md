@@ -104,10 +104,10 @@ SymPy over `Q`.
 
 ## Paper versions
 
-There are two versions of the manuscript, to be added to this repository under
-`paper/`.  The submission version contains the lower bound and the template
-optimum, plus a discussion section stating the conjecture and the open
-problems.  The extended version additionally contains the realization barrier,
+There are two versions of the manuscript.  The submission version --- the one
+in `paper/` --- contains the lower bound and the template optimum, plus a
+discussion section stating the conjecture and the open problems.  An extended
+version, not yet included here, additionally contains the realization barrier,
 the signed-tree-network characterization, the abstract discrepancy dichotomy,
 and the lower-box material.  The two share a preamble, the bibliography and the
 figures.
