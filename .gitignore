@@ -1,0 +1,21 @@
+# LaTeX build products (the PDFs are committed on purpose)
+*.aux
+*.log
+*.out
+*.toc
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# build products
+paper/arxiv-submission/
+paper/arxiv-submission.tar.gz
+
+# verifier scratch output
+verify/*_out.txt
