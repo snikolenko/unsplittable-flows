@@ -1,7 +1,8 @@
 # unsplittable-flows
 
 Companion repository for the paper *A Planar Lower Bound 1.1397… > 9/8 for
-Cost-Preserving Single-Source Unsplittable Flows* by Sergey Nikolenko.
+Cost-Preserving Single-Source Unsplittable Flows* by Sergey Nikolenko in
+close collaboration with GPT 5.6 Sol, Claude Fable 5, and Claude Opus 5.
 
 The paper is in [`paper/planar-lower-bound-ssuf.pdf`](paper/planar-lower-bound-ssuf.pdf).
 The rest of the repository holds the machine-checkable artifacts behind it:
