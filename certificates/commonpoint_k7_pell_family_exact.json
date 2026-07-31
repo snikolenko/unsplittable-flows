@@ -1,0 +1,4014 @@
+{
+  "intervals": [
+    [
+      5,
+      10
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "kind": "exact_commonpoint_k7_pell_lower_bound_family",
+  "rational_examples": [
+    {
+      "C": "16705/13824",
+      "C_decimal": 1.2084056712962963,
+      "Q": 48,
+      "eta": "1/6912",
+      "index": 2,
+      "p": 127
+    },
+    {
+      "C": "2121728/1755675",
+      "C_decimal": 1.2084970168168938,
+      "Q": 765,
+      "eta": "1/1755675",
+      "index": 3,
+      "p": 2024
+    },
+    {
+      "C": "1077821569/891869184",
+      "C_decimal": 1.2084973764493248,
+      "Q": 12192,
+      "eta": "1/445934592",
+      "index": 4,
+      "p": 32257
+    }
+  ],
+  "row_masks": [
+    96,
+    112,
+    120,
+    124,
+    126,
+    127,
+    95,
+    31,
+    23,
+    7,
+    5
+  ],
+  "selected_raw_member": {
+    "Q": 48,
+    "all_routings": 128,
+    "convex_hull_entry": {
+      "certified_for_this_member": true,
+      "entry_combination": [
+        {
+          "coefficient": "1113031/6676992",
+          "overload": "7345/13824",
+          "route": "0001001"
+        },
+        {
+          "coefficient": "324055/6676992",
+          "overload": "16705/13824",
+          "route": "0010011"
+        },
+        {
+          "coefficient": "3131/13824",
+          "overload": "3997/6912",
+          "route": "0011100"
+        },
+        {
+          "coefficient": "311333/2225664",
+          "overload": "16705/13824",
+          "route": "0101110"
+        },
+        {
+          "coefficient": "23033/185472",
+          "overload": "9577/13824",
+          "route": "0110001"
+        },
+        {
+          "coefficient": "443195/3338496",
+          "overload": "65/96",
+          "route": "0111000"
+        },
+        {
+          "coefficient": "559/20736",
+          "overload": "16705/13824",
+          "route": "1011001"
+        },
+        {
+          "coefficient": "2789/20736",
+          "overload": "161/192",
+          "route": "1100010"
+        }
+      ],
+      "level": "16705/13824",
+      "strict_lower_maximum_rank": 3,
+      "strict_lower_vertices": 49,
+      "strict_separator": {
+        "coefficients": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "fractional_value": "20737/6912",
+        "gap": "1/6912",
+        "maximum_on_strict_lower_vertices": "3"
+      }
+    },
+    "cost_good_routings": 64,
+    "demands": [
+      "1",
+      "1",
+      "161/192",
+      "1",
+      "161/192",
+      "1",
+      "161/192"
+    ],
+    "eta": "1/6912",
+    "exact_lower_bound": "16705/13824",
+    "exact_lower_bound_decimal": 1.2084056712962963,
+    "firewall": {
+      "K3,3_branch_sides": [
+        [
+          "v10",
+          "v3",
+          "v5"
+        ],
+        [
+          "v8",
+          "v11",
+          "v4"
+        ]
+      ],
+      "K3,3_paths": [
+        [
+          "v10",
+          "v9",
+          "v8"
+        ],
+        [
+          "v10",
+          "v11"
+        ],
+        [
+          "v10",
+          "t1",
+          "v4"
+        ],
+        [
+          "v3",
+          "v2",
+          "t3",
+          "v8"
+        ],
+        [
+          "v3",
+          "t2",
+          "v11"
+        ],
+        [
+          "v3",
+          "v4"
+        ],
+        [
+          "v5",
+          "v6",
+          "v7",
+          "v8"
+        ],
+        [
+          "v5",
+          "t0",
+          "v11"
+        ],
+        [
+          "v5",
+          "v4"
+        ]
+      ],
+      "cost_active": true,
+      "divisibility_chain": false,
+      "nonplanar": true,
+      "series_parallel": false
+    },
+    "fractional_cost": "27647/6912",
+    "margin_above_6/5": "581/69120",
+    "minimizers": [
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "0101011",
+        "witness_arcs": [
+          [
+            "v0",
+            "v1"
+          ],
+          [
+            "v2",
+            "v3"
+          ],
+          [
+            "v4",
+            "v5"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "0101101",
+        "witness_arcs": [
+          [
+            "v6",
+            "v7"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "0101110",
+        "witness_arcs": [
+          [
+            "v2",
+            "v3"
+          ],
+          [
+            "v4",
+            "v5"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "0110011",
+        "witness_arcs": [
+          [
+            "v0",
+            "v1"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "0110101",
+        "witness_arcs": [
+          [
+            "v8",
+            "v9"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "0110110",
+        "witness_arcs": [
+          [
+            "v8",
+            "v9"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "0111001",
+        "witness_arcs": [
+          [
+            "v6",
+            "v7"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "0111010",
+        "witness_arcs": [
+          [
+            "v4",
+            "v5"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "1001011",
+        "witness_arcs": [
+          [
+            "v0",
+            "v1"
+          ],
+          [
+            "v2",
+            "v3"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "1001101",
+        "witness_arcs": [
+          [
+            "v6",
+            "v7"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "1001110",
+        "witness_arcs": [
+          [
+            "v2",
+            "v3"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "1010011",
+        "witness_arcs": [
+          [
+            "v0",
+            "v1"
+          ],
+          [
+            "v10",
+            "v11"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "1010101",
+        "witness_arcs": [
+          [
+            "v8",
+            "v9"
+          ],
+          [
+            "v10",
+            "v11"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "1010110",
+        "witness_arcs": [
+          [
+            "v8",
+            "v9"
+          ],
+          [
+            "v10",
+            "v11"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "1011001",
+        "witness_arcs": [
+          [
+            "v6",
+            "v7"
+          ],
+          [
+            "v10",
+            "v11"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "1011010",
+        "witness_arcs": [
+          [
+            "v10",
+            "v11"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "1100011",
+        "witness_arcs": [
+          [
+            "v0",
+            "v1"
+          ]
+        ]
+      },
+      {
+        "cost": "3",
+        "cost_good": true,
+        "overload": "16705/13824",
+        "rank": 4,
+        "route": "1101010",
+        "witness_arcs": [
+          [
+            "v5",
+            "v6"
+          ]
+        ]
+      }
+    ],
+    "p": 127,
+    "pell_identity": 1,
+    "pell_index": 2,
+    "raw_dag": {
+      "all_route_checks": [
+        {
+          "cost": "7",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 0,
+          "route": "0000000",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "6",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 1,
+          "route": "0000001",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "6",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 1,
+          "route": "0000010",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "16705/13824",
+          "rank": 2,
+          "route": "0000011",
+          "witness_arcs": [
+            [
+              "v0",
+              "v1"
+            ]
+          ]
+        },
+        {
+          "cost": "6",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 1,
+          "route": "0000100",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "5113/6912",
+          "rank": 2,
+          "route": "0000101",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "6229/6912",
+          "rank": 2,
+          "route": "0000110",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "12025/6912",
+          "rank": 3,
+          "route": "0000111",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "6",
+          "cost_good": false,
+          "overload": "7345/13824",
+          "rank": 1,
+          "route": "0001000",
+          "witness_arcs": [
+            [
+              "v4",
+              "t1"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "7345/13824",
+          "rank": 2,
+          "route": "0001001",
+          "witness_arcs": [
+            [
+              "v4",
+              "t1"
+            ],
+            [
+              "v7",
+              "t6"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "65/96",
+          "rank": 2,
+          "route": "0001010",
+          "witness_arcs": [
+            [
+              "v6",
+              "t5"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "16705/13824",
+          "rank": 3,
+          "route": "0001011",
+          "witness_arcs": [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v2",
+              "v3"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "7345/13824",
+          "rank": 2,
+          "route": "0001100",
+          "witness_arcs": [
+            [
+              "v4",
+              "t1"
+            ],
+            [
+              "v9",
+              "t4"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "14473/13824",
+          "rank": 3,
+          "route": "0001101",
+          "witness_arcs": [
+            [
+              "v2",
+              "v3"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "16705/13824",
+          "rank": 3,
+          "route": "0001110",
+          "witness_arcs": [
+            [
+              "v2",
+              "v3"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "28297/13824",
+          "rank": 4,
+          "route": "0001111",
+          "witness_arcs": [
+            [
+              "v2",
+              "v3"
+            ]
+          ]
+        },
+        {
+          "cost": "6",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 1,
+          "route": "0010000",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 2,
+          "route": "0010001",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 2,
+          "route": "0010010",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "16705/13824",
+          "rank": 3,
+          "route": "0010011",
+          "witness_arcs": [
+            [
+              "v0",
+              "v1"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 2,
+          "route": "0010100",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "5113/6912",
+          "rank": 3,
+          "route": "0010101",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "6229/6912",
+          "rank": 3,
+          "route": "0010110",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "12025/6912",
+          "rank": 4,
+          "route": "0010111",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "7345/13824",
+          "rank": 2,
+          "route": "0011000",
+          "witness_arcs": [
+            [
+              "v4",
+              "t1"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "3997/6912",
+          "rank": 3,
+          "route": "0011001",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "5113/6912",
+          "rank": 3,
+          "route": "0011010",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "10909/6912",
+          "rank": 4,
+          "route": "0011011",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "3997/6912",
+          "rank": 3,
+          "route": "0011100",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "9793/6912",
+          "rank": 4,
+          "route": "0011101",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "10909/6912",
+          "rank": 4,
+          "route": "0011110",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "16705/6912",
+          "rank": 5,
+          "route": "0011111",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "6",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 1,
+          "route": "0100000",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 2,
+          "route": "0100001",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 2,
+          "route": "0100010",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "16705/13824",
+          "rank": 3,
+          "route": "0100011",
+          "witness_arcs": [
+            [
+              "v0",
+              "v1"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 2,
+          "route": "0100100",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "5113/6912",
+          "rank": 3,
+          "route": "0100101",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "6229/6912",
+          "rank": 3,
+          "route": "0100110",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "12025/6912",
+          "rank": 4,
+          "route": "0100111",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "6479/13824",
+          "rank": 2,
+          "route": "0101000",
+          "witness_arcs": [
+            [
+              "v10",
+              "t1"
+            ],
+            [
+              "v3",
+              "t2"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "7345/13824",
+          "rank": 3,
+          "route": "0101001",
+          "witness_arcs": [
+            [
+              "v7",
+              "t6"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "65/96",
+          "rank": 3,
+          "route": "0101010",
+          "witness_arcs": [
+            [
+              "v6",
+              "t5"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "0101011",
+          "witness_arcs": [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "65/96",
+          "rank": 3,
+          "route": "0101100",
+          "witness_arcs": [
+            [
+              "v7",
+              "v8"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "0101101",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "0101110",
+          "witness_arcs": [
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "28297/13824",
+          "rank": 5,
+          "route": "0101111",
+          "witness_arcs": [
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 2,
+          "route": "0110000",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 3,
+          "route": "0110001",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "9577/13824",
+          "rank": 3,
+          "route": "0110010",
+          "witness_arcs": [
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "0110011",
+          "witness_arcs": [
+            [
+              "v0",
+              "v1"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "16705/13824",
+          "rank": 3,
+          "route": "0110100",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "0110101",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "0110110",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "26065/13824",
+          "rank": 5,
+          "route": "0110111",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "65/96",
+          "rank": 3,
+          "route": "0111000",
+          "witness_arcs": [
+            [
+              "v7",
+              "v8"
+            ],
+            [
+              "v9",
+              "v10"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "0111001",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "0111010",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "28297/13824",
+          "rank": 5,
+          "route": "0111011",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "97/64",
+          "rank": 4,
+          "route": "0111100",
+          "witness_arcs": [
+            [
+              "v7",
+              "v8"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "28297/13824",
+          "rank": 5,
+          "route": "0111101",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "28297/13824",
+          "rank": 5,
+          "route": "0111110",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "1",
+          "cost_good": true,
+          "overload": "39889/13824",
+          "rank": 6,
+          "route": "0111111",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "6",
+          "cost_good": false,
+          "overload": "161/192",
+          "rank": 1,
+          "route": "1000000",
+          "witness_arcs": [
+            [
+              "v11",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "161/192",
+          "rank": 2,
+          "route": "1000001",
+          "witness_arcs": [
+            [
+              "v11",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "161/192",
+          "rank": 2,
+          "route": "1000010",
+          "witness_arcs": [
+            [
+              "v11",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "16705/13824",
+          "rank": 3,
+          "route": "1000011",
+          "witness_arcs": [
+            [
+              "v0",
+              "v1"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "161/192",
+          "rank": 2,
+          "route": "1000100",
+          "witness_arcs": [
+            [
+              "v11",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "161/192",
+          "rank": 3,
+          "route": "1000101",
+          "witness_arcs": [
+            [
+              "v11",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "6229/6912",
+          "rank": 3,
+          "route": "1000110",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "12025/6912",
+          "rank": 4,
+          "route": "1000111",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "161/192",
+          "rank": 2,
+          "route": "1001000",
+          "witness_arcs": [
+            [
+              "v11",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "161/192",
+          "rank": 3,
+          "route": "1001001",
+          "witness_arcs": [
+            [
+              "v11",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "161/192",
+          "rank": 3,
+          "route": "1001010",
+          "witness_arcs": [
+            [
+              "v11",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "1001011",
+          "witness_arcs": [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v2",
+              "v3"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "161/192",
+          "rank": 3,
+          "route": "1001100",
+          "witness_arcs": [
+            [
+              "v11",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "1001101",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "1001110",
+          "witness_arcs": [
+            [
+              "v2",
+              "v3"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "28297/13824",
+          "rank": 5,
+          "route": "1001111",
+          "witness_arcs": [
+            [
+              "v2",
+              "v3"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "16705/13824",
+          "rank": 2,
+          "route": "1010000",
+          "witness_arcs": [
+            [
+              "v10",
+              "v11"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "16705/13824",
+          "rank": 3,
+          "route": "1010001",
+          "witness_arcs": [
+            [
+              "v10",
+              "v11"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "16705/13824",
+          "rank": 3,
+          "route": "1010010",
+          "witness_arcs": [
+            [
+              "v10",
+              "v11"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "1010011",
+          "witness_arcs": [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v10",
+              "v11"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "16705/13824",
+          "rank": 3,
+          "route": "1010100",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ],
+            [
+              "v10",
+              "v11"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "1010101",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ],
+            [
+              "v10",
+              "v11"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "1010110",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ],
+            [
+              "v10",
+              "v11"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "12025/6912",
+          "rank": 5,
+          "route": "1010111",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "16705/13824",
+          "rank": 3,
+          "route": "1011000",
+          "witness_arcs": [
+            [
+              "v10",
+              "v11"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "1011001",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ],
+            [
+              "v10",
+              "v11"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "1011010",
+          "witness_arcs": [
+            [
+              "v10",
+              "v11"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "26065/13824",
+          "rank": 5,
+          "route": "1011011",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "97/64",
+          "rank": 4,
+          "route": "1011100",
+          "witness_arcs": [
+            [
+              "v7",
+              "v8"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "28297/13824",
+          "rank": 5,
+          "route": "1011101",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "26065/13824",
+          "rank": 5,
+          "route": "1011110",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "1",
+          "cost_good": true,
+          "overload": "37657/13824",
+          "rank": 6,
+          "route": "1011111",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "overload": "161/192",
+          "rank": 2,
+          "route": "1100000",
+          "witness_arcs": [
+            [
+              "v9",
+              "v10"
+            ],
+            [
+              "v11",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "161/192",
+          "rank": 3,
+          "route": "1100001",
+          "witness_arcs": [
+            [
+              "v9",
+              "v10"
+            ],
+            [
+              "v11",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "161/192",
+          "rank": 3,
+          "route": "1100010",
+          "witness_arcs": [
+            [
+              "v9",
+              "v10"
+            ],
+            [
+              "v11",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "1100011",
+          "witness_arcs": [
+            [
+              "v0",
+              "v1"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "18937/13824",
+          "rank": 3,
+          "route": "1100100",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "18937/13824",
+          "rank": 4,
+          "route": "1100101",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "18937/13824",
+          "rank": 4,
+          "route": "1100110",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "26065/13824",
+          "rank": 5,
+          "route": "1100111",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "161/192",
+          "rank": 3,
+          "route": "1101000",
+          "witness_arcs": [
+            [
+              "v7",
+              "v8"
+            ],
+            [
+              "v9",
+              "v10"
+            ],
+            [
+              "v11",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "18937/13824",
+          "rank": 4,
+          "route": "1101001",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "16705/13824",
+          "rank": 4,
+          "route": "1101010",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "28297/13824",
+          "rank": 5,
+          "route": "1101011",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "161/96",
+          "rank": 4,
+          "route": "1101100",
+          "witness_arcs": [
+            [
+              "v7",
+              "v8"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "30529/13824",
+          "rank": 5,
+          "route": "1101101",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "28297/13824",
+          "rank": 5,
+          "route": "1101110",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "1",
+          "cost_good": true,
+          "overload": "39889/13824",
+          "rank": 6,
+          "route": "1101111",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "overload": "161/96",
+          "rank": 3,
+          "route": "1110000",
+          "witness_arcs": [
+            [
+              "v9",
+              "v10"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "161/96",
+          "rank": 4,
+          "route": "1110001",
+          "witness_arcs": [
+            [
+              "v9",
+              "v10"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "161/96",
+          "rank": 4,
+          "route": "1110010",
+          "witness_arcs": [
+            [
+              "v9",
+              "v10"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "26065/13824",
+          "rank": 5,
+          "route": "1110011",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "30529/13824",
+          "rank": 4,
+          "route": "1110100",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "30529/13824",
+          "rank": 5,
+          "route": "1110101",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "30529/13824",
+          "rank": 5,
+          "route": "1110110",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ]
+          ]
+        },
+        {
+          "cost": "1",
+          "cost_good": true,
+          "overload": "37657/13824",
+          "rank": 6,
+          "route": "1110111",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "overload": "161/96",
+          "rank": 4,
+          "route": "1111000",
+          "witness_arcs": [
+            [
+              "v7",
+              "v8"
+            ],
+            [
+              "v9",
+              "v10"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "30529/13824",
+          "rank": 5,
+          "route": "1111001",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "28297/13824",
+          "rank": 5,
+          "route": "1111010",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "1",
+          "cost_good": true,
+          "overload": "39889/13824",
+          "rank": 6,
+          "route": "1111011",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "overload": "161/64",
+          "rank": 5,
+          "route": "1111100",
+          "witness_arcs": [
+            [
+              "v7",
+              "v8"
+            ]
+          ]
+        },
+        {
+          "cost": "1",
+          "cost_good": true,
+          "overload": "42121/13824",
+          "rank": 6,
+          "route": "1111101",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ]
+          ]
+        },
+        {
+          "cost": "1",
+          "cost_good": true,
+          "overload": "39889/13824",
+          "rank": 6,
+          "route": "1111110",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "0",
+          "cost_good": true,
+          "overload": "51481/13824",
+          "rank": 7,
+          "route": "1111111",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        }
+      ],
+      "arcs": [
+        [
+          "v0",
+          "v1"
+        ],
+        [
+          "v1",
+          "v2"
+        ],
+        [
+          "v2",
+          "v3"
+        ],
+        [
+          "v3",
+          "v4"
+        ],
+        [
+          "v4",
+          "v5"
+        ],
+        [
+          "v5",
+          "v6"
+        ],
+        [
+          "v6",
+          "v7"
+        ],
+        [
+          "v7",
+          "v8"
+        ],
+        [
+          "v8",
+          "v9"
+        ],
+        [
+          "v9",
+          "v10"
+        ],
+        [
+          "v10",
+          "v11"
+        ],
+        [
+          "v5",
+          "t0"
+        ],
+        [
+          "v11",
+          "t0"
+        ],
+        [
+          "v4",
+          "t1"
+        ],
+        [
+          "v10",
+          "t1"
+        ],
+        [
+          "v3",
+          "t2"
+        ],
+        [
+          "v11",
+          "t2"
+        ],
+        [
+          "v2",
+          "t3"
+        ],
+        [
+          "v8",
+          "t3"
+        ],
+        [
+          "v1",
+          "t4"
+        ],
+        [
+          "v9",
+          "t4"
+        ],
+        [
+          "v0",
+          "t5"
+        ],
+        [
+          "v6",
+          "t5"
+        ],
+        [
+          "v0",
+          "t6"
+        ],
+        [
+          "v7",
+          "t6"
+        ]
+      ],
+      "simple_path_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "simple_paths": [
+        [
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "v6"
+            ],
+            [
+              "v6",
+              "v7"
+            ],
+            [
+              "v7",
+              "v8"
+            ],
+            [
+              "v8",
+              "v9"
+            ],
+            [
+              "v9",
+              "v10"
+            ],
+            [
+              "v10",
+              "v11"
+            ],
+            [
+              "v11",
+              "t0"
+            ]
+          ],
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "t0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "v6"
+            ],
+            [
+              "v6",
+              "v7"
+            ],
+            [
+              "v7",
+              "v8"
+            ],
+            [
+              "v8",
+              "v9"
+            ],
+            [
+              "v9",
+              "v10"
+            ],
+            [
+              "v10",
+              "t1"
+            ]
+          ],
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "t1"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "v6"
+            ],
+            [
+              "v6",
+              "v7"
+            ],
+            [
+              "v7",
+              "v8"
+            ],
+            [
+              "v8",
+              "v9"
+            ],
+            [
+              "v9",
+              "v10"
+            ],
+            [
+              "v10",
+              "v11"
+            ],
+            [
+              "v11",
+              "t2"
+            ]
+          ],
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "t2"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "v6"
+            ],
+            [
+              "v6",
+              "v7"
+            ],
+            [
+              "v7",
+              "v8"
+            ],
+            [
+              "v8",
+              "t3"
+            ]
+          ],
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "t3"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "v6"
+            ],
+            [
+              "v6",
+              "v7"
+            ],
+            [
+              "v7",
+              "v8"
+            ],
+            [
+              "v8",
+              "v9"
+            ],
+            [
+              "v9",
+              "t4"
+            ]
+          ],
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "t4"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "v6"
+            ],
+            [
+              "v6",
+              "t5"
+            ]
+          ],
+          [
+            [
+              "v0",
+              "t5"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "v6"
+            ],
+            [
+              "v6",
+              "v7"
+            ],
+            [
+              "v7",
+              "t6"
+            ]
+          ],
+          [
+            [
+              "v0",
+              "t6"
+            ]
+          ]
+        ]
+      ]
+    },
+    "share_sum": "20737/6912",
+    "shares": [
+      "31/192",
+      "7345/13824",
+      "6479/11592",
+      "9577/13824",
+      "4247/11592",
+      "31/96",
+      "4247/11592"
+    ]
+  },
+  "symbolic_cell_certificate": {
+    "C": "(h - 8)*(h - 4)/6",
+    "cell_envelope": "(epsilon*q + 8*q**2 - 11*q + 2)/(2*q - 3)",
+    "demands": [
+      "1",
+      "1",
+      "3/2 - h/4",
+      "1",
+      "3/2 - h/4",
+      "1",
+      "3/2 - h/4"
+    ],
+    "eta": "h**2/3 - 7/3",
+    "feasibility_bernstein_checks": [
+      {
+        "denominator_bernstein": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "denominator_sign": 1,
+        "expression": "1",
+        "signed_numerator_bernstein": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "denominator_sign": 1,
+        "expression": "0",
+        "signed_numerator_bernstein": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "denominator_sign": 1,
+        "expression": "1",
+        "signed_numerator_bernstein": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "denominator_sign": 1,
+        "expression": "0",
+        "signed_numerator_bernstein": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "denominator_sign": 1,
+        "expression": "-(h - 6)/4",
+        "signed_numerator_bernstein": [
+          "17/5",
+          "2437/720",
+          "1213/360",
+          "161/48"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "denominator_sign": 1,
+        "expression": "(h - 2)/4",
+        "signed_numerator_bernstein": [
+          "3/5",
+          "443/720",
+          "227/360",
+          "31/48"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "denominator_sign": 1,
+        "expression": "1",
+        "signed_numerator_bernstein": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "denominator_sign": 1,
+        "expression": "0",
+        "signed_numerator_bernstein": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "denominator_sign": 1,
+        "expression": "-(h - 6)/4",
+        "signed_numerator_bernstein": [
+          "17/5",
+          "2437/720",
+          "1213/360",
+          "161/48"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "denominator_sign": 1,
+        "expression": "(h - 2)/4",
+        "signed_numerator_bernstein": [
+          "3/5",
+          "443/720",
+          "227/360",
+          "31/48"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "denominator_sign": 1,
+        "expression": "1",
+        "signed_numerator_bernstein": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "denominator_sign": 1,
+        "expression": "0",
+        "signed_numerator_bernstein": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "denominator_sign": 1,
+        "expression": "-(h - 6)/4",
+        "signed_numerator_bernstein": [
+          "17/5",
+          "2437/720",
+          "1213/360",
+          "161/48"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "denominator_sign": 1,
+        "expression": "(h - 2)/4",
+        "signed_numerator_bernstein": [
+          "3/5",
+          "443/720",
+          "227/360",
+          "31/48"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "denominator_sign": 1,
+        "expression": "(h - 2)/4",
+        "signed_numerator_bernstein": [
+          "3/5",
+          "443/720",
+          "227/360",
+          "31/48"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "denominator_sign": 1,
+        "expression": "-(h - 6)/4",
+        "signed_numerator_bernstein": [
+          "17/5",
+          "2437/720",
+          "1213/360",
+          "161/48"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "6",
+          "6",
+          "6",
+          "6"
+        ],
+        "denominator_sign": 1,
+        "expression": "(h - 5)*(h - 4)/6",
+        "signed_numerator_bernstein": [
+          "84/25",
+          "11887/3600",
+          "112133/34560",
+          "7345/2304"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "6",
+          "6",
+          "6",
+          "6"
+        ],
+        "denominator_sign": 1,
+        "expression": "-(h - 7)*(h - 2)/6",
+        "signed_numerator_bernstein": [
+          "66/25",
+          "9713/3600",
+          "95227/34560",
+          "6479/2304"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "-51/5",
+          "-2437/240",
+          "-1213/120",
+          "-161/16"
+        ],
+        "denominator_sign": -1,
+        "expression": "2*(h - 7)*(h - 2)/(3*(h - 6))",
+        "signed_numerator_bernstein": [
+          "132/25",
+          "9713/1800",
+          "95227/17280",
+          "6479/1152"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "-51/5",
+          "-2437/240",
+          "-1213/120",
+          "-161/16"
+        ],
+        "denominator_sign": -1,
+        "expression": "-(2*h**2 - 21*h + 46)/(3*(h - 6))",
+        "signed_numerator_bernstein": [
+          "123/25",
+          "17129/3600",
+          "15889/3456",
+          "5113/1152"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "denominator_sign": 1,
+        "expression": "(2*h**2 - 15*h + 34)/12",
+        "signed_numerator_bernstein": [
+          "213/25",
+          "30419/3600",
+          "144821/17280",
+          "9577/1152"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "denominator_sign": 1,
+        "expression": "-(h - 2)*(2*h - 11)/12",
+        "signed_numerator_bernstein": [
+          "87/25",
+          "12781/3600",
+          "62539/17280",
+          "4247/1152"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "-51/5",
+          "-2437/240",
+          "-1213/120",
+          "-161/16"
+        ],
+        "denominator_sign": -1,
+        "expression": "(h - 2)*(2*h - 11)/(3*(h - 6))",
+        "signed_numerator_bernstein": [
+          "87/25",
+          "12781/3600",
+          "62539/17280",
+          "4247/1152"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "-51/5",
+          "-2437/240",
+          "-1213/120",
+          "-161/16"
+        ],
+        "denominator_sign": -1,
+        "expression": "-2*(h - 5)*(h - 4)/(3*(h - 6))",
+        "signed_numerator_bernstein": [
+          "168/25",
+          "11887/1800",
+          "112133/17280",
+          "7345/1152"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "denominator_sign": 1,
+        "expression": "(h - 2)/2",
+        "signed_numerator_bernstein": [
+          "3/5",
+          "443/720",
+          "227/360",
+          "31/48"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "denominator_sign": 1,
+        "expression": "-(h - 4)/2",
+        "signed_numerator_bernstein": [
+          "7/5",
+          "997/720",
+          "493/360",
+          "65/48"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "-51/5",
+          "-2437/240",
+          "-1213/120",
+          "-161/16"
+        ],
+        "denominator_sign": -1,
+        "expression": "(h - 2)*(2*h - 11)/(3*(h - 6))",
+        "signed_numerator_bernstein": [
+          "87/25",
+          "12781/3600",
+          "62539/17280",
+          "4247/1152"
+        ]
+      },
+      {
+        "denominator_bernstein": [
+          "-51/5",
+          "-2437/240",
+          "-1213/120",
+          "-161/16"
+        ],
+        "denominator_sign": -1,
+        "expression": "-2*(h - 5)*(h - 4)/(3*(h - 6))",
+        "signed_numerator_bernstein": [
+          "168/25",
+          "11887/1800",
+          "112133/17280",
+          "7345/1152"
+        ]
+      }
+    ],
+    "higher_rank_monotonicity": "Every higher-rank route dominates a rank-four subroute coordinatewise on all positive rows.",
+    "parameter": "h=p/Q",
+    "parameter_interval": [
+      "13/5",
+      "127/48"
+    ],
+    "rank_four_minimizers": [
+      "0101011",
+      "0101101",
+      "0101110",
+      "0110011",
+      "0110101",
+      "0110110",
+      "0111001",
+      "0111010",
+      "1001011",
+      "1001101",
+      "1001110",
+      "1010011",
+      "1010101",
+      "1010110",
+      "1011001",
+      "1011010",
+      "1100011",
+      "1101010"
+    ],
+    "rank_four_route_witnesses": [
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "denominator_sign": 1,
+          "expression": "-(h - 6)/4",
+          "signed_numerator_bernstein": [
+            "17/5",
+            "2437/720",
+            "1213/360",
+            "161/48"
+          ]
+        },
+        "route": "0001111",
+        "witness_gap": "-(h - 6)/4",
+        "witness_row_mask": 120
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "6",
+            "6",
+            "6",
+            "6"
+          ],
+          "denominator_sign": 1,
+          "expression": "(h - 5)*(h - 4)/6",
+          "signed_numerator_bernstein": [
+            "84/25",
+            "11887/3600",
+            "112133/34560",
+            "7345/2304"
+          ]
+        },
+        "route": "0010111",
+        "witness_gap": "(h - 5)*(h - 4)/6",
+        "witness_row_mask": 112
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "12",
+            "12",
+            "12",
+            "12"
+          ],
+          "denominator_sign": 1,
+          "expression": "(2*h**2 - 21*h + 46)/12",
+          "signed_numerator_bernstein": [
+            "123/25",
+            "17129/3600",
+            "15889/3456",
+            "5113/1152"
+          ]
+        },
+        "route": "0011011",
+        "witness_gap": "(2*h**2 - 21*h + 46)/12",
+        "witness_row_mask": 124
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "6",
+            "6",
+            "6",
+            "6"
+          ],
+          "denominator_sign": 1,
+          "expression": "(h**2 - 12*h + 26)/6",
+          "signed_numerator_bernstein": [
+            "39/25",
+            "2621/1800",
+            "46757/34560",
+            "2881/2304"
+          ]
+        },
+        "route": "0011101",
+        "witness_gap": "(h**2 - 12*h + 26)/6",
+        "witness_row_mask": 124
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "12",
+            "12",
+            "12",
+            "12"
+          ],
+          "denominator_sign": 1,
+          "expression": "(2*h**2 - 21*h + 46)/12",
+          "signed_numerator_bernstein": [
+            "123/25",
+            "17129/3600",
+            "15889/3456",
+            "5113/1152"
+          ]
+        },
+        "route": "0011110",
+        "witness_gap": "(2*h**2 - 21*h + 46)/12",
+        "witness_row_mask": 124
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "6",
+            "6",
+            "6",
+            "6"
+          ],
+          "denominator_sign": 1,
+          "expression": "(h - 5)*(h - 4)/6",
+          "signed_numerator_bernstein": [
+            "84/25",
+            "11887/3600",
+            "112133/34560",
+            "7345/2304"
+          ]
+        },
+        "route": "0100111",
+        "witness_gap": "(h - 5)*(h - 4)/6",
+        "witness_row_mask": 112
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "0101011",
+        "witness_gap": "0",
+        "witness_row_mask": 96
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "0101101",
+        "witness_gap": "0",
+        "witness_row_mask": 95
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "0101110",
+        "witness_gap": "0",
+        "witness_row_mask": 120
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "0110011",
+        "witness_gap": "0",
+        "witness_row_mask": 96
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "0110101",
+        "witness_gap": "0",
+        "witness_row_mask": 23
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "0110110",
+        "witness_gap": "0",
+        "witness_row_mask": 23
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "0111001",
+        "witness_gap": "0",
+        "witness_row_mask": 95
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "0111010",
+        "witness_gap": "0",
+        "witness_row_mask": 126
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "12",
+            "12",
+            "12",
+            "12"
+          ],
+          "denominator_sign": 1,
+          "expression": "-(h - 2)*(2*h - 11)/12",
+          "signed_numerator_bernstein": [
+            "87/25",
+            "12781/3600",
+            "62539/17280",
+            "4247/1152"
+          ]
+        },
+        "route": "0111100",
+        "witness_gap": "-(h - 2)*(2*h - 11)/12",
+        "witness_row_mask": 31
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "6",
+            "6",
+            "6",
+            "6"
+          ],
+          "denominator_sign": 1,
+          "expression": "(h - 5)*(h - 4)/6",
+          "signed_numerator_bernstein": [
+            "84/25",
+            "11887/3600",
+            "112133/34560",
+            "7345/2304"
+          ]
+        },
+        "route": "1000111",
+        "witness_gap": "(h - 5)*(h - 4)/6",
+        "witness_row_mask": 112
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "1001011",
+        "witness_gap": "0",
+        "witness_row_mask": 96
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "1001101",
+        "witness_gap": "0",
+        "witness_row_mask": 95
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "1001110",
+        "witness_gap": "0",
+        "witness_row_mask": 120
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "1010011",
+        "witness_gap": "0",
+        "witness_row_mask": 96
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "1010101",
+        "witness_gap": "0",
+        "witness_row_mask": 23
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "1010110",
+        "witness_gap": "0",
+        "witness_row_mask": 23
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "1011001",
+        "witness_gap": "0",
+        "witness_row_mask": 95
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "1011010",
+        "witness_gap": "0",
+        "witness_row_mask": 5
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "12",
+            "12",
+            "12",
+            "12"
+          ],
+          "denominator_sign": 1,
+          "expression": "-(h - 2)*(2*h - 11)/12",
+          "signed_numerator_bernstein": [
+            "87/25",
+            "12781/3600",
+            "62539/17280",
+            "4247/1152"
+          ]
+        },
+        "route": "1011100",
+        "witness_gap": "-(h - 2)*(2*h - 11)/12",
+        "witness_row_mask": 31
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "1100011",
+        "witness_gap": "0",
+        "witness_row_mask": 96
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "denominator_sign": 1,
+          "expression": "(h - 2)/4",
+          "signed_numerator_bernstein": [
+            "3/5",
+            "443/720",
+            "227/360",
+            "31/48"
+          ]
+        },
+        "route": "1100101",
+        "witness_gap": "(h - 2)/4",
+        "witness_row_mask": 23
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "denominator_sign": 1,
+          "expression": "(h - 2)/4",
+          "signed_numerator_bernstein": [
+            "3/5",
+            "443/720",
+            "227/360",
+            "31/48"
+          ]
+        },
+        "route": "1100110",
+        "witness_gap": "(h - 2)/4",
+        "witness_row_mask": 23
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "denominator_sign": 1,
+          "expression": "(h - 2)/4",
+          "signed_numerator_bernstein": [
+            "3/5",
+            "443/720",
+            "227/360",
+            "31/48"
+          ]
+        },
+        "route": "1101001",
+        "witness_gap": "(h - 2)/4",
+        "witness_row_mask": 95
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "0",
+          "signed_numerator_bernstein": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "route": "1101010",
+        "witness_gap": "0",
+        "witness_row_mask": 127
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "6",
+            "6",
+            "6",
+            "6"
+          ],
+          "denominator_sign": 1,
+          "expression": "-(h - 7)*(h - 2)/6",
+          "signed_numerator_bernstein": [
+            "66/25",
+            "9713/3600",
+            "95227/34560",
+            "6479/2304"
+          ]
+        },
+        "route": "1101100",
+        "witness_gap": "-(h - 7)*(h - 2)/6",
+        "witness_row_mask": 31
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "6",
+            "6",
+            "6",
+            "6"
+          ],
+          "denominator_sign": 1,
+          "expression": "-(h - 7)*(h - 2)/6",
+          "signed_numerator_bernstein": [
+            "66/25",
+            "9713/3600",
+            "95227/34560",
+            "6479/2304"
+          ]
+        },
+        "route": "1110001",
+        "witness_gap": "-(h - 7)*(h - 2)/6",
+        "witness_row_mask": 7
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "6",
+            "6",
+            "6",
+            "6"
+          ],
+          "denominator_sign": 1,
+          "expression": "-(h - 7)*(h - 2)/6",
+          "signed_numerator_bernstein": [
+            "66/25",
+            "9713/3600",
+            "95227/34560",
+            "6479/2304"
+          ]
+        },
+        "route": "1110010",
+        "witness_gap": "-(h - 7)*(h - 2)/6",
+        "witness_row_mask": 7
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "denominator_sign": 1,
+          "expression": "1",
+          "signed_numerator_bernstein": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        "route": "1110100",
+        "witness_gap": "1",
+        "witness_row_mask": 23
+      },
+      {
+        "gap_certificate": {
+          "denominator_bernstein": [
+            "6",
+            "6",
+            "6",
+            "6"
+          ],
+          "denominator_sign": 1,
+          "expression": "-(h - 7)*(h - 2)/6",
+          "signed_numerator_bernstein": [
+            "66/25",
+            "9713/3600",
+            "95227/34560",
+            "6479/2304"
+          ]
+        },
+        "route": "1111000",
+        "witness_gap": "-(h - 7)*(h - 2)/6",
+        "witness_row_mask": 31
+      }
+    ],
+    "share_sum": "(h**2 + 2)/3",
+    "shares": [
+      "h/4 - 1/2",
+      "(h - 5)*(h - 4)/6",
+      "(h - 2)*(2*h - 14)/(3*h - 18)",
+      "h**2/6 - 5*h/4 + 17/6",
+      "(h - 2)*(2*h - 11)/(3*h - 18)",
+      "h/2 - 1",
+      "(h - 2)*(2*h - 11)/(3*h - 18)"
+    ],
+    "stationary_demand": "3/2-sqrt(7+3*epsilon)/4",
+    "strict_concavity": "second derivative 4(3 epsilon+7)/(2q-3)^3 < 0"
+  },
+  "theorem": {
+    "C_n": "(p_n-8Q_n)(p_n-4Q_n)/(6Q_n^2)",
+    "limit": "13/2-2*sqrt(7)",
+    "limit_decimal": 1.2084973778708188,
+    "strictly_above": "6/5 for every n>=2"
+  }
+}

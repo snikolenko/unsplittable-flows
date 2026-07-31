@@ -1,0 +1,614 @@
+{
+  "certified_record_chain": [
+    {
+      "dgg_bases": 48,
+      "eta": "1/1000000000",
+      "exact": true,
+      "gap_below_four_thirds": "373848720597879361/3000000000000000000",
+      "k": 7,
+      "mixture_atoms": 8,
+      "multistar_upper": "1208717093134040213/1000000000000000000",
+      "rank": 4,
+      "record_lower": "1208717093134040213/1000000000000000000",
+      "recovery_atom": "1001110",
+      "recovery_l1_bound": "7/1000000000",
+      "recovery_l1_distance": "925863359/333333333000000000",
+      "recovery_l1_inequality_verified": true,
+      "recovery_profile_bound": "6515307593/1000000000000000000",
+      "recovery_profile_distance": "32668029544163249/27027027000000000000000000",
+      "recovery_profile_inequality_verified": true,
+      "sandwich_width": "0",
+      "scaled_gap_k_times": "2616941044185155527/3000000000000000000",
+      "star_vertices": 96
+    },
+    {
+      "dgg_bases": 57,
+      "eta": "1/1000000",
+      "exact": true,
+      "gap_below_four_thirds": "177850382063/1500000000000",
+      "k": 8,
+      "mixture_atoms": 9,
+      "multistar_upper": "607383205979/500000000000",
+      "rank": 4,
+      "record_lower": "607383205979/500000000000",
+      "recovery_atom": "01101100",
+      "recovery_l1_bound": "1/125000",
+      "recovery_l1_distance": "477541/142857000000",
+      "recovery_l1_inequality_verified": true,
+      "recovery_profile_bound": "7398187/1000000000000",
+      "recovery_profile_distance": "55216655089/45454500000000000",
+      "recovery_profile_inequality_verified": true,
+      "sandwich_width": "0",
+      "scaled_gap_k_times": "177850382063/187500000000",
+      "star_vertices": 146
+    },
+    {
+      "dgg_bases": 282,
+      "eta": "1/1000000000",
+      "exact": true,
+      "gap_below_four_thirds": "11638103787169679/150000000000000000",
+      "k": 11,
+      "mixture_atoms": 12,
+      "multistar_upper": "62787298737610107/50000000000000000",
+      "rank": 5,
+      "record_lower": "62787298737610107/50000000000000000",
+      "recovery_atom": "11000010101",
+      "recovery_l1_bound": "11/1000000000",
+      "recovery_l1_distance": "4623724933/999999999000000000",
+      "recovery_l1_inequality_verified": true,
+      "recovery_profile_bound": "10369640019/1000000000000000000",
+      "recovery_profile_distance": "6976366526401123/5555555550000000000000000",
+      "recovery_profile_inequality_verified": true,
+      "sandwich_width": "0",
+      "scaled_gap_k_times": "128019141658866469/150000000000000000",
+      "star_vertices": 857
+    },
+    {
+      "dgg_bases": 969,
+      "eta": "1/1000000000",
+      "exact": true,
+      "gap_below_four_thirds": "107215364985775349/1500000000000000000",
+      "k": 13,
+      "mixture_atoms": 14,
+      "multistar_upper": "630928211671408217/500000000000000000",
+      "rank": 6,
+      "record_lower": "630928211671408217/500000000000000000",
+      "recovery_atom": "1001011000011",
+      "recovery_l1_bound": "13/1000000000",
+      "recovery_l1_distance": "354856303/66666666600000000",
+      "recovery_l1_inequality_verified": true,
+      "recovery_profile_bound": "3078737667/250000000000000000",
+      "recovery_profile_distance": "630928211671408217/499999999500000000000000000",
+      "recovery_profile_inequality_verified": true,
+      "sandwich_width": "0",
+      "scaled_gap_k_times": "1393799744815079537/1500000000000000000",
+      "star_vertices": 2919
+    },
+    {
+      "dgg_bases": 3151,
+      "eta": "1/1000000000",
+      "exact": true,
+      "gap_below_four_thirds": "184055196016910467/3000000000000000000",
+      "k": 15,
+      "mixture_atoms": 16,
+      "multistar_upper": "1271981601327696511/1000000000000000000",
+      "rank": 7,
+      "record_lower": "1271981601327696511/1000000000000000000",
+      "recovery_atom": "100100100110110",
+      "recovery_l1_bound": "3/200000000",
+      "recovery_l1_distance": "7244235491/999999999000000000",
+      "recovery_l1_inequality_verified": true,
+      "recovery_profile_bound": "7129440589/500000000000000000",
+      "recovery_profile_distance": "1271981601327696511/999999999000000000000000000",
+      "recovery_profile_inequality_verified": true,
+      "sandwich_width": "0",
+      "scaled_gap_k_times": "184055196016910467/200000000000000000",
+      "star_vertices": 10016
+    },
+    {
+      "dgg_bases": 3738,
+      "eta": "1/1000000000",
+      "exact": true,
+      "gap_below_four_thirds": "3508131929686091/60000000000000000",
+      "k": 16,
+      "mixture_atoms": 17,
+      "multistar_upper": "25497289356771303/20000000000000000",
+      "rank": 7,
+      "record_lower": "25497289356771303/20000000000000000",
+      "recovery_atom": "0011001010001101",
+      "recovery_l1_bound": "1/62500000",
+      "recovery_l1_distance": "2210437783/333333333000000000",
+      "recovery_l1_inequality_verified": true,
+      "recovery_profile_bound": "15145552467/1000000000000000000",
+      "recovery_profile_distance": "944344050250789/740740740000000000000000",
+      "recovery_profile_inequality_verified": true,
+      "sandwich_width": "0",
+      "scaled_gap_k_times": "3508131929686091/3750000000000000",
+      "star_vertices": 13841
+    },
+    {
+      "dgg_bases": 4799,
+      "eta": "1/1000000000",
+      "exact": true,
+      "gap_below_four_thirds": "152515606045469437/3000000000000000000",
+      "k": 17,
+      "mixture_atoms": 18,
+      "multistar_upper": "1282494797984843521/1000000000000000000",
+      "rank": 7,
+      "record_lower": "1282494797984843521/1000000000000000000",
+      "recovery_atom": "10010010001100101",
+      "recovery_l1_bound": "17/1000000000",
+      "recovery_l1_distance": "112324009/13333333320000000",
+      "recovery_l1_inequality_verified": true,
+      "recovery_profile_bound": "494943533/31250000000000000",
+      "recovery_profile_distance": "34662021567157933/27027027000000000000000000",
+      "recovery_profile_inequality_verified": true,
+      "sandwich_width": "0",
+      "scaled_gap_k_times": "2592765302772980429/3000000000000000000",
+      "star_vertices": 19566
+    }
+  ],
+  "clone_campaign_every_endpoint_below_k17": true,
+  "clone_campaign_maximum_defeating_route_overload": "1221623116867287239/1000000000000000000",
+  "convergence_test": {
+    "certified_chain_scaled_gaps": [
+      {
+        "k": 7,
+        "k_times_gap": "2616941044185155527/3000000000000000000"
+      },
+      {
+        "k": 8,
+        "k_times_gap": "177850382063/187500000000"
+      },
+      {
+        "k": 11,
+        "k_times_gap": "128019141658866469/150000000000000000"
+      },
+      {
+        "k": 13,
+        "k_times_gap": "1393799744815079537/1500000000000000000"
+      },
+      {
+        "k": 15,
+        "k_times_gap": "184055196016910467/200000000000000000"
+      },
+      {
+        "k": 16,
+        "k_times_gap": "3508131929686091/3750000000000000"
+      },
+      {
+        "k": 17,
+        "k_times_gap": "2592765302772980429/3000000000000000000"
+      }
+    ],
+    "hypothesis": "values approach 4/3 from below",
+    "result": "The certified chain has zero instancewise multi-star width, so it supplies no class-wide upper approach to 4/3. The tested microscopic clone recoveries move sharply downward; their scaled gaps grow rather than stabilize.",
+    "tested_clone_defeating_route_scaled_gaps": [
+      {
+        "k": 20,
+        "k_times_gap": "335130649398138283/150000000000000000"
+      },
+      {
+        "k": 21,
+        "k_times_gap": "1165210521729920533/250000000000000000"
+      },
+      {
+        "k": 22,
+        "k_times_gap": "794380734044235371/150000000000000000"
+      },
+      {
+        "k": 23,
+        "k_times_gap": "23000113849957488479/3000000000000000000"
+      },
+      {
+        "k": 24,
+        "k_times_gap": "36257607139976029/7812500000000000"
+      },
+      {
+        "k": 25,
+        "k_times_gap": "716723909200706239/120000000000000000"
+      },
+      {
+        "k": 26,
+        "k_times_gap": "2503090451746844791/375000000000000000"
+      },
+      {
+        "k": 27,
+        "k_times_gap": "882378236017117863/100000000000000000"
+      },
+      {
+        "k": 28,
+        "k_times_gap": "23332936330496303/3750000000000000"
+      },
+      {
+        "k": 29,
+        "k_times_gap": "25691047677287344103/3000000000000000000"
+      },
+      {
+        "k": 30,
+        "k_times_gap": "6400072864021/640000000000"
+      },
+      {
+        "k": 31,
+        "k_times_gap": "1639501328257033747/187500000000000000"
+      },
+      {
+        "k": 32,
+        "k_times_gap": "353552639076903689/46875000000000000"
+      },
+      {
+        "k": 33,
+        "k_times_gap": "11747699292487839659/1000000000000000000"
+      },
+      {
+        "k": 34,
+        "k_times_gap": "8099156531718378607/750000000000000000"
+      },
+      {
+        "k": 35,
+        "k_times_gap": "875016043975493/75000000000000"
+      },
+      {
+        "k": 36,
+        "k_times_gap": "7995604806417999/1000000000000000"
+      },
+      {
+        "k": 37,
+        "k_times_gap": "33566816144494828153/3000000000000000000"
+      },
+      {
+        "k": 38,
+        "k_times_gap": "1989770444737408073/187500000000000000"
+      },
+      {
+        "k": 39,
+        "k_times_gap": "2754718410482904541/250000000000000000"
+      },
+      {
+        "k": 40,
+        "k_times_gap": "850356952037414821/75000000000000000"
+      }
+    ]
+  },
+  "executable_convention": {
+    "clone_cost_good_code": "sum(z)>=rank_m",
+    "clone_full_overload_code": "max(clone_shared_residual,clone_private_residual)",
+    "clone_private_residual_code": "max_i d[i]*((1-f[i]) if z[i] else f[i])",
+    "clone_promotion_gate": "Each displayed clone number is only the exact overload of one cost-good defeating route at that tested endpoint. It is neither a multi-star threshold nor a class upper bound nor a lower-bound record.",
+    "clone_row_code": "rows are exact integer masks stored in the clone source",
+    "clone_shared_residual_code": "max_R sum(i in R,d[i]*(z[i]-f[i]))",
+    "csv_code": "emit one certified_record row per record and one clone_endpoint row per per-k exact defeating-route witness",
+    "fraction_code": "Q(s)=fractions.Fraction(str(s))",
+    "gamma_recovery_assertions": "assert 0<=h[i]<=1; assert sum(h)==m-1; assert max_R abs(sum(i in R,d[i]*(f[i]-h[i]))) <= eta*sum(d); assert sum_i abs(f[i]-h[i])<=eta*k",
+    "gamma_recovery_code": "choose the first exact mixture atom z of rank m and set h[i]=(f[i]-eta*z[i])/(1-eta)",
+    "record_instance_code": "load d,f,row masks,m from each source record; eta=sum(f)-(m-1)",
+    "record_sandwich_code": "assert Q(record_level)==Q(multi_star_threshold)",
+    "route_encoding": "route is a length-k 0/1 word; item i is selected iff int(route[i])==1",
+    "version": "commonpoint_sandwich_phase2_v2"
+  },
+  "finite_clone_ansatz_frontier": [
+    {
+      "cost_good": true,
+      "exact_defeating_route": "01010100100100001101",
+      "exact_defeating_route_overload": "1221623116867287239/1000000000000000000",
+      "exact_private_overload": "878149951/1000000000",
+      "exact_shared_overload": "1221623116867287239/1000000000000000000",
+      "gap_below_four_thirds": "335130649398138283/3000000000000000000",
+      "k": 20,
+      "not_a_record": true,
+      "rank": 8,
+      "scaled_gap_k_times": "335130649398138283/150000000000000000",
+      "source": "commonpoint_clone_sandwich_pilot_k20_40.json",
+      "source_index": 0,
+      "topology_variant": "contiguous_reversed"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "101000001100101000011",
+      "exact_defeating_route_overload": "277847118012860927/250000000000000000",
+      "exact_private_overload": "171486229/200000000",
+      "exact_shared_overload": "277847118012860927/250000000000000000",
+      "gap_below_four_thirds": "166458645961417219/750000000000000000",
+      "k": 21,
+      "not_a_record": true,
+      "rank": 8,
+      "scaled_gap_k_times": "1165210521729920533/250000000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 1,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "1010100010001001010110",
+      "exact_defeating_route_overload": "109261189877447413/100000000000000000",
+      "exact_private_overload": "857495387/1000000000",
+      "exact_shared_overload": "109261189877447413/100000000000000000",
+      "gap_below_four_thirds": "72216430367657761/300000000000000000",
+      "k": 22,
+      "not_a_record": true,
+      "rank": 9,
+      "scaled_gap_k_times": "794380734044235371/150000000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 2,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "10000111000100010100110",
+      "exact_defeating_route_overload": "999998350000616109/1000000000000000000",
+      "exact_private_overload": "999998350000616109/1000000000000000000",
+      "exact_shared_overload": "49999895357137789/50000000000000000",
+      "gap_below_four_thirds": "1000004949998151673/3000000000000000000",
+      "k": 23,
+      "not_a_record": true,
+      "rank": 9,
+      "scaled_gap_k_times": "23000113849957488479/3000000000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 3,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "011010000100100100001101",
+      "exact_defeating_route_overload": "71247464286674657/62500000000000000",
+      "exact_private_overload": "888580773/1000000000",
+      "exact_shared_overload": "71247464286674657/62500000000000000",
+      "gap_below_four_thirds": "36257607139976029/187500000000000000",
+      "k": 24,
+      "not_a_record": true,
+      "rank": 9,
+      "scaled_gap_k_times": "36257607139976029/7812500000000000",
+      "source": "commonpoint_clone_sandwich_pilot_k20_40.json",
+      "source_index": 8,
+      "topology_variant": "jitter_interleaved"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "1010001011001100010000111",
+      "exact_defeating_route_overload": "1094425363599764587/1000000000000000000",
+      "exact_private_overload": "42872871/50000000",
+      "exact_shared_overload": "1094425363599764587/1000000000000000000",
+      "gap_below_four_thirds": "716723909200706239/3000000000000000000",
+      "k": 25,
+      "not_a_record": true,
+      "rank": 11,
+      "scaled_gap_k_times": "716723909200706239/120000000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 5,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "01101001010001000001010111",
+      "exact_defeating_route_overload": "269151526878286031/250000000000000000",
+      "exact_private_overload": "109772307/125000000",
+      "exact_shared_overload": "269151526878286031/250000000000000000",
+      "gap_below_four_thirds": "192545419365141907/750000000000000000",
+      "k": 26,
+      "not_a_record": true,
+      "rank": 11,
+      "scaled_gap_k_times": "2503090451746844791/375000000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 6,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "001011010000100001000110110",
+      "exact_defeating_route_overload": "100652657925291931/100000000000000000",
+      "exact_private_overload": "715145893/1000000000",
+      "exact_shared_overload": "100652657925291931/100000000000000000",
+      "gap_below_four_thirds": "98042026224124207/300000000000000000",
+      "k": 27,
+      "not_a_record": true,
+      "rank": 10,
+      "scaled_gap_k_times": "882378236017117863/100000000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 7,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "0110100000101000100000101111",
+      "exact_defeating_route_overload": "5555574460452557/5000000000000000",
+      "exact_private_overload": "715155169/1000000000",
+      "exact_shared_overload": "5555574460452557/5000000000000000",
+      "gap_below_four_thirds": "3333276618642329/15000000000000000",
+      "k": 28,
+      "not_a_record": true,
+      "rank": 11,
+      "scaled_gap_k_times": "23332936330496303/3750000000000000",
+      "source": "commonpoint_clone_sandwich_pilot_k20_40.json",
+      "source_index": 16,
+      "topology_variant": "contiguous_reversed"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "01011000010000100001001001101",
+      "exact_defeating_route_overload": "1038033934743823631/1000000000000000000",
+      "exact_private_overload": "444284577/500000000",
+      "exact_shared_overload": "1038033934743823631/1000000000000000000",
+      "gap_below_four_thirds": "885898195768529107/3000000000000000000",
+      "k": 29,
+      "not_a_record": true,
+      "rank": 10,
+      "scaled_gap_k_times": "25691047677287344103/3000000000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 9,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "100001011001000110001010001100",
+      "exact_defeating_route_overload": "6399975711993/6400000000000",
+      "exact_private_overload": "482001209/500000000",
+      "exact_shared_overload": "6399975711993/6400000000000",
+      "gap_below_four_thirds": "6400072864021/19200000000000",
+      "k": 30,
+      "not_a_record": true,
+      "rank": 11,
+      "scaled_gap_k_times": "6400072864021/640000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 10,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "0110010100010010001001100001110",
+      "exact_defeating_route_overload": "65704286792935121/62500000000000000",
+      "exact_private_overload": "178784949/250000000",
+      "exact_shared_overload": "65704286792935121/62500000000000000",
+      "gap_below_four_thirds": "52887139621194637/187500000000000000",
+      "k": 31,
+      "not_a_record": true,
+      "rank": 12,
+      "scaled_gap_k_times": "1639501328257033747/187500000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 11,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "00110100010000011000110010111110",
+      "exact_defeating_route_overload": "548815786974365437/500000000000000000",
+      "exact_private_overload": "28606017/40000000",
+      "exact_shared_overload": "548815786974365437/500000000000000000",
+      "gap_below_four_thirds": "353552639076903689/1500000000000000000",
+      "k": 32,
+      "not_a_record": true,
+      "rank": 14,
+      "scaled_gap_k_times": "353552639076903689/46875000000000000",
+      "source": "commonpoint_clone_sandwich_pilot_k20_40.json",
+      "source_index": 24,
+      "topology_variant": "contiguous_reversed"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "000101010001011100001110100001100",
+      "exact_defeating_route_overload": "977342445682186677/1000000000000000000",
+      "exact_private_overload": "36377287/50000000",
+      "exact_shared_overload": "977342445682186677/1000000000000000000",
+      "gap_below_four_thirds": "1067972662953439969/3000000000000000000",
+      "k": 33,
+      "not_a_record": true,
+      "rank": 13,
+      "scaled_gap_k_times": "11747699292487839659/1000000000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 13,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "0011010100010100001100000100011101",
+      "exact_defeating_route_overload": "507859675848659243/500000000000000000",
+      "exact_private_overload": "71514931/100000000",
+      "exact_shared_overload": "507859675848659243/500000000000000000",
+      "gap_below_four_thirds": "476420972454022271/1500000000000000000",
+      "k": 34,
+      "not_a_record": true,
+      "rank": 13,
+      "scaled_gap_k_times": "8099156531718378607/750000000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 14,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "00111000011000000001010000110111001",
+      "exact_defeating_route_overload": "124999236001167/125000000000000",
+      "exact_private_overload": "124999236001167/125000000000000",
+      "exact_shared_overload": "124999111001167/125000000000000",
+      "gap_below_four_thirds": "125002291996499/375000000000000",
+      "k": 35,
+      "not_a_record": true,
+      "rank": 13,
+      "scaled_gap_k_times": "875016043975493/75000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 15,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "100010100010010100100011001000010011",
+      "exact_defeating_route_overload": "4444932799286889/4000000000000000",
+      "exact_private_overload": "10718501/12500000",
+      "exact_shared_overload": "4444932799286889/4000000000000000",
+      "gap_below_four_thirds": "2665201602139333/12000000000000000",
+      "k": 36,
+      "not_a_record": true,
+      "rank": 13,
+      "scaled_gap_k_times": "7995604806417999/1000000000000000",
+      "source": "commonpoint_clone_sandwich_pilot_k20_40.json",
+      "source_index": 32,
+      "topology_variant": "contiguous_reversed"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "0101010100000010100000111000100010101",
+      "exact_defeating_route_overload": "1030929584283830377/1000000000000000000",
+      "exact_private_overload": "857477639/1000000000",
+      "exact_shared_overload": "1030929584283830377/1000000000000000000",
+      "gap_below_four_thirds": "907211247148508869/3000000000000000000",
+      "k": 37,
+      "not_a_record": true,
+      "rank": 13,
+      "scaled_gap_k_times": "33566816144494828153/3000000000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 17,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "10010100010010100001000001110001111001",
+      "exact_defeating_route_overload": "131758413250220911/125000000000000000",
+      "exact_private_overload": "857467849/1000000000",
+      "exact_shared_overload": "131758413250220911/125000000000000000",
+      "gap_below_four_thirds": "104724760249337267/375000000000000000",
+      "k": 38,
+      "not_a_record": true,
+      "rank": 15,
+      "scaled_gap_k_times": "1989770444737408073/187500000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 18,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "010011000010000111100001001001000001111",
+      "exact_defeating_route_overload": "262699527936335781/250000000000000000",
+      "exact_private_overload": "34298827/40000000",
+      "exact_shared_overload": "262699527936335781/250000000000000000",
+      "gap_below_four_thirds": "211901416190992657/750000000000000000",
+      "k": 39,
+      "not_a_record": true,
+      "rank": 15,
+      "scaled_gap_k_times": "2754718410482904541/250000000000000000",
+      "source": "commonpoint_clone_sandwich_full_fast_k20_40.json",
+      "source_index": 19,
+      "topology_variant": "contiguous_same"
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "1000110011000001000011100001100010111001",
+      "exact_defeating_route_overload": "1049881015987528393/1000000000000000000",
+      "exact_private_overload": "857498243/1000000000",
+      "exact_shared_overload": "1049881015987528393/1000000000000000000",
+      "gap_below_four_thirds": "850356952037414821/3000000000000000000",
+      "k": 40,
+      "not_a_record": true,
+      "rank": 16,
+      "scaled_gap_k_times": "850356952037414821/75000000000000000",
+      "source": "commonpoint_clone_sandwich_pilot_k20_40.json",
+      "source_index": 40,
+      "topology_variant": "jitter_interleaved"
+    }
+  ],
+  "kind": "exact_commonpoint_multistar_gamma_sandwich_phase2",
+  "record_chain_multistar_equality": true,
+  "scope": "Exact lower=upper multi-star sandwich on the certified record chain, plus exact cost-good defeating routes for every rounded endpoint of the finite clone/interleaving campaigns. Each displayed clone value is only the overload of that route at that tested endpoint: it is not a multi-star threshold, a class upper bound, or a lower-bound record.",
+  "source_sha256": {
+    "certificates/commonpoint_clone_interleaving_ansatz_frontier_exact.json": "bd5528cf9dca45ea957d5ad9effd160e236278670981e4247de2ee19f6b2dd31",
+    "certificates/commonpoint_multistar_extended_record_chain_exact.json": "283d5e895ae3bd33392b70c56840833203fad6e40ea8ad26e6a8cc5ae3c5dad5"
+  },
+  "verified": true
+}

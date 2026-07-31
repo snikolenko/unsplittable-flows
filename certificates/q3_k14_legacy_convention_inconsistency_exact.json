@@ -1,0 +1,1685 @@
+{
+  "authoritative_proportional_feasible_pair_count": 0,
+  "authoritative_proportional_feasible_pairs": [],
+  "claim": "The 2026-07-30 k=14 bundle enforced sum c=1 but omitted d.c=d.x-d(O), so neither its proportional nor unrestricted certificates are authoritative for zero-sum d(u-f).",
+  "kind": "q3_k14_legacy_convention_inconsistency_exact",
+  "legacy_files_quarantined": [
+    {
+      "legacy_block_sha256": "fe4e5b6918c57ea5849d6471619e1757f18278a7fbb2c5c5a220780bfce59702",
+      "path": "certificates/q3_proportional_k14_counterexample_exact.json",
+      "sha256": "ce169df63a8b9c62107125497bf7a9e0a89a7ae396ac9e3619149527c19a4a39"
+    },
+    {
+      "legacy_block_sha256": "437df18bd08f7290b56633dd433733355a48660e759d6fbc4be74b17c1ab59d5",
+      "path": "certificates/q3_proportional_k14_counterexample_independent_audit.json",
+      "sha256": "2b8c2dcb1358f7fcdca059ca9ef3d46b8cae0f33133e4242dcbf70858891331b"
+    },
+    {
+      "legacy_block_sha256": "fe4e5b6918c57ea5849d6471619e1757f18278a7fbb2c5c5a220780bfce59702",
+      "path": "certificates/q3_adaptive_exchange_counterexample_compact_exact.json",
+      "sha256": "8b621d93fa58d0d2e812baf500858e271c45f07f7810b5779689854321566bfe"
+    }
+  ],
+  "legacy_minimizer_full_residual": "-10201126375319607/154016500000000000",
+  "legacy_pair_records": [
+    {
+      "alpha_rank": "763723/1263723",
+      "alpha_weight": "761344365707/1193721695628",
+      "alphas_equal": false,
+      "legacy_full_residual": "-16818557104748039/210620500000000000",
+      "legacy_level": "500206707064124061/421241000000000000",
+      "omitted_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "alpha_rank": "1253403/2253403",
+      "alpha_weight": "1251627115275/2113879775117",
+      "alphas_equal": false,
+      "legacy_full_residual": "-85438522335528837/1126701500000000000",
+      "legacy_level": "2638309441240593621/2253403000000000000",
+      "omitted_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "alpha_rank": "1594731/2594731",
+      "alpha_weight": "1579367464071/2455168123913",
+      "alphas_equal": false,
+      "legacy_full_residual": "-91350501000253749/1297365500000000000",
+      "legacy_level": "81479048453919069/81085343750000000",
+      "omitted_pair": [
+        0,
+        3
+      ]
+    },
+    {
+      "alpha_rank": "1547397/2547397",
+      "alpha_weight": "511209067491/802835954105",
+      "alphas_equal": false,
+      "legacy_full_residual": "-89919747037734363/1273698500000000000",
+      "legacy_level": "1305971548307640279/2547397000000000000",
+      "omitted_pair": [
+        0,
+        4
+      ]
+    },
+    {
+      "alpha_rank": "319563/569563",
+      "alpha_weight": "631368223488/1073695053409",
+      "alphas_equal": false,
+      "legacy_full_residual": "-16490767121955477/284781500000000000",
+      "legacy_level": "153862782287414571/284781500000000000",
+      "omitted_pair": [
+        0,
+        5
+      ]
+    },
+    {
+      "alpha_rank": "281591/481591",
+      "alpha_weight": "700111895738/1134946725659",
+      "alphas_equal": false,
+      "legacy_full_residual": "-17576804555315689/240795500000000000",
+      "legacy_level": "480755428554509727/481591000000000000",
+      "omitted_pair": [
+        0,
+        6
+      ]
+    },
+    {
+      "alpha_rank": "699701/1199701",
+      "alpha_weight": "53540823640/86973810557",
+      "alphas_equal": false,
+      "legacy_full_residual": "-43905126735446379/599850500000000000",
+      "legacy_level": "59859356186604113/74981312500000000",
+      "omitted_pair": [
+        0,
+        7
+      ]
+    },
+    {
+      "alpha_rank": "222673/422673",
+      "alpha_weight": "509370914385/1045274744306",
+      "alphas_equal": false,
+      "legacy_full_residual": "17457130642998833/211336500000000000",
+      "legacy_level": "223278498648960511/422673000000000000",
+      "omitted_pair": [
+        0,
+        8
+      ]
+    },
+    {
+      "alpha_rank": "331797/531797",
+      "alpha_weight": "789883634340/1259472464261",
+      "alphas_equal": false,
+      "legacy_full_residual": "-2168561866701963/265898500000000000",
+      "legacy_level": "698405187856822779/531797000000000000",
+      "omitted_pair": [
+        0,
+        9
+      ]
+    },
+    {
+      "alpha_rank": "104261/166761",
+      "alpha_weight": "361137515448/1263740345369",
+      "alphas_equal": false,
+      "legacy_full_residual": "71535178934893381/83380500000000000",
+      "legacy_level": "219460764537172427/166761000000000000",
+      "omitted_pair": [
+        0,
+        10
+      ]
+    },
+    {
+      "alpha_rank": "1642343/2642343",
+      "alpha_weight": "817800226425/1250870056346",
+      "alphas_equal": false,
+      "legacy_full_residual": "-106551022743055097/1321171500000000000",
+      "legacy_level": "1102876831034869447/1321171500000000000",
+      "omitted_pair": [
+        0,
+        11
+      ]
+    },
+    {
+      "alpha_rank": "1259951/2259951",
+      "alpha_weight": "54700240901/92193139155",
+      "alphas_equal": false,
+      "legacy_full_residual": "-28600600636402043/376658500000000000",
+      "legacy_level": "1160875002018168529/2259951000000000000",
+      "omitted_pair": [
+        0,
+        12
+      ]
+    },
+    {
+      "alpha_rank": "166781/266781",
+      "alpha_weight": "789109025957/1263534355878",
+      "alphas_equal": false,
+      "legacy_full_residual": "71409451284767/44463500000000000",
+      "legacy_level": "351060183292642067/266781000000000000",
+      "omitted_pair": [
+        0,
+        13
+      ]
+    },
+    {
+      "alpha_rank": "1444313/2444313",
+      "alpha_weight": "1437779846689/2305569506531",
+      "alphas_equal": false,
+      "legacy_full_residual": "-92209979856810727/1222156500000000000",
+      "legacy_level": "945964766937628191/814771000000000000",
+      "omitted_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "alpha_rank": "1785641/2785641",
+      "alpha_weight": "1765520195485/2646857855327",
+      "alphas_equal": false,
+      "legacy_full_residual": "-95883767613535639/1392820500000000000",
+      "legacy_level": "91233148136146159/87051281250000000",
+      "omitted_pair": [
+        1,
+        3
+      ]
+    },
+    {
+      "alpha_rank": "1738307/2738307",
+      "alpha_weight": "1719779933887/2600197593729",
+      "alphas_equal": false,
+      "legacy_full_residual": "-31557292143338751/456384500000000000",
+      "legacy_level": "112853515351363973/210639000000000000",
+      "omitted_pair": [
+        1,
+        4
+      ]
+    },
+    {
+      "alpha_rank": "734581/1234581",
+      "alpha_weight": "724444589195/1169539919116",
+      "alphas_equal": false,
+      "legacy_full_residual": "-35263722048801899/617290500000000000",
+      "legacy_level": "353685115221321877/617290500000000000",
+      "omitted_pair": [
+        1,
+        5
+      ]
+    },
+    {
+      "alpha_rank": "319773/519773",
+      "alpha_weight": "793188261445/1230791591366",
+      "alphas_equal": false,
+      "legacy_full_residual": "-18703922670172067/259886500000000000",
+      "legacy_level": "545942894677604181/519773000000000000",
+      "omitted_pair": [
+        1,
+        6
+      ]
+    },
+    {
+      "alpha_rank": "198789/323789",
+      "alpha_weight": "789107073027/1226504402948",
+      "alphas_equal": false,
+      "legacy_full_residual": "-11688606310709331/161894500000000000",
+      "legacy_level": "17006380663996257/20236812500000000",
+      "omitted_pair": [
+        1,
+        7
+      ]
+    },
+    {
+      "alpha_rank": "52171/92171",
+      "alpha_weight": "602447280092/1141119610013",
+      "alphas_equal": false,
+      "legacy_full_residual": "4005182920628491/46085500000000000",
+      "legacy_level": "47410565957013591/92171000000000000",
+      "omitted_pair": [
+        1,
+        8
+      ]
+    },
+    {
+      "alpha_rank": "369979/569979",
+      "alpha_weight": "882960000047/1355317329968",
+      "alphas_equal": false,
+      "legacy_full_residual": "-1829707442558341/284989500000000000",
+      "legacy_level": "80773603899527951/63331000000000000",
+      "omitted_pair": [
+        1,
+        9
+      ]
+    },
+    {
+      "alpha_rank": "929543/1429543",
+      "alpha_weight": "454213881155/1359585211076",
+      "alphas_equal": false,
+      "legacy_full_residual": "614474641551256103/714771500000000000",
+      "legacy_level": "1826435670149414403/1429543000000000000",
+      "omitted_pair": [
+        1,
+        10
+      ]
+    },
+    {
+      "alpha_rank": "1833253/2833253",
+      "alpha_weight": "910876592132/1346714922053",
+      "alphas_equal": false,
+      "legacy_full_residual": "-111874666289336987/1416626500000000000",
+      "legacy_level": "1231077953341760837/1416626500000000000",
+      "omitted_pair": [
+        1,
+        11
+      ]
+    },
+    {
+      "alpha_rank": "1450861/2450861",
+      "alpha_weight": "1444258272137/2312131931979",
+      "alphas_equal": false,
+      "legacy_full_residual": "-92547113072488019/1225430500000000000",
+      "legacy_level": "179987237861704917/350123000000000000",
+      "omitted_pair": [
+        1,
+        12
+      ]
+    },
+    {
+      "alpha_rank": "11617/17867",
+      "alpha_weight": "882185391664/1359379221585",
+      "alphas_equal": false,
+      "legacy_full_residual": "29902024292257/8933500000000000",
+      "legacy_level": "22825951225629957/17867000000000000",
+      "omitted_pair": [
+        1,
+        13
+      ]
+    },
+    {
+      "alpha_rank": "755799/1255799",
+      "alpha_weight": "747229289673/1186647119594",
+      "alphas_equal": false,
+      "legacy_full_residual": "-41503088400038121/627899500000000000",
+      "legacy_level": "38615781183424401/39243718750000000",
+      "omitted_pair": [
+        2,
+        3
+      ]
+    },
+    {
+      "alpha_rank": "183033/308033",
+      "alpha_weight": "55719935298/89485922215",
+      "alphas_equal": false,
+      "legacy_full_residual": "-10201126375319607/154016500000000000",
+      "legacy_level": "157727460419158869/308033000000000000",
+      "omitted_pair": [
+        2,
+        4
+      ]
+    },
+    {
+      "alpha_rank": "1195119/2195119",
+      "alpha_weight": "1177827562251/2065516222093",
+      "alphas_equal": false,
+      "legacy_full_residual": "-58466989394644401/1097559500000000000",
+      "legacy_level": "1153395570029023467/2195119000000000000",
+      "omitted_pair": [
+        2,
+        5
+      ]
+    },
+    {
+      "alpha_rank": "662411/1162411",
+      "alpha_weight": "77371465103/128707033329",
+      "alphas_equal": false,
+      "legacy_full_residual": "-39784143472450469/581205500000000000",
+      "legacy_level": "1130922807135957267/1162411000000000000",
+      "omitted_pair": [
+        2,
+        6
+      ]
+    },
+    {
+      "alpha_rank": "1316269/2316269",
+      "alpha_weight": "1307152529915/2179445189757",
+      "alphas_equal": false,
+      "legacy_full_residual": "-79490371418715251/1158134500000000000",
+      "legacy_level": "112606691870363497/144766812500000000",
+      "omitted_pair": [
+        2,
+        7
+      ]
+    },
+    {
+      "alpha_rank": "128779/253779",
+      "alpha_weight": "311277648015/669558534629",
+      "alphas_equal": false,
+      "legacy_full_residual": "3614674147694653/42296500000000000",
+      "legacy_level": "56210610348879949/84593000000000000",
+      "omitted_pair": [
+        2,
+        8
+      ]
+    },
+    {
+      "alpha_rank": "393963/643963",
+      "alpha_weight": "166095375995/270785671533",
+      "alphas_equal": false,
+      "legacy_full_residual": "-1258834939708077/321981500000000000",
+      "legacy_level": "960113861984278359/643963000000000000",
+      "omitted_pair": [
+        2,
+        9
+      ]
+    },
+    {
+      "alpha_rank": "1585043/2585043",
+      "alpha_weight": "212455382057/815202268671",
+      "alphas_equal": false,
+      "legacy_full_residual": "123820725223719067/143613500000000000",
+      "legacy_level": "1287618174076538933/861681000000000000",
+      "omitted_pair": [
+        2,
+        10
+      ]
+    },
+    {
+      "alpha_rank": "155921/255921",
+      "alpha_weight": "516897189375/806622075989",
+      "alphas_equal": false,
+      "legacy_full_residual": "-141641845473011/1854500000000000",
+      "legacy_level": "104705081929772209/127960500000000000",
+      "omitted_pair": [
+        2,
+        11
+      ]
+    },
+    {
+      "alpha_rank": "588409/1088409",
+      "alpha_weight": "586598327999/1019284157920",
+      "alphas_equal": false,
+      "legacy_full_residual": "-5528989643073473/77743500000000000",
+      "legacy_level": "564333296851415911/1088409000000000000",
+      "omitted_pair": [
+        2,
+        12
+      ]
+    },
+    {
+      "alpha_rank": "1584677/2584677",
+      "alpha_weight": "1493309167189/2445194827031",
+      "alphas_equal": false,
+      "legacy_full_residual": "7561072296220517/1292338500000000000",
+      "legacy_level": "3861301828004200939/2584677000000000000",
+      "omitted_pair": [
+        2,
+        13
+      ]
+    },
+    {
+      "alpha_rank": "225699/350699",
+      "alpha_weight": "888229333272/1333961163193",
+      "alphas_equal": false,
+      "legacy_full_residual": "-10427438377660221/175349500000000000",
+      "legacy_level": "199829415222139389/350699000000000000",
+      "omitted_pair": [
+        3,
+        4
+      ]
+    },
+    {
+      "alpha_rank": "1536447/2536447",
+      "alpha_weight": "1505567911047/2406804570889",
+      "alphas_equal": false,
+      "legacy_full_residual": "-60432774371369313/1268223500000000000",
+      "legacy_level": "739766525715277599/1268223500000000000",
+      "omitted_pair": [
+        3,
+        5
+      ]
+    },
+    {
+      "alpha_rank": "33323/53323",
+      "alpha_weight": "1643055255547/2529307915389",
+      "alphas_equal": false,
+      "legacy_full_residual": "-1664253863512517/26661500000000000",
+      "legacy_level": "1702560702482077/1666343750000000",
+      "omitted_pair": [
+        3,
+        6
+      ]
+    },
+    {
+      "alpha_rank": "1657597/2657597",
+      "alpha_weight": "1634892878711/2520733538553",
+      "alphas_equal": false,
+      "legacy_full_residual": "-83263029239440163/1328798500000000000",
+      "legacy_level": "141807270872624761/166099812500000000",
+      "omitted_pair": [
+        3,
+        7
+      ]
+    },
+    {
+      "alpha_rank": "34289/59289",
+      "alpha_weight": "9779637929/18216774827",
+      "alphas_equal": false,
+      "legacy_full_residual": "963415835716223/9881500000000000",
+      "legacy_level": "30358800076880879/59289000000000000",
+      "omitted_pair": [
+        3,
+        8
+      ]
+    },
+    {
+      "alpha_rank": "95859/145859",
+      "alpha_weight": "607532910917/926119797531",
+      "alphas_equal": false,
+      "legacy_full_residual": "244162227122139/72929500000000000",
+      "legacy_level": "4897691275672341/4558093750000000",
+      "omitted_pair": [
+        3,
+        9
+      ]
+    },
+    {
+      "alpha_rank": "1926371/2926371",
+      "alpha_weight": "321702164989/928965051603",
+      "alphas_equal": false,
+      "legacy_full_residual": "424055724580248897/487728500000000000",
+      "legacy_level": "98423418149659429/91449093750000000",
+      "omitted_pair": [
+        3,
+        10
+      ]
+    },
+    {
+      "alpha_rank": "950269/1450269",
+      "alpha_weight": "626143972307/920384858921",
+      "alphas_equal": false,
+      "legacy_full_residual": "-16731996535850417/241711500000000000",
+      "legacy_level": "638130806628502301/725134500000000000",
+      "omitted_pair": [
+        3,
+        11
+      ]
+    },
+    {
+      "alpha_rank": "759073/1259073",
+      "alpha_weight": "750468502397/1189928332318",
+      "alphas_equal": false,
+      "legacy_full_residual": "-41652159720876767/629536500000000000",
+      "legacy_level": "672068169114240703/1259073000000000000",
+      "omitted_pair": [
+        3,
+        12
+      ]
+    },
+    {
+      "alpha_rank": "385201/585201",
+      "alpha_weight": "1821049515985/2786483175827",
+      "alphas_equal": false,
+      "legacy_full_residual": "3838054003899121/292600500000000000",
+      "legacy_level": "19680943647234599/18287531250000000",
+      "omitted_pair": [
+        3,
+        13
+      ]
+    },
+    {
+      "alpha_rank": "1489113/2489113",
+      "alpha_weight": "1459827649449/2360144309291",
+      "alphas_equal": false,
+      "legacy_full_residual": "-59577203580849927/1244556500000000000",
+      "legacy_level": "35653001977931103/62227825000000000",
+      "omitted_pair": [
+        4,
+        5
+      ]
+    },
+    {
+      "alpha_rank": "25294/40919",
+      "alpha_weight": "1597314993949/2482647653791",
+      "alphas_equal": false,
+      "legacy_full_residual": "-2564442482409577/40919000000000000",
+      "legacy_level": "302800066895457/511487500000000",
+      "omitted_pair": [
+        4,
+        6
+      ]
+    },
+    {
+      "alpha_rank": "1610263/2610263",
+      "alpha_weight": "1589152617113/2474073276955",
+      "alphas_equal": false,
+      "legacy_full_residual": "-82098810316920777/1305131500000000000",
+      "legacy_level": "38553628854216753/65256575000000000",
+      "omitted_pair": [
+        4,
+        7
+      ]
+    },
+    {
+      "alpha_rank": "662113/1162113",
+      "alpha_weight": "1215833031243/2303303691085",
+      "alphas_equal": false,
+      "legacy_full_residual": "56055972689233073/581056500000000000",
+      "legacy_level": "5284200750964701/9684275000000000",
+      "omitted_pair": [
+        4,
+        8
+      ]
+    },
+    {
+      "alpha_rank": "934923/1434923",
+      "alpha_weight": "1776858471153/2731699130995",
+      "alphas_equal": false,
+      "legacy_full_residual": "2136629322481083/717461500000000000",
+      "legacy_level": "656099939013727407/717461500000000000",
+      "omitted_pair": [
+        4,
+        9
+      ]
+    },
+    {
+      "alpha_rank": "1879037/2879037",
+      "alpha_weight": "919366233369/2740234893211",
+      "alphas_equal": false,
+      "legacy_full_residual": "1251056675307266077/1439518500000000000",
+      "legacy_level": "1328800795412129653/1439518500000000000",
+      "omitted_pair": [
+        4,
+        10
+      ]
+    },
+    {
+      "alpha_rank": "463301/713301",
+      "alpha_weight": "1832691655323/2714494315165",
+      "alphas_equal": false,
+      "legacy_full_residual": "-24816429861645779/356650500000000000",
+      "legacy_level": "451589532035381029/713301000000000000",
+      "omitted_pair": [
+        4,
+        11
+      ]
+    },
+    {
+      "alpha_rank": "367703/617703",
+      "alpha_weight": "727598371598/1166598201519",
+      "alphas_equal": false,
+      "legacy_full_residual": "-6826012812686179/102950500000000000",
+      "legacy_level": "2934569278555131/5147525000000000",
+      "omitted_pair": [
+        4,
+        12
+      ]
+    },
+    {
+      "alpha_rank": "1878671/2878671",
+      "alpha_weight": "1775309254387/2739822914229",
+      "alphas_equal": false,
+      "legacy_full_residual": "6115764577004997/479778500000000000",
+      "legacy_level": "221345117779613023/239889250000000000",
+      "omitted_pair": [
+        4,
+        13
+      ]
+    },
+    {
+      "alpha_rank": "1349671/2349671",
+      "alpha_weight": "663212119226/1110764949147",
+      "alphas_equal": false,
+      "legacy_full_residual": "-59163043713694009/1174835500000000000",
+      "legacy_level": "1453157680900303657/2349671000000000000",
+      "omitted_pair": [
+        5,
+        6
+      ]
+    },
+    {
+      "alpha_rank": "670559/1170559",
+      "alpha_weight": "659130930808/1106477760729",
+      "alphas_equal": false,
+      "legacy_full_residual": "-29593022479004161/585279500000000000",
+      "legacy_level": "721974437730992753/1170559000000000000",
+      "omitted_pair": [
+        5,
+        7
+      ]
+    },
+    {
+      "alpha_rank": "1055081/2055081",
+      "alpha_weight": "157490379291/340364322598",
+      "alphas_equal": false,
+      "legacy_full_residual": "35456443687292867/342513500000000000",
+      "legacy_level": "1135979849253613127/2055081000000000000",
+      "omitted_pair": [
+        5,
+        8
+      ]
+    },
+    {
+      "alpha_rank": "1600701/2600701",
+      "alpha_weight": "83664873092/137254520861",
+      "alphas_equal": false,
+      "legacy_full_residual": "19045167133374621/1300350500000000000",
+      "legacy_level": "1204309719886176009/1300350500000000000",
+      "omitted_pair": [
+        5,
+        9
+      ]
+    },
+    {
+      "alpha_rank": "402473/652473",
+      "alpha_weight": "108079246312/413186189619",
+      "alphas_equal": false,
+      "legacy_full_residual": "31925831738532737/36248500000000000",
+      "legacy_level": "33883505597966393/36248500000000000",
+      "omitted_pair": [
+        5,
+        10
+      ]
+    },
+    {
+      "alpha_rank": "1584059/2584059",
+      "alpha_weight": "260300149971/408896093278",
+      "alphas_equal": false,
+      "legacy_full_residual": "-24915408612056887/430676500000000000",
+      "legacy_level": "1705517494892647253/2584059000000000000",
+      "omitted_pair": [
+        5,
+        11
+      ]
+    },
+    {
+      "alpha_rank": "1201667/2201667",
+      "alpha_weight": "1184305987699/2072078647541",
+      "alphas_equal": false,
+      "legacy_full_residual": "-58749439432321693/1100833500000000000",
+      "legacy_level": "1293805402156840589/2201667000000000000",
+      "omitted_pair": [
+        5,
+        12
+      ]
+    },
+    {
+      "alpha_rank": "804763/1304763",
+      "alpha_weight": "752209249445/1239352579366",
+      "alphas_equal": false,
+      "legacy_full_residual": "15930302894713723/652381500000000000",
+      "legacy_level": "304782441343723457/326190750000000000",
+      "omitted_pair": [
+        5,
+        13
+      ]
+    },
+    {
+      "alpha_rank": "1470821/2470821",
+      "alpha_weight": "727874603058/1167729432979",
+      "alphas_equal": false,
+      "legacy_full_residual": "-80926882258764859/1235410500000000000",
+      "legacy_level": "714216479172146137/823607000000000000",
+      "omitted_pair": [
+        6,
+        7
+      ]
+    },
+    {
+      "alpha_rank": "74049/136549",
+      "alpha_weight": "541214810123/1082344640044",
+      "alphas_equal": false,
+      "legacy_full_residual": "6244197143132629/68274500000000000",
+      "legacy_level": "107872438725483759/136549000000000000",
+      "omitted_pair": [
+        6,
+        8
+      ]
+    },
+    {
+      "alpha_rank": "432601/682601",
+      "alpha_weight": "48336913534/76267197647",
+      "alphas_equal": false,
+      "legacy_full_residual": "-1559545932087/20076500000000000",
+      "legacy_level": "738572181455051697/682601000000000000",
+      "omitted_pair": [
+        6,
+        9
+      ]
+    },
+    {
+      "alpha_rank": "347919/547919",
+      "alpha_weight": "30229339322/100062326239",
+      "alphas_equal": false,
+      "legacy_full_residual": "237254616440084399/273959500000000000",
+      "legacy_level": "593996072130346743/547919000000000000",
+      "omitted_pair": [
+        6,
+        10
+      ]
+    },
+    {
+      "alpha_rank": "856881/1356881",
+      "alpha_weight": "849644122163/1287939952084",
+      "alphas_equal": false,
+      "legacy_full_residual": "-49254692042963599/678440500000000000",
+      "legacy_level": "1248279425347151871/1356881000000000000",
+      "omitted_pair": [
+        6,
+        11
+      ]
+    },
+    {
+      "alpha_rank": "133137/233137",
+      "alpha_weight": "1321793332199/2194581992041",
+      "alphas_equal": false,
+      "legacy_full_residual": "-7989434707257823/116568500000000000",
+      "legacy_level": "193950125924654367/233137000000000000",
+      "omitted_pair": [
+        6,
+        12
+      ]
+    },
+    {
+      "alpha_rank": "1739229/2739229",
+      "alpha_weight": "48291348335/76506132448",
+      "alphas_equal": false,
+      "legacy_full_residual": "13270581192170909/1369614500000000000",
+      "legacy_level": "2969355495202017813/2739229000000000000",
+      "omitted_pair": [
+        6,
+        13
+      ]
+    },
+    {
+      "alpha_rank": "1176231/2176231",
+      "alpha_weight": "537133621705/1078057451626",
+      "alphas_equal": false,
+      "legacy_full_residual": "99117755686807751/1088115500000000000",
+      "legacy_level": "403297439585760153/435246200000000000",
+      "omitted_pair": [
+        7,
+        8
+      ]
+    },
+    {
+      "alpha_rank": "1721851/2721851",
+      "alpha_weight": "817646341660/1292255171581",
+      "alphas_equal": false,
+      "legacy_full_residual": "-40059386517839/123720500000000000",
+      "legacy_level": "590375614694886213/544370200000000000",
+      "omitted_pair": [
+        7,
+        9
+      ]
+    },
+    {
+      "alpha_rank": "865521/1365521",
+      "alpha_weight": "388900222768/1296523052689",
+      "alphas_equal": false,
+      "legacy_full_residual": "591116507992053841/682760500000000000",
+      "legacy_level": "296763478608969423/273104200000000000",
+      "omitted_pair": [
+        7,
+        10
+      ]
+    },
+    {
+      "alpha_rank": "1705209/2705209",
+      "alpha_weight": "845562933745/1283652763666",
+      "alphas_equal": false,
+      "legacy_full_residual": "-7579093304249347/104046500000000000",
+      "legacy_level": "584669528059194567/541041800000000000",
+      "omitted_pair": [
+        7,
+        11
+      ]
+    },
+    {
+      "alpha_rank": "1322817/2322817",
+      "alpha_weight": "1313630955363/2186007615205",
+      "alphas_equal": false,
+      "legacy_full_residual": "-79818139660392543/1161408500000000000",
+      "legacy_level": "453557769809260671/464563400000000000",
+      "omitted_pair": [
+        7,
+        12
+      ]
+    },
+    {
+      "alpha_rank": "432669/682669",
+      "alpha_weight": "816871733277/1296317063198",
+      "alphas_equal": false,
+      "legacy_full_residual": "189599890137597/20078500000000000",
+      "legacy_level": "148350366457040547/136533800000000000",
+      "omitted_pair": [
+        7,
+        13
+      ]
+    },
+    {
+      "alpha_rank": "717907/1217907",
+      "alpha_weight": "630986548725/1206870378646",
+      "alphas_equal": false,
+      "legacy_full_residual": "97937758324595347/608953500000000000",
+      "legacy_level": "18957816417388243/16238760000000000",
+      "omitted_pair": [
+        8,
+        9
+      ]
+    },
+    {
+      "alpha_rank": "289001/489001",
+      "alpha_weight": "202240429833/1211138259754",
+      "alphas_equal": false,
+      "legacy_full_residual": "251124395778398921/244500500000000000",
+      "legacy_level": "22895004098476347/19560040000000000",
+      "omitted_pair": [
+        8,
+        10
+      ]
+    },
+    {
+      "alpha_rank": "354793/604793",
+      "alpha_weight": "658903140810/1198267970731",
+      "alphas_equal": false,
+      "legacy_full_residual": "26637080899661353/302396500000000000",
+      "legacy_level": "28107124851162171/24191720000000000",
+      "omitted_pair": [
+        8,
+        11
+      ]
+    },
+    {
+      "alpha_rank": "51839/101839",
+      "alpha_weight": "940311369493/2015238029335",
+      "alphas_equal": false,
+      "legacy_full_residual": "4353777322449719/50919500000000000",
+      "legacy_level": "4106747441915133/4073560000000000",
+      "omitted_pair": [
+        8,
+        12
+      ]
+    },
+    {
+      "alpha_rank": "1444639/2444639",
+      "alpha_weight": "630211940342/1210932270263",
+      "alphas_equal": false,
+      "legacy_full_residual": "208719296354743519/1222319500000000000",
+      "legacy_level": "114446025535616733/97785560000000000",
+      "omitted_pair": [
+        8,
+        13
+      ]
+    },
+    {
+      "alpha_rank": "637/957",
+      "alpha_weight": "482753149788/1425335979709",
+      "alphas_equal": false,
+      "legacy_full_residual": "445944254727517/478500000000000",
+      "legacy_level": "907939019074633/478500000000000",
+      "omitted_pair": [
+        9,
+        10
+      ]
+    },
+    {
+      "alpha_rank": "245599/370599",
+      "alpha_weight": "939415860765/1412465690686",
+      "alphas_equal": false,
+      "legacy_full_residual": "-1246417416857321/185299500000000000",
+      "legacy_level": "39581815555910873/24706600000000000",
+      "omitted_pair": [
+        9,
+        11
+      ]
+    },
+    {
+      "alpha_rank": "989/1614",
+      "alpha_weight": "1501336809403/2443633469245",
+      "alphas_equal": false,
+      "legacy_full_residual": "-6404109293137/1614000000000000",
+      "legacy_level": "159391591923403/107600000000000",
+      "omitted_pair": [
+        9,
+        12
+      ]
+    },
+    {
+      "alpha_rank": "1990259/2990259",
+      "alpha_weight": "910724660297/1425129990218",
+      "alphas_equal": false,
+      "legacy_full_residual": "113075177226239539/1495129500000000000",
+      "legacy_level": "4849562854071721213/2990259000000000000",
+      "omitted_pair": [
+        9,
+        13
+      ]
+    },
+    {
+      "alpha_rank": "1973983/2973983",
+      "alpha_weight": "510669741873/1416733571794",
+      "alphas_equal": false,
+      "legacy_full_residual": "1277884855305945343/1486991500000000000",
+      "legacy_level": "191555842207745367/118959320000000000",
+      "omitted_pair": [
+        10,
+        11
+      ]
+    },
+    {
+      "alpha_rank": "1591591/2591591",
+      "alpha_weight": "643844571619/2452169231461",
+      "alphas_equal": false,
+      "legacy_full_residual": "1117134341031794311/1295795500000000000",
+      "legacy_level": "154448419492603359/103663640000000000",
+      "omitted_pair": [
+        10,
+        12
+      ]
+    },
+    {
+      "alpha_rank": "39989/59989",
+      "alpha_weight": "481978541405/1429397871326",
+      "alphas_equal": false,
+      "legacy_full_residual": "28246780756110869/29994500000000000",
+      "legacy_level": "27770138794122671/14997250000000000",
+      "omitted_pair": [
+        10,
+        13
+      ]
+    },
+    {
+      "alpha_rank": "782879/1282879",
+      "alpha_weight": "1557169993573/2426428653415",
+      "alphas_equal": false,
+      "legacy_full_residual": "-3771563324155957/49341500000000000",
+      "legacy_level": "1899273617856262191/1282879000000000000",
+      "omitted_pair": [
+        11,
+        12
+      ]
+    },
+    {
+      "alpha_rank": "1973617/2973617",
+      "alpha_weight": "938641252382/1416527582303",
+      "alphas_equal": false,
+      "legacy_full_residual": "4523332417694257/1486808500000000000",
+      "legacy_level": "4788017943836304993/2973617000000000000",
+      "omitted_pair": [
+        11,
+        13
+      ]
+    },
+    {
+      "alpha_rank": "63649/103649",
+      "alpha_weight": "1499787592637/2451757252479",
+      "alphas_equal": false,
+      "legacy_full_residual": "300206586901729/51824500000000000",
+      "legacy_level": "156051897363035871/103649000000000000",
+      "omitted_pair": [
+        12,
+        13
+      ]
+    }
+  ],
+  "legacy_proportional_minimizer": [
+    2,
+    4
+  ],
+  "legacy_proportional_optimum": "157727460419158869/308033000000000000",
+  "legacy_unrestricted_full_residuals": [
+    {
+      "full_residual": "-66063170079/500000000000",
+      "omitted_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "full_residual": "-67314170079/500000000000",
+      "omitted_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "full_residual": "-60540170079/500000000000",
+      "omitted_pair": [
+        0,
+        3
+      ]
+    },
+    {
+      "full_residual": "-2225503997045925687303/39654450796120000000000",
+      "omitted_pair": [
+        0,
+        4
+      ]
+    },
+    {
+      "full_residual": "-1918649752701272487303/39654450796120000000000",
+      "omitted_pair": [
+        0,
+        5
+      ]
+    },
+    {
+      "full_residual": "-63605670079/500000000000",
+      "omitted_pair": [
+        0,
+        6
+      ]
+    },
+    {
+      "full_residual": "-27426124213207436168443/247786030984250000000000",
+      "omitted_pair": [
+        0,
+        7
+      ]
+    },
+    {
+      "full_residual": "19682907209321541/249220250000000000",
+      "omitted_pair": [
+        0,
+        8
+      ]
+    },
+    {
+      "full_residual": "-28006971446747143/498440500000000000",
+      "omitted_pair": [
+        0,
+        9
+      ]
+    },
+    {
+      "full_residual": "403686013087985717/498440500000000000",
+      "omitted_pair": [
+        0,
+        10
+      ]
+    },
+    {
+      "full_residual": "-12781602341269838733/331537005812500000000",
+      "omitted_pair": [
+        0,
+        11
+      ]
+    },
+    {
+      "full_residual": "-13035655553305927/99696500000000000",
+      "omitted_pair": [
+        0,
+        12
+      ]
+    },
+    {
+      "full_residual": "-23107182642160391/498440500000000000",
+      "omitted_pair": [
+        0,
+        13
+      ]
+    },
+    {
+      "full_residual": "-64545670079/500000000000",
+      "omitted_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "full_residual": "-57771670079/500000000000",
+      "omitted_pair": [
+        1,
+        3
+      ]
+    },
+    {
+      "full_residual": "-9138721849196758278959/178183506821000000000000",
+      "omitted_pair": [
+        1,
+        4
+      ]
+    },
+    {
+      "full_residual": "-7599650263196758278959/178183506821000000000000",
+      "omitted_pair": [
+        1,
+        5
+      ]
+    },
+    {
+      "full_residual": "-60837170079/500000000000",
+      "omitted_pair": [
+        1,
+        6
+      ]
+    },
+    {
+      "full_residual": "-26040460347210523918443/247786030984250000000000",
+      "omitted_pair": [
+        1,
+        7
+      ]
+    },
+    {
+      "full_residual": "56130942855752690908479/655201284299000000000000",
+      "omitted_pair": [
+        1,
+        8
+      ]
+    },
+    {
+      "full_residual": "-24427257518731517/498440500000000000",
+      "omitted_pair": [
+        1,
+        9
+      ]
+    },
+    {
+      "full_residual": "407265727016001343/498440500000000000",
+      "omitted_pair": [
+        1,
+        10
+      ]
+    },
+    {
+      "full_residual": "-3385285976559923688693/98433700000000000000000",
+      "omitted_pair": [
+        1,
+        11
+      ]
+    },
+    {
+      "full_residual": "-1588496878354479/12500000000000000",
+      "omitted_pair": [
+        1,
+        12
+      ]
+    },
+    {
+      "full_residual": "-3905493742828953/99688100000000000",
+      "omitted_pair": [
+        1,
+        13
+      ]
+    },
+    {
+      "full_residual": "-59022670079/500000000000",
+      "omitted_pair": [
+        2,
+        3
+      ]
+    },
+    {
+      "full_residual": "-60000656363540117/500000000000000000",
+      "omitted_pair": [
+        2,
+        4
+      ]
+    },
+    {
+      "full_residual": "-55114156363540117/500000000000000000",
+      "omitted_pair": [
+        2,
+        5
+      ]
+    },
+    {
+      "full_residual": "-62088170079/500000000000",
+      "omitted_pair": [
+        2,
+        6
+      ]
+    },
+    {
+      "full_residual": "-24414206877044926116591/199376200000000000000000",
+      "omitted_pair": [
+        2,
+        7
+      ]
+    },
+    {
+      "full_residual": "38462843636459883/500000000000000000",
+      "omitted_pair": [
+        2,
+        8
+      ]
+    },
+    {
+      "full_residual": "-27852156363540117/500000000000000000",
+      "omitted_pair": [
+        2,
+        9
+      ]
+    },
+    {
+      "full_residual": "405161843636459883/500000000000000000",
+      "omitted_pair": [
+        2,
+        10
+      ]
+    },
+    {
+      "full_residual": "-837562202806581107341667821/19625337057940000000000000000",
+      "omitted_pair": [
+        2,
+        11
+      ]
+    },
+    {
+      "full_residual": "-50306534092873/390625000000000",
+      "omitted_pair": [
+        2,
+        12
+      ]
+    },
+    {
+      "full_residual": "-23015006133/500000000000",
+      "omitted_pair": [
+        2,
+        13
+      ]
+    },
+    {
+      "full_residual": "-8063570875935657/89370500000000000",
+      "omitted_pair": [
+        3,
+        4
+      ]
+    },
+    {
+      "full_residual": "-16798473471638341803301/178183506821000000000000",
+      "omitted_pair": [
+        3,
+        5
+      ]
+    },
+    {
+      "full_residual": "-44336589374201123/399376200000000000",
+      "omitted_pair": [
+        3,
+        6
+      ]
+    },
+    {
+      "full_residual": "-44667167084548691/399376200000000000",
+      "omitted_pair": [
+        3,
+        7
+      ]
+    },
+    {
+      "full_residual": "896255049416531246873/9884161573800000000000",
+      "omitted_pair": [
+        3,
+        8
+      ]
+    },
+    {
+      "full_residual": "-781109439587014441451/19937620000000000000000",
+      "omitted_pair": [
+        3,
+        9
+      ]
+    },
+    {
+      "full_residual": "82413803045345159856149/99688100000000000000000",
+      "omitted_pair": [
+        3,
+        10
+      ]
+    },
+    {
+      "full_residual": "-961035090446970493038698779/10318240865397511800000000000",
+      "omitted_pair": [
+        3,
+        11
+      ]
+    },
+    {
+      "full_residual": "-2986423648566661/25000000000000000",
+      "omitted_pair": [
+        3,
+        12
+      ]
+    },
+    {
+      "full_residual": "-7382347263104661/250000000000000000",
+      "omitted_pair": [
+        3,
+        13
+      ]
+    },
+    {
+      "full_residual": "-643285847007437/7149640000000000",
+      "omitted_pair": [
+        4,
+        5
+      ]
+    },
+    {
+      "full_residual": "-750416052767437/7149640000000000",
+      "omitted_pair": [
+        4,
+        6
+      ]
+    },
+    {
+      "full_residual": "-753361704447437/7149640000000000",
+      "omitted_pair": [
+        4,
+        7
+      ]
+    },
+    {
+      "full_residual": "441965450021950875243/4984405000000000000000",
+      "omitted_pair": [
+        4,
+        8
+      ]
+    },
+    {
+      "full_residual": "-44366349481537509/1000000000000000000",
+      "omitted_pair": [
+        4,
+        9
+      ]
+    },
+    {
+      "full_residual": "821635011977475411/1000000000000000000",
+      "omitted_pair": [
+        4,
+        10
+      ]
+    },
+    {
+      "full_residual": "-1633566805720449/50000000000000000",
+      "omitted_pair": [
+        4,
+        11
+      ]
+    },
+    {
+      "full_residual": "-61000170079/500000000000",
+      "omitted_pair": [
+        4,
+        12
+      ]
+    },
+    {
+      "full_residual": "-34718703060079731/1000000000000000000",
+      "omitted_pair": [
+        4,
+        13
+      ]
+    },
+    {
+      "full_residual": "-25411712261968589/249610125000000000",
+      "omitted_pair": [
+        5,
+        6
+      ]
+    },
+    {
+      "full_residual": "-25514551633468589/249610125000000000",
+      "omitted_pair": [
+        5,
+        7
+      ]
+    },
+    {
+      "full_residual": "19819444265895687906359/199376200000000000000000",
+      "omitted_pair": [
+        5,
+        8
+      ]
+    },
+    {
+      "full_residual": "-34593349481537509/1000000000000000000",
+      "omitted_pair": [
+        5,
+        9
+      ]
+    },
+    {
+      "full_residual": "831408011977475411/1000000000000000000",
+      "omitted_pair": [
+        5,
+        10
+      ]
+    },
+    {
+      "full_residual": "-469705032502881/20000000000000000",
+      "omitted_pair": [
+        5,
+        11
+      ]
+    },
+    {
+      "full_residual": "-56113670079/500000000000",
+      "omitted_pair": [
+        5,
+        12
+      ]
+    },
+    {
+      "full_residual": "-24945703060079731/1000000000000000000",
+      "omitted_pair": [
+        5,
+        13
+      ]
+    },
+    {
+      "full_residual": "-109795058354716780514011/982801926448500000000000",
+      "omitted_pair": [
+        6,
+        7
+      ]
+    },
+    {
+      "full_residual": "44756610177412539/500000000000000000",
+      "omitted_pair": [
+        6,
+        8
+      ]
+    },
+    {
+      "full_residual": "-42073391831472993308863/996881000000000000000000",
+      "omitted_pair": [
+        6,
+        9
+      ]
+    },
+    {
+      "full_residual": "821012975667651247325177/996881000000000000000000",
+      "omitted_pair": [
+        6,
+        10
+      ]
+    },
+    {
+      "full_residual": "-28224739017470516179309/245700481612125000000000",
+      "omitted_pair": [
+        6,
+        11
+      ]
+    },
+    {
+      "full_residual": "-30629447501628629522287/248269500000000000000000",
+      "omitted_pair": [
+        6,
+        12
+      ]
+    },
+    {
+      "full_residual": "-16257219369237148336463/496539000000000000000000",
+      "omitted_pair": [
+        6,
+        13
+      ]
+    },
+    {
+      "full_residual": "40923829921/500000000000",
+      "omitted_pair": [
+        7,
+        8
+      ]
+    },
+    {
+      "full_residual": "-4452640984497764128463/99688100000000000000000",
+      "omitted_pair": [
+        7,
+        9
+      ]
+    },
+    {
+      "full_residual": "81855995765414659934941/99688100000000000000000",
+      "omitted_pair": [
+        7,
+        10
+      ]
+    },
+    {
+      "full_residual": "-56849646724978255985111/491400963224250000000000",
+      "omitted_pair": [
+        7,
+        11
+      ]
+    },
+    {
+      "full_residual": "-63811670079/500000000000",
+      "omitted_pair": [
+        7,
+        12
+      ]
+    },
+    {
+      "full_residual": "-8778117634018725115361/249220250000000000000000",
+      "omitted_pair": [
+        7,
+        13
+      ]
+    },
+    {
+      "full_residual": "3815855591993095739759/24922025000000000000000",
+      "omitted_pair": [
+        8,
+        9
+      ]
+    },
+    {
+      "full_residual": "25395412261368920496839/24922025000000000000000",
+      "omitted_pair": [
+        8,
+        10
+      ]
+    },
+    {
+      "full_residual": "39364829921/500000000000",
+      "omitted_pair": [
+        8,
+        11
+      ]
+    },
+    {
+      "full_residual": "37463329921/500000000000",
+      "omitted_pair": [
+        8,
+        12
+      ]
+    },
+    {
+      "full_residual": "4053485909356189387481/24922025000000000000000",
+      "omitted_pair": [
+        8,
+        13
+      ]
+    },
+    {
+      "full_residual": "885958650518462491/1000000000000000000",
+      "omitted_pair": [
+        9,
+        10
+      ]
+    },
+    {
+      "full_residual": "-26950170079/500000000000",
+      "omitted_pair": [
+        9,
+        11
+      ]
+    },
+    {
+      "full_residual": "-28851670079/500000000000",
+      "omitted_pair": [
+        9,
+        12
+      ]
+    },
+    {
+      "full_residual": "17322186717735017/498440500000000000",
+      "omitted_pair": [
+        9,
+        13
+      ]
+    },
+    {
+      "full_residual": "406063829921/500000000000",
+      "omitted_pair": [
+        10,
+        11
+      ]
+    },
+    {
+      "full_residual": "404162329921/500000000000",
+      "omitted_pair": [
+        10,
+        12
+      ]
+    },
+    {
+      "full_residual": "895774760367920269/1000000000000000000",
+      "omitted_pair": [
+        10,
+        13
+      ]
+    },
+    {
+      "full_residual": "-65370670079/500000000000",
+      "omitted_pair": [
+        11,
+        12
+      ]
+    },
+    {
+      "full_residual": "-22113670079/500000000000",
+      "omitted_pair": [
+        11,
+        13
+      ]
+    },
+    {
+      "full_residual": "-24015170079/500000000000",
+      "omitted_pair": [
+        12,
+        13
+      ]
+    }
+  ],
+  "legacy_unrestricted_support_count": 91,
+  "legacy_unrestricted_zero_sum_supports": [],
+  "status": "exact-inconsistency-certified",
+  "weighted_zero_sum_only_diagnostic": {
+    "half_gap": "-11278352459639613805837/51648273702375000000000",
+    "minimizers": [
+      [
+        5,
+        10
+      ]
+    ],
+    "optimum": "14545784391547886194163/51648273702375000000000",
+    "warning": "alpha=J/M enforces the weighted moment but generally violates sum c=1; it is not a deletion star."
+  }
+}

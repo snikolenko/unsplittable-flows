@@ -1,0 +1,578 @@
+{
+  "convention_execution": {
+    "block_hash_verified": true,
+    "both_credit_moments_executed": true,
+    "full_residual_zero_on_every_feasible_support": true,
+    "full_rows_located_by_flag": [
+      "L:4",
+      "R:4"
+    ],
+    "ordered_prefix_instances_executed": 8,
+    "primary_source": "certificates/q3_zero_sum_k4_three_support_envelope_exact.json"
+  },
+  "d_dot_f": "99999/100000",
+  "exact_half_gap": "2045058011/57658950000",
+  "exact_optimum": "30874533011/57658950000",
+  "executable_convention": {
+    "arithmetic": {
+      "encoding": "Fraction-compatible numerator/denominator strings",
+      "type": "exact_rational"
+    },
+    "block_sha256_without_hash_field": "1ce926e2b5e5c5b928818a6e63f3465663d98b4f35e3a507c05b912cf4e55b36",
+    "boundary_and_prefix_rows": {
+      "deduplication_key": "sorted item set",
+      "empty_prefix_included": false,
+      "full_prefix_included": true,
+      "full_row_handling": {
+        "full_row_source_ids": [
+          "L:4",
+          "R:4"
+        ],
+        "proportional_objective": "evaluate both L:k and R:k; equality makes duplication objective-neutral",
+        "unrestricted_support_lp": "deduplicate identical item sets; retain the full row once"
+      },
+      "ordered_row_instances": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "length": 1,
+          "order": "left"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "length": 2,
+          "order": "left"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "length": 3,
+          "order": "left"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "length": 4,
+          "order": "left"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "length": 1,
+          "order": "right"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            3
+          ],
+          "length": 2,
+          "order": "right"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            3,
+            0
+          ],
+          "length": 3,
+          "order": "right"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": true,
+          "items": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "length": 4,
+          "order": "right"
+        }
+      ],
+      "prefix_lengths_per_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "proper_prefixes_included": true,
+      "support_lp_unique_rows": [
+        {
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "row_index": 0,
+          "source_ids": [
+            "L:1"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "row_index": 1,
+          "source_ids": [
+            "L:2"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "row_index": 2,
+          "source_ids": [
+            "L:3"
+          ]
+        },
+        {
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "row_index": 3,
+          "source_ids": [
+            "L:4",
+            "R:4"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "row_index": 4,
+          "source_ids": [
+            "R:1"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            2,
+            3
+          ],
+          "row_index": 5,
+          "source_ids": [
+            "R:2"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            2,
+            3
+          ],
+          "row_index": 6,
+          "source_ids": [
+            "R:3"
+          ]
+        }
+      ]
+    },
+    "calibration": {
+      "algebraic_cell_supremum": "4-2*sqrt(3)",
+      "half_gap": "2045058011/57658950000",
+      "three_support_rational_member": "30874533011/57658950000"
+    },
+    "instance": {
+      "D": "1",
+      "complement_mass": "3",
+      "complement_shares_x": [
+        "77212589/96098250",
+        "733/1000",
+        "412050457/768786000",
+        "713086693/768786000"
+      ],
+      "demands_d": [
+        "73199/73200",
+        "99899/99900",
+        "99949/99950",
+        "1"
+      ],
+      "fractional_shares_f": [
+        "18885661/96098250",
+        "267/1000",
+        "356735543/768786000",
+        "55699307/768786000"
+      ],
+      "k": 4,
+      "q": 3
+    },
+    "objective": {
+      "fixed_support_code": "minimize over normalized credits the maximum prefix residual",
+      "global_code": "minimize fixed-support value over all 2-element omitted sets",
+      "half_gap_code": "objective_value - Fraction(1, 2)",
+      "half_good_code": "objective_value <= Fraction(1, 2)",
+      "half_threshold": "1/2",
+      "infeasible_support_handling": "exclude supports failing either credit normalization; if none are feasible, report no-feasible-proportional-support, not a finite optimum",
+      "proportional_code": "minimize over all 2-element omitted sets the maximum residual using proportional_credit_code",
+      "sign": "minimize_maximum_positive_upper_residual"
+    },
+    "orders": {
+      "left": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "permutation_validation": "sorted(order)==list(range(k))",
+      "right": [
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    "residual": {
+      "expanded_code": "sum(d[i] * (x[i] - credit[i]) for i in prefix if i not in omitted) - sum(d[i] * (1 - x[i]) for i in prefix if i in omitted)",
+      "fractional_share_code": "f[i] = 1 - x[i]",
+      "full_row_assertion_code": "sum(d[i] * (u[i] - f[i]) for i in range(k)) == 0",
+      "full_row_expected": "0",
+      "prefix_code": "sum(d[i] * (u[i] - f[i]) for i in prefix)",
+      "sign": "positive_is_upper_residual_d_times_u_minus_f",
+      "term_code": "d[i] * (u[i] - f[i])",
+      "units": "D"
+    },
+    "schema_id": "ssuf.q3-weighted-half.executable-convention.v1",
+    "support_and_credit_normalization": {
+      "credit_domain_code": "credit[i] >= 0 for i in selected; credit[i] = 0 for i in omitted",
+      "credit_sum_code": "sum(credit[i] for i in selected) == 1",
+      "omitted_set_size": 2,
+      "proportional_alpha_code": "alpha = (2 - sum(x[j] for j in omitted)) / (3 - sum(x[j] for j in omitted))",
+      "proportional_credit_code": "credit[i] = 0 if i in omitted else x[i] / (3 - sum(x[j] for j in omitted))",
+      "proportional_feasibility_code": "credit[i] = x[i] / (3 - sum(x[j] for j in omitted)) on selected; both credit_sum_code and weighted_credit_sum_code must hold",
+      "selected_set_code": "selected = [i for i in range(k) if i not in omitted]",
+      "u_code": "u[i] = 0 if i in omitted else 1 - credit[i]",
+      "weighted_credit_sum_code": "sum(d[i] * credit[i] for i in selected) == sum(d[i] * x[i] for i in range(k)) - sum(d[i] for i in omitted)"
+    }
+  },
+  "independent_symbolic_cell_audit": {
+    "capacity_upper_bound": "-C/t2 - C/t0 - t0/t1 + 3",
+    "cell_supremum": "4 - 2*sqrt(3)",
+    "derivative": "-(a**2 + 2*a - 2)/(a + 1)**2",
+    "derivative_numerator": "-a**2 - 2*a + 2",
+    "envelope": "-t0*t2*(t0 - 2*t1)/(t1*(t0 + t2))",
+    "limiting_shares": [
+      "-5 + 3*sqrt(3)",
+      "2 - sqrt(3)",
+      "-3 + 2*sqrt(3)",
+      "7 - 4*sqrt(3)"
+    ],
+    "minimal_polynomial": "z**2 - 8*z + 4",
+    "one_variable_envelope": "-a*(a - 2)/(a + 1)",
+    "root_isolation": [
+      "1/2",
+      "3/5"
+    ],
+    "scope": "independent exact supremum proof for the active three-support cell only; no global q=3 ceiling",
+    "stationary_polynomial": "a**2 + 2*a - 2",
+    "strict_active_branch_limit_checks": {
+      "C_gt_p0_plus_p1_limit": true,
+      "C_gt_p1_limit": true
+    },
+    "sturm_root_count_C_in_half_three_fifths": 1,
+    "sturm_root_count_a_in_0_1": 1
+  },
+  "kind": "independent_exact_q3_zero_sum_k4_active_cell_member_audit",
+  "status": "verified",
+  "support_table": [
+    {
+      "feasible": false,
+      "gap": "1/99900000",
+      "interval": [
+        "73199/73200",
+        "99899/99900"
+      ],
+      "omitted": [
+        2,
+        3
+      ],
+      "selected": [
+        0,
+        1
+      ]
+    },
+    {
+      "feasible": false,
+      "gap": "1/199900000",
+      "interval": [
+        "73199/73200",
+        "99949/99950"
+      ],
+      "omitted": [
+        1,
+        3
+      ],
+      "selected": [
+        0,
+        2
+      ]
+    },
+    {
+      "credit": [
+        "67/250",
+        "0",
+        "0",
+        "183/250"
+      ],
+      "dual": {
+        "binding": "L:1",
+        "eta": "73199",
+        "theta": "-73199",
+        "value": "30874533011/57658950000"
+      },
+      "feasible": true,
+      "omitted": [
+        1,
+        2
+      ],
+      "prefix": [
+        {
+          "id": "L:1",
+          "value": "30874533011/57658950000"
+        },
+        {
+          "id": "L:2",
+          "value": "3439943881/12813100000"
+        },
+        {
+          "id": "L:3",
+          "value": "-150335341/768786000"
+        },
+        {
+          "id": "L:4",
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "value": "-17836598693/38439300000"
+        },
+        {
+          "id": "R:2",
+          "value": "-3439943881/12813100000"
+        },
+        {
+          "id": "R:3",
+          "value": "8891011/33300000"
+        },
+        {
+          "id": "R:4",
+          "value": "0"
+        }
+      ],
+      "radius": "30874533011/57658950000",
+      "residual": [
+        "30874533011/57658950000",
+        "-8891011/33300000",
+        "-17836598693/38439300000",
+        "150335341/768786000"
+      ],
+      "selected": [
+        0,
+        3
+      ],
+      "u": [
+        "183/250",
+        "0",
+        "0",
+        "67/250"
+      ]
+    },
+    {
+      "feasible": false,
+      "gap": "1/199900000",
+      "interval": [
+        "99899/99900",
+        "99949/99950"
+      ],
+      "omitted": [
+        0,
+        3
+      ],
+      "selected": [
+        1,
+        2
+      ]
+    },
+    {
+      "credit": [
+        "0",
+        "1/1000",
+        "0",
+        "999/1000"
+      ],
+      "dual": {
+        "binding": "L:2",
+        "eta": "99899",
+        "theta": "-99899",
+        "value": "6861041581/12813100000"
+      },
+      "feasible": true,
+      "omitted": [
+        0,
+        2
+      ],
+      "prefix": [
+        {
+          "id": "L:1",
+          "value": "-22662483599/115317900000"
+        },
+        {
+          "id": "L:2",
+          "value": "6861041581/12813100000"
+        },
+        {
+          "id": "L:3",
+          "value": "54930521/768786000"
+        },
+        {
+          "id": "L:4",
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "value": "-17836598693/38439300000"
+        },
+        {
+          "id": "R:2",
+          "value": "-6861041581/12813100000"
+        },
+        {
+          "id": "R:3",
+          "value": "-6093839/8325000"
+        },
+        {
+          "id": "R:4",
+          "value": "0"
+        }
+      ],
+      "radius": "6861041581/12813100000",
+      "residual": [
+        "-22662483599/115317900000",
+        "6093839/8325000",
+        "-17836598693/38439300000",
+        "-54930521/768786000"
+      ],
+      "selected": [
+        1,
+        3
+      ],
+      "u": [
+        "0",
+        "999/1000",
+        "0",
+        "1/1000"
+      ]
+    },
+    {
+      "credit": [
+        "0",
+        "0",
+        "1/2000",
+        "1999/2000"
+      ],
+      "dual": {
+        "binding": "R:1",
+        "eta": "99949",
+        "theta": "-99949",
+        "value": "1286443579/2402456250"
+      },
+      "feasible": true,
+      "omitted": [
+        0,
+        1
+      ],
+      "prefix": [
+        {
+          "id": "L:1",
+          "value": "-22662483599/115317900000"
+        },
+        {
+          "id": "L:2",
+          "value": "-1484779297/3203275000"
+        },
+        {
+          "id": "L:3",
+          "value": "27657457/384393000"
+        },
+        {
+          "id": "L:4",
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "value": "1286443579/2402456250"
+        },
+        {
+          "id": "R:2",
+          "value": "1484779297/3203275000"
+        },
+        {
+          "id": "R:3",
+          "value": "8891011/33300000"
+        },
+        {
+          "id": "R:4",
+          "value": "0"
+        }
+      ],
+      "radius": "1286443579/2402456250",
+      "residual": [
+        "-22662483599/115317900000",
+        "-8891011/33300000",
+        "1286443579/2402456250",
+        "-27657457/384393000"
+      ],
+      "selected": [
+        2,
+        3
+      ],
+      "u": [
+        "0",
+        "0",
+        "1999/2000",
+        "1/2000"
+      ]
+    }
+  ],
+  "transcript_sha256": "3bc7a0423931ccf746da33d1e6830ab80b9ccfc82fd78e441ec0d3c84d4a443d",
+  "translation_warning": "This is a B_zm result with both affine moments. It neither refutes rank-only W1 nor proves a global q=3 ceiling."
+}

@@ -1,0 +1,799 @@
+{
+  "kind": "exact_raw_k5_inherited_demand_certificate",
+  "eta": "1/1000000",
+  "intervals": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      6
+    ]
+  ],
+  "demands": [
+    "49981/50000",
+    "81069/100000",
+    "1",
+    "81987/100000",
+    "9957/10000"
+  ],
+  "shares": [
+    "18893/99962",
+    "9002070883225907533/16023012631668892830",
+    "285934417712925380529761/534100421055629761000000",
+    "1855921702927963347/5341004210556297610",
+    "18238/49785"
+  ],
+  "share_sum": "2000001/1000000",
+  "raw_arcs": [
+    {
+      "tail": "v0",
+      "head": "v1",
+      "name": "spine_0",
+      "cost": "0"
+    },
+    {
+      "tail": "v1",
+      "head": "v2",
+      "name": "spine_1",
+      "cost": "0"
+    },
+    {
+      "tail": "v2",
+      "head": "v3",
+      "name": "spine_2",
+      "cost": "0"
+    },
+    {
+      "tail": "v3",
+      "head": "v4",
+      "name": "spine_3",
+      "cost": "0"
+    },
+    {
+      "tail": "v4",
+      "head": "v5",
+      "name": "spine_4",
+      "cost": "0"
+    },
+    {
+      "tail": "v5",
+      "head": "v6",
+      "name": "spine_5",
+      "cost": "0"
+    },
+    {
+      "tail": "v6",
+      "head": "v7",
+      "name": "spine_6",
+      "cost": "0"
+    },
+    {
+      "tail": "v7",
+      "head": "v8",
+      "name": "spine_7",
+      "cost": "0"
+    },
+    {
+      "tail": "v0",
+      "head": "t0",
+      "name": "early_0",
+      "cost": "50000/49981"
+    },
+    {
+      "tail": "v4",
+      "head": "t0",
+      "name": "late_0",
+      "cost": "0"
+    },
+    {
+      "tail": "v0",
+      "head": "t1",
+      "name": "early_1",
+      "cost": "100000/81069"
+    },
+    {
+      "tail": "v6",
+      "head": "t1",
+      "name": "late_1",
+      "cost": "0"
+    },
+    {
+      "tail": "v1",
+      "head": "t2",
+      "name": "early_2",
+      "cost": "1"
+    },
+    {
+      "tail": "v5",
+      "head": "t2",
+      "name": "late_2",
+      "cost": "0"
+    },
+    {
+      "tail": "v2",
+      "head": "t3",
+      "name": "early_3",
+      "cost": "100000/81987"
+    },
+    {
+      "tail": "v8",
+      "head": "t3",
+      "name": "late_3",
+      "cost": "0"
+    },
+    {
+      "tail": "v3",
+      "head": "t4",
+      "name": "early_4",
+      "cost": "10000/9957"
+    },
+    {
+      "tail": "v7",
+      "head": "t4",
+      "name": "late_4",
+      "cost": "0"
+    }
+  ],
+  "raw_path_counts": [
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "all_routings": 32,
+  "cost_good_routings": 16,
+  "fractional_cost": "2999999/1000000",
+  "critical": "622716779213763282625921/534100421055629761000000",
+  "critical_decimal": 1.1659170348208798,
+  "minimizers": [
+    {
+      "route": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_4"
+      ]
+    },
+    {
+      "route": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_2"
+      ]
+    },
+    {
+      "route": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_6"
+      ]
+    },
+    {
+      "route": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_3"
+      ]
+    },
+    {
+      "route": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_0"
+      ]
+    },
+    {
+      "route": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_0"
+      ]
+    }
+  ],
+  "unrestricted_best": "248166003342704380470239/534100421055629761000000",
+  "cost_active": true,
+  "not_divisibility_chain": true,
+  "k4_minor_branch_sets": [
+    [
+      "t0",
+      "t1",
+      "v0"
+    ],
+    [
+      "t2",
+      "v1"
+    ],
+    [
+      "v2",
+      "v3",
+      "v4"
+    ],
+    [
+      "v5",
+      "v6"
+    ]
+  ],
+  "routings": [
+    {
+      "route": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_count": 0,
+      "cost": "5",
+      "cost_good": false,
+      "overload": "285934417712925380529761/534100421055629761000000",
+      "witness_arcs": [
+        "early_2"
+      ]
+    },
+    {
+      "route": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "late_count": 1,
+      "cost": "4",
+      "cost_good": false,
+      "overload": "31547/50000",
+      "witness_arcs": [
+        "late_4"
+      ]
+    },
+    {
+      "route": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "late_count": 1,
+      "cost": "4",
+      "cost_good": false,
+      "overload": "285934417712925380529761/534100421055629761000000",
+      "witness_arcs": [
+        "early_2"
+      ]
+    },
+    {
+      "route": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "late_count": 2,
+      "cost": "3",
+      "cost_good": false,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_6"
+      ]
+    },
+    {
+      "route": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "late_count": 1,
+      "cost": "4",
+      "cost_good": false,
+      "overload": "248166003342704380470239/534100421055629761000000",
+      "witness_arcs": [
+        "late_2"
+      ]
+    },
+    {
+      "route": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "late_count": 2,
+      "cost": "3",
+      "cost_good": false,
+      "overload": "31547/50000",
+      "witness_arcs": [
+        "late_4"
+      ]
+    },
+    {
+      "route": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "late_count": 2,
+      "cost": "3",
+      "cost_good": false,
+      "overload": "285731459552924241220581/534100421055629761000000",
+      "witness_arcs": [
+        "spine_7",
+        "late_3"
+      ]
+    },
+    {
+      "route": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "627619821079053963831901/534100421055629761000000",
+      "witness_arcs": [
+        "spine_4"
+      ]
+    },
+    {
+      "route": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "late_count": 1,
+      "cost": "4",
+      "cost_good": false,
+      "overload": "285934417712925380529761/534100421055629761000000",
+      "witness_arcs": [
+        "early_2"
+      ]
+    },
+    {
+      "route": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "late_count": 2,
+      "cost": "3",
+      "cost_good": false,
+      "overload": "187275387935529451077841/267050210527814880500000",
+      "witness_arcs": [
+        "spine_5"
+      ]
+    },
+    {
+      "route": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "late_count": 2,
+      "cost": "3",
+      "cost_good": false,
+      "overload": "285934417712925380529761/534100421055629761000000",
+      "witness_arcs": [
+        "early_2"
+      ]
+    },
+    {
+      "route": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "12694432626280282411043/8345319078994215015625",
+      "witness_arcs": [
+        "spine_5"
+      ]
+    },
+    {
+      "route": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "late_count": 2,
+      "cost": "3",
+      "cost_good": false,
+      "overload": "31547/50000",
+      "witness_arcs": [
+        "spine_1"
+      ]
+    },
+    {
+      "route": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_4"
+      ]
+    },
+    {
+      "route": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_2"
+      ]
+    },
+    {
+      "route": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "late_count": 4,
+      "cost": "1",
+      "cost_good": true,
+      "overload": "1060609691424642454776991/534100421055629761000000",
+      "witness_arcs": [
+        "spine_4"
+      ]
+    },
+    {
+      "route": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_count": 1,
+      "cost": "4",
+      "cost_good": false,
+      "overload": "81069/100000",
+      "witness_arcs": [
+        "late_0"
+      ]
+    },
+    {
+      "route": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "late_count": 2,
+      "cost": "3",
+      "cost_good": false,
+      "overload": "81069/100000",
+      "witness_arcs": [
+        "late_0"
+      ]
+    },
+    {
+      "route": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "late_count": 2,
+      "cost": "3",
+      "cost_good": false,
+      "overload": "81069/100000",
+      "witness_arcs": [
+        "late_0"
+      ]
+    },
+    {
+      "route": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_6"
+      ]
+    },
+    {
+      "route": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "late_count": 2,
+      "cost": "3",
+      "cost_good": false,
+      "overload": "81987/100000",
+      "witness_arcs": [
+        "spine_1"
+      ]
+    },
+    {
+      "route": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_3"
+      ]
+    },
+    {
+      "route": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "723624371763803413371651/534100421055629761000000",
+      "witness_arcs": [
+        "spine_2"
+      ]
+    },
+    {
+      "route": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "late_count": 4,
+      "cost": "1",
+      "cost_good": true,
+      "overload": "1060609691424642454776991/534100421055629761000000",
+      "witness_arcs": [
+        "spine_3"
+      ]
+    },
+    {
+      "route": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "late_count": 2,
+      "cost": "3",
+      "cost_good": false,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_0"
+      ]
+    },
+    {
+      "route": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_0"
+      ]
+    },
+    {
+      "route": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "622716779213763282625921/534100421055629761000000",
+      "witness_arcs": [
+        "spine_0"
+      ]
+    },
+    {
+      "route": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "late_count": 4,
+      "cost": "1",
+      "cost_good": true,
+      "overload": "959499140714601184722081/534100421055629761000000",
+      "witness_arcs": [
+        "spine_3"
+      ]
+    },
+    {
+      "route": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "late_count": 3,
+      "cost": "2",
+      "cost_good": true,
+      "overload": "10191/6250",
+      "witness_arcs": [
+        "spine_1"
+      ]
+    },
+    {
+      "route": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "late_count": 4,
+      "cost": "1",
+      "cost_good": true,
+      "overload": "1055706649559351773571011/534100421055629761000000",
+      "witness_arcs": [
+        "spine_3"
+      ]
+    },
+    {
+      "route": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "late_count": 4,
+      "cost": "1",
+      "cost_good": true,
+      "overload": "1156614242109391904316741/534100421055629761000000",
+      "witness_arcs": [
+        "spine_2"
+      ]
+    },
+    {
+      "route": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "late_count": 5,
+      "cost": "0",
+      "cost_good": true,
+      "overload": "1493599561770230945722081/534100421055629761000000",
+      "witness_arcs": [
+        "spine_3"
+      ]
+    }
+  ]
+}

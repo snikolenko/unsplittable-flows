@@ -1,10 +1,15 @@
 # Independent verification report
 
-Date: 2026-07-29.  Every claim in the paper was re-derived from scratch by the
-programs in `verify/`, written from the prose statements rather than from the
-manuscript's own auxiliary code.  All graph claims rebuild the raw arc list and
-discover paths by depth-first search; all arithmetic is `fractions.Fraction` or
-SymPy over `Q`.
+Covers both papers: Paper I (Zenodo 10.5281/zenodo.21701162, audited
+2026-07-29) and Paper II (Zenodo 10.5281/zenodo.21716713, audited 2026-07-31).
+
+Every claim was re-derived from scratch by the programs in `verify/`, written
+from the prose statements rather than from the manuscripts' own auxiliary code.
+All graph claims rebuild the raw arc list and discover paths by depth-first
+search; all arithmetic is `fractions.Fraction` or SymPy over `Q`.
+
+The Paper I audit is immediately below; the Paper II audit is the final
+section.
 
 | script | what it certifies |
 |---|---|
@@ -130,3 +135,58 @@ index is `ell`, and the Newman-Nikolov prefix indices are `i, j, ell`.
   laminar case of Goemans' conjecture; only the equal-demand case is known.
 * Whether any instance obstructs general monotone local repair.
 * The conjecture that the exact supremum of forced constants is 2.
+
+## Paper II (Zenodo 10.5281/zenodo.21716713)
+
+The second paper was audited the same way: every claim re-derived from the
+certificates by programs written from the statements rather than from the
+search code.
+
+Confirmed exactly:
+
+* the k = 17 record 1282494797984843521/10^18, rebuilt from its intervals
+  alone -- 67-arc list, two simple paths per terminal by DFS, all 131072
+  routings in exact integers, 109294 cost-good, 15 minimizers, 8885
+  strict-sublevel routings all of rank at most 6, and the 18-atom hull mixture
+  whose barycenter is exactly f;
+* the lower box on that record: 4799 upper-good routings, primal mixture and
+  dual separator both giving delta = 6.3627205289e-10 < d_max;
+* the codimension-two theorem, by executing its construction verbatim on
+  10 500 random exact instances (3 <= k <= 9) and an exhaustive grid of
+  164 160 at k = 4, with the bad set nonempty in a substantial fraction of
+  cases so that the hard branch is genuinely exercised;
+* B_{k,q} and its equality criterion for all 3 <= k <= 8 and 2 <= q <= k by
+  exact LP, including the cases where the criterion predicts strict inequality;
+* the Knuth radius facts, the deque count 2^(k-1), and the V_tau <= 2
+  characterization by exhaustion;
+* the three walls (55/52, 17/16, 45/44), the K4/K5/K6 coherence campaign
+  (43 satisfiable, 16 unsatisfiable), and the three-order 6/5 domination
+  mixture;
+* the k = 6 Pell family rebuilt from its defining formulas, with constants
+  recomputed by full enumeration; the k = 7 formula and both algebraic limits;
+* the four-item zero-sum wall 229515/458752 = 1/2 + 139/458752 and the
+  4 - 2*sqrt(3) cell envelope;
+* |B| = 4799 and |V-up| = 19566 recomputed directly from the instance;
+* the ladder instances k = 5,6,7,8 of Appendix C: the common-point property,
+  two simple paths per terminal, the two chains, and the exact critical
+  constant of each drawn member.
+
+Corrections made during the audit:
+
+1. **The k = 16 entry of the sandwich table was wrong** in its last three
+   digits. The certificate gives 25497289356771303/20000000000000000 =
+   1.27486446783856515, not ...565124.
+2. **An equation label inside a display** (eq:gamma-recovery) had no equation
+   counter, so the reference to it in the proof picked up an unrelated number.
+3. **Two mis-attributions to Paper I.** Neither the lower box (LB) nor the hull
+   characterization appears in the published Paper I; both were cut when it was
+   reduced to its first three sections. Paper II now states and proves both.
+4. **Undefined terminology**: support path, support routing, lower-good, cell,
+   crossed two-arm broom, dummy node, and signed tree network -- the last of
+   these used in a theorem *hypothesis*, so a reader could not check whether
+   the theorem applied.
+5. **Table 1 conflated two axes.** "Unconditional" was being read as "holds for
+   arbitrary graphs". The table now separates the instances covered from what
+   the statement rests on, and says explicitly that the class ceilings bound
+   the constant restricted to the common-point / two-order class, not the
+   universal constant C.

@@ -1,0 +1,2522 @@
+{
+  "statement": "minimal-terminal exact counterexample to the continuous two-permutation diagonal first-crossing bracket",
+  "scope_warning": "the diagonal bracket is stronger than the weighted upper-good inequality and (LB); the latter are tested separately below",
+  "permutation": [
+    3,
+    5,
+    0,
+    4,
+    2,
+    1
+  ],
+  "demands": [
+    "10/11",
+    "1",
+    "43/44",
+    "21/22",
+    "43/44",
+    "1"
+  ],
+  "amounts": [
+    "5/22",
+    "29/44",
+    "3/11",
+    "19/22",
+    "19/22",
+    "3/44"
+  ],
+  "shares": [
+    "1/4",
+    "29/44",
+    "12/43",
+    "19/21",
+    "38/43",
+    "3/44"
+  ],
+  "all_shares_strictly_interior": true,
+  "bracket_good_route_indices": [
+    14,
+    22,
+    27,
+    38,
+    41,
+    42,
+    44
+  ],
+  "negative_good_route_indices": [
+    14,
+    22,
+    38,
+    41,
+    42,
+    44
+  ],
+  "positive_good_route_indices": [
+    27
+  ],
+  "minimum_crossing_gap": "45/44",
+  "bracket_radius": "1",
+  "terminal_minimality": "the exact parent campaign is UNSAT for every permutation at k<=5, embedded by zero-demand columns in the k=6 formulas",
+  "all_routes": [
+    {
+      "route_index": 0,
+      "route": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-51/44",
+        "-89/44",
+        "-127/44",
+        "-65/22"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-51/44",
+        "-89/44",
+        "-101/44",
+        "-65/22"
+      ],
+      "total_error": "-65/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 1,
+      "route": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-51/44",
+        "-89/44",
+        "-127/44",
+        "-43/22"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "-7/44",
+        "-45/44",
+        "-57/44",
+        "-43/22"
+      ],
+      "total_error": "-43/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 2,
+      "route": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-51/44",
+        "-89/44",
+        "-21/11",
+        "-87/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-51/44",
+        "-23/22",
+        "-29/22",
+        "-87/44"
+      ],
+      "total_error": "-87/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 3,
+      "route": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-51/44",
+        "-89/44",
+        "-21/11",
+        "-43/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "-7/44",
+        "-1/22",
+        "-7/22",
+        "-43/44"
+      ],
+      "total_error": "-43/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 4,
+      "route": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-51/44",
+        "-47/44",
+        "-85/44",
+        "-2"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "-9/44",
+        "-47/44",
+        "-59/44",
+        "-2"
+      ],
+      "total_error": "-2",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 5,
+      "route": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-51/44",
+        "-47/44",
+        "-85/44",
+        "-1"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "35/44",
+        "-3/44",
+        "-15/44",
+        "-1"
+      ],
+      "total_error": "-1",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 6,
+      "route": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-51/44",
+        "-47/44",
+        "-21/22",
+        "-45/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "-9/44",
+        "-1/11",
+        "-4/11",
+        "-45/44"
+      ],
+      "total_error": "-45/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 7,
+      "route": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-51/44",
+        "-47/44",
+        "-21/22",
+        "-1/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "35/44",
+        "10/11",
+        "7/11",
+        "-1/44"
+      ],
+      "total_error": "-1/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 8,
+      "route": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-2/11",
+        "-23/22",
+        "-21/11",
+        "-87/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-51/44",
+        "-89/44",
+        "-29/22",
+        "-87/44"
+      ],
+      "total_error": "-87/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 9,
+      "route": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-2/11",
+        "-23/22",
+        "-21/11",
+        "-43/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "-7/44",
+        "-45/44",
+        "-7/22",
+        "-43/44"
+      ],
+      "total_error": "-43/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 10,
+      "route": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-2/11",
+        "-23/22",
+        "-41/44",
+        "-1"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-51/44",
+        "-23/22",
+        "-15/44",
+        "-1"
+      ],
+      "total_error": "-1",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 11,
+      "route": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-2/11",
+        "-23/22",
+        "-41/44",
+        "0"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "-7/44",
+        "-1/22",
+        "29/44",
+        "0"
+      ],
+      "total_error": "0",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 12,
+      "route": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-2/11",
+        "-1/11",
+        "-21/22",
+        "-45/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "-9/44",
+        "-47/44",
+        "-4/11",
+        "-45/44"
+      ],
+      "total_error": "-45/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 13,
+      "route": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-2/11",
+        "-1/11",
+        "-21/22",
+        "-1/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "35/44",
+        "-3/44",
+        "7/11",
+        "-1/44"
+      ],
+      "total_error": "-1/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 14,
+      "route": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-2/11",
+        "-1/11",
+        "1/44",
+        "-1/22"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "-9/44",
+        "-1/11",
+        "27/44",
+        "-1/22"
+      ],
+      "total_error": "-1/22",
+      "proper_prefix_good": true,
+      "diagonal_radius_one_good": true
+    },
+    {
+      "route_index": 15,
+      "route": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "-39/44",
+        "-2/11",
+        "-1/11",
+        "1/44",
+        "21/22"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "35/44",
+        "10/11",
+        "71/44",
+        "21/22"
+      ],
+      "total_error": "21/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 16,
+      "route": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "-7/44",
+        "-45/44",
+        "-83/44",
+        "-43/22"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-51/44",
+        "-89/44",
+        "-101/44",
+        "-43/22"
+      ],
+      "total_error": "-43/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 17,
+      "route": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "-7/44",
+        "-45/44",
+        "-83/44",
+        "-21/22"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "-7/44",
+        "-45/44",
+        "-57/44",
+        "-21/22"
+      ],
+      "total_error": "-21/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 18,
+      "route": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "-7/44",
+        "-45/44",
+        "-10/11",
+        "-43/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-51/44",
+        "-23/22",
+        "-29/22",
+        "-43/44"
+      ],
+      "total_error": "-43/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 19,
+      "route": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "-7/44",
+        "-45/44",
+        "-10/11",
+        "1/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "-7/44",
+        "-1/22",
+        "-7/22",
+        "1/44"
+      ],
+      "total_error": "1/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 20,
+      "route": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "-7/44",
+        "-3/44",
+        "-41/44",
+        "-1"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "-9/44",
+        "-47/44",
+        "-59/44",
+        "-1"
+      ],
+      "total_error": "-1",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 21,
+      "route": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "-7/44",
+        "-3/44",
+        "-41/44",
+        "0"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "35/44",
+        "-3/44",
+        "-15/44",
+        "0"
+      ],
+      "total_error": "0",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 22,
+      "route": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "-7/44",
+        "-3/44",
+        "1/22",
+        "-1/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "-9/44",
+        "-1/11",
+        "-4/11",
+        "-1/44"
+      ],
+      "total_error": "-1/44",
+      "proper_prefix_good": true,
+      "diagonal_radius_one_good": true
+    },
+    {
+      "route_index": 23,
+      "route": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "-7/44",
+        "-3/44",
+        "1/22",
+        "43/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "35/44",
+        "10/11",
+        "7/11",
+        "43/44"
+      ],
+      "total_error": "43/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 24,
+      "route": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "9/11",
+        "-1/22",
+        "-10/11",
+        "-43/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-51/44",
+        "-89/44",
+        "-29/22",
+        "-43/44"
+      ],
+      "total_error": "-43/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 25,
+      "route": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "9/11",
+        "-1/22",
+        "-10/11",
+        "1/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "-7/44",
+        "-45/44",
+        "-7/22",
+        "1/44"
+      ],
+      "total_error": "1/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 26,
+      "route": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "9/11",
+        "-1/22",
+        "3/44",
+        "0"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-51/44",
+        "-23/22",
+        "-15/44",
+        "0"
+      ],
+      "total_error": "0",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 27,
+      "route": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "9/11",
+        "-1/22",
+        "3/44",
+        "1"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "-7/44",
+        "-1/22",
+        "29/44",
+        "1"
+      ],
+      "total_error": "1",
+      "proper_prefix_good": true,
+      "diagonal_radius_one_good": true
+    },
+    {
+      "route_index": 28,
+      "route": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "9/11",
+        "10/11",
+        "1/22",
+        "-1/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "-9/44",
+        "-47/44",
+        "-4/11",
+        "-1/44"
+      ],
+      "total_error": "-1/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 29,
+      "route": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "9/11",
+        "10/11",
+        "1/22",
+        "43/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "35/44",
+        "-3/44",
+        "7/11",
+        "43/44"
+      ],
+      "total_error": "43/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 30,
+      "route": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "9/11",
+        "10/11",
+        "45/44",
+        "21/22"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "-9/44",
+        "-1/11",
+        "27/44",
+        "21/22"
+      ],
+      "total_error": "21/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 31,
+      "route": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "-5/22",
+        "5/44",
+        "9/11",
+        "10/11",
+        "45/44",
+        "43/22"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "35/44",
+        "10/11",
+        "71/44",
+        "43/22"
+      ],
+      "total_error": "43/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 32,
+      "route": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "-1/4",
+        "-49/44",
+        "-87/44",
+        "-45/22"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-1/4",
+        "-49/44",
+        "-61/44",
+        "-45/22"
+      ],
+      "total_error": "-45/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 33,
+      "route": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "-1/4",
+        "-49/44",
+        "-87/44",
+        "-23/22"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "3/4",
+        "-5/44",
+        "-17/44",
+        "-23/22"
+      ],
+      "total_error": "-23/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 34,
+      "route": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "-1/4",
+        "-49/44",
+        "-1",
+        "-47/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-1/4",
+        "-3/22",
+        "-9/22",
+        "-47/44"
+      ],
+      "total_error": "-47/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 35,
+      "route": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "-1/4",
+        "-49/44",
+        "-1",
+        "-3/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "3/4",
+        "19/22",
+        "13/22",
+        "-3/44"
+      ],
+      "total_error": "-3/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 36,
+      "route": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "-1/4",
+        "-7/44",
+        "-45/44",
+        "-12/11"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "31/44",
+        "-7/44",
+        "-19/44",
+        "-12/11"
+      ],
+      "total_error": "-12/11",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 37,
+      "route": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "-1/4",
+        "-7/44",
+        "-45/44",
+        "-1/11"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "75/44",
+        "37/44",
+        "25/44",
+        "-1/11"
+      ],
+      "total_error": "-1/11",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 38,
+      "route": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "-1/4",
+        "-7/44",
+        "-1/22",
+        "-5/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "31/44",
+        "9/11",
+        "6/11",
+        "-5/44"
+      ],
+      "total_error": "-5/44",
+      "proper_prefix_good": true,
+      "diagonal_radius_one_good": true
+    },
+    {
+      "route_index": 39,
+      "route": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "-1/4",
+        "-7/44",
+        "-1/22",
+        "39/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "75/44",
+        "20/11",
+        "17/11",
+        "39/44"
+      ],
+      "total_error": "39/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 40,
+      "route": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "8/11",
+        "-3/22",
+        "-1",
+        "-47/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-1/4",
+        "-49/44",
+        "-9/22",
+        "-47/44"
+      ],
+      "total_error": "-47/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 41,
+      "route": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "8/11",
+        "-3/22",
+        "-1",
+        "-3/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "3/4",
+        "-5/44",
+        "13/22",
+        "-3/44"
+      ],
+      "total_error": "-3/44",
+      "proper_prefix_good": true,
+      "diagonal_radius_one_good": true
+    },
+    {
+      "route_index": 42,
+      "route": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "8/11",
+        "-3/22",
+        "-1/44",
+        "-1/11"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-1/4",
+        "-3/22",
+        "25/44",
+        "-1/11"
+      ],
+      "total_error": "-1/11",
+      "proper_prefix_good": true,
+      "diagonal_radius_one_good": true
+    },
+    {
+      "route_index": 43,
+      "route": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "8/11",
+        "-3/22",
+        "-1/44",
+        "10/11"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "3/4",
+        "19/22",
+        "69/44",
+        "10/11"
+      ],
+      "total_error": "10/11",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 44,
+      "route": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "8/11",
+        "9/11",
+        "-1/22",
+        "-5/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "31/44",
+        "-7/44",
+        "6/11",
+        "-5/44"
+      ],
+      "total_error": "-5/44",
+      "proper_prefix_good": true,
+      "diagonal_radius_one_good": true
+    },
+    {
+      "route_index": 45,
+      "route": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "8/11",
+        "9/11",
+        "-1/22",
+        "39/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "75/44",
+        "37/44",
+        "17/11",
+        "39/44"
+      ],
+      "total_error": "39/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 46,
+      "route": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "8/11",
+        "9/11",
+        "41/44",
+        "19/22"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "31/44",
+        "9/11",
+        "67/44",
+        "19/22"
+      ],
+      "total_error": "19/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 47,
+      "route": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "1/44",
+        "8/11",
+        "9/11",
+        "41/44",
+        "41/22"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "75/44",
+        "20/11",
+        "111/44",
+        "41/22"
+      ],
+      "total_error": "41/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 48,
+      "route": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "3/4",
+        "-5/44",
+        "-43/44",
+        "-23/22"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-1/4",
+        "-49/44",
+        "-61/44",
+        "-23/22"
+      ],
+      "total_error": "-23/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 49,
+      "route": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "3/4",
+        "-5/44",
+        "-43/44",
+        "-1/22"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "3/4",
+        "-5/44",
+        "-17/44",
+        "-1/22"
+      ],
+      "total_error": "-1/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 50,
+      "route": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "3/4",
+        "-5/44",
+        "0",
+        "-3/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-1/4",
+        "-3/22",
+        "-9/22",
+        "-3/44"
+      ],
+      "total_error": "-3/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 51,
+      "route": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "3/4",
+        "-5/44",
+        "0",
+        "41/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "3/4",
+        "19/22",
+        "13/22",
+        "41/44"
+      ],
+      "total_error": "41/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 52,
+      "route": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "3/4",
+        "37/44",
+        "-1/44",
+        "-1/11"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "31/44",
+        "-7/44",
+        "-19/44",
+        "-1/11"
+      ],
+      "total_error": "-1/11",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 53,
+      "route": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "3/4",
+        "37/44",
+        "-1/44",
+        "10/11"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "75/44",
+        "37/44",
+        "25/44",
+        "10/11"
+      ],
+      "total_error": "10/11",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 54,
+      "route": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "3/4",
+        "37/44",
+        "21/22",
+        "39/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "31/44",
+        "9/11",
+        "6/11",
+        "39/44"
+      ],
+      "total_error": "39/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 55,
+      "route": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "3/4",
+        "37/44",
+        "21/22",
+        "83/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "75/44",
+        "20/11",
+        "17/11",
+        "83/44"
+      ],
+      "total_error": "83/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 56,
+      "route": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "19/11",
+        "19/22",
+        "0",
+        "-3/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-1/4",
+        "-49/44",
+        "-9/22",
+        "-3/44"
+      ],
+      "total_error": "-3/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 57,
+      "route": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "19/11",
+        "19/22",
+        "0",
+        "41/44"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "3/4",
+        "-5/44",
+        "13/22",
+        "41/44"
+      ],
+      "total_error": "41/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 58,
+      "route": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "19/11",
+        "19/22",
+        "43/44",
+        "10/11"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "-41/44",
+        "-1/4",
+        "-3/22",
+        "25/44",
+        "10/11"
+      ],
+      "total_error": "10/11",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 59,
+      "route": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "19/11",
+        "19/22",
+        "43/44",
+        "21/11"
+      ],
+      "second_prefix_errors": [
+        "-19/22",
+        "3/44",
+        "3/4",
+        "19/22",
+        "69/44",
+        "21/11"
+      ],
+      "total_error": "21/11",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 60,
+      "route": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "19/11",
+        "20/11",
+        "21/22",
+        "39/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "31/44",
+        "-7/44",
+        "6/11",
+        "39/44"
+      ],
+      "total_error": "39/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 61,
+      "route": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "19/11",
+        "20/11",
+        "21/22",
+        "83/44"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "75/44",
+        "37/44",
+        "17/11",
+        "83/44"
+      ],
+      "total_error": "83/44",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 62,
+      "route": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "19/11",
+        "20/11",
+        "85/44",
+        "41/22"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "1/44",
+        "31/44",
+        "9/11",
+        "67/44",
+        "41/22"
+      ],
+      "total_error": "41/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    },
+    {
+      "route_index": 63,
+      "route": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "first_prefix_errors": [
+        "15/22",
+        "45/44",
+        "19/11",
+        "20/11",
+        "85/44",
+        "63/22"
+      ],
+      "second_prefix_errors": [
+        "1/11",
+        "45/44",
+        "75/44",
+        "20/11",
+        "111/44",
+        "63/22"
+      ],
+      "total_error": "63/22",
+      "proper_prefix_good": false,
+      "diagonal_radius_one_good": false
+    }
+  ],
+  "raw_dag": {
+    "arc_count": 24,
+    "arcs": [
+      [
+        "s",
+        "L1"
+      ],
+      [
+        "L1",
+        "L2"
+      ],
+      [
+        "L2",
+        "L3"
+      ],
+      [
+        "L3",
+        "L4"
+      ],
+      [
+        "L4",
+        "L5"
+      ],
+      [
+        "L5",
+        "L6"
+      ],
+      [
+        "s",
+        "R1"
+      ],
+      [
+        "R1",
+        "R2"
+      ],
+      [
+        "R2",
+        "R3"
+      ],
+      [
+        "R3",
+        "R4"
+      ],
+      [
+        "R4",
+        "R5"
+      ],
+      [
+        "R5",
+        "R6"
+      ],
+      [
+        "L6",
+        "t0"
+      ],
+      [
+        "R4",
+        "t0"
+      ],
+      [
+        "L5",
+        "t1"
+      ],
+      [
+        "R1",
+        "t1"
+      ],
+      [
+        "L4",
+        "t2"
+      ],
+      [
+        "R2",
+        "t2"
+      ],
+      [
+        "L3",
+        "t3"
+      ],
+      [
+        "R6",
+        "t3"
+      ],
+      [
+        "L2",
+        "t4"
+      ],
+      [
+        "R3",
+        "t4"
+      ],
+      [
+        "L1",
+        "t5"
+      ],
+      [
+        "R5",
+        "t5"
+      ]
+    ],
+    "arc_names": [
+      "s->L1",
+      "L1->L2",
+      "L2->L3",
+      "L3->L4",
+      "L4->L5",
+      "L5->L6",
+      "s->R1",
+      "R1->R2",
+      "R2->R3",
+      "R3->R4",
+      "R4->R5",
+      "R5->R6",
+      "L6->t0",
+      "R4->t0",
+      "L5->t1",
+      "R1->t1",
+      "L4->t2",
+      "R2->t2",
+      "L3->t3",
+      "R6->t3",
+      "L2->t4",
+      "R3->t4",
+      "L1->t5",
+      "R5->t5"
+    ],
+    "fractional_arc_loads": [
+      "65/22",
+      "127/44",
+      "89/44",
+      "51/44",
+      "39/44",
+      "5/22",
+      "63/22",
+      "111/44",
+      "20/11",
+      "75/44",
+      "45/44",
+      "1/11",
+      "5/22",
+      "15/22",
+      "29/44",
+      "15/44",
+      "3/11",
+      "31/44",
+      "19/22",
+      "1/11",
+      "19/22",
+      "5/44",
+      "3/44",
+      "41/44"
+    ],
+    "path_counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "all_simple_paths": [
+      [
+        [
+          "s",
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6",
+          "t0"
+        ],
+        [
+          "s",
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "t0"
+        ]
+      ],
+      [
+        [
+          "s",
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "t1"
+        ],
+        [
+          "s",
+          "R1",
+          "t1"
+        ]
+      ],
+      [
+        [
+          "s",
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "t2"
+        ],
+        [
+          "s",
+          "R1",
+          "R2",
+          "t2"
+        ]
+      ],
+      [
+        [
+          "s",
+          "L1",
+          "L2",
+          "L3",
+          "t3"
+        ],
+        [
+          "s",
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "R6",
+          "t3"
+        ]
+      ],
+      [
+        [
+          "s",
+          "L1",
+          "L2",
+          "t4"
+        ],
+        [
+          "s",
+          "R1",
+          "R2",
+          "R3",
+          "t4"
+        ]
+      ],
+      [
+        [
+          "s",
+          "L1",
+          "t5"
+        ],
+        [
+          "s",
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "t5"
+        ]
+      ]
+    ],
+    "upper_good_route_count": 23,
+    "upper_good_route_indices": [
+      3,
+      5,
+      7,
+      11,
+      13,
+      14,
+      15,
+      19,
+      21,
+      22,
+      23,
+      27,
+      29,
+      35,
+      37,
+      38,
+      39,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "two_sided_good_route_indices": [
+      14,
+      22,
+      27,
+      38,
+      41,
+      42,
+      44
+    ]
+  },
+  "lower_box": {
+    "exact_deficit": "0",
+    "lb_holds_at_D_equals_one": true,
+    "primal_mixture": [
+      {
+        "route_index": 11,
+        "route": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "coefficient": "232/9933"
+      },
+      {
+        "route_index": 14,
+        "route": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "coefficient": "61/903"
+      },
+      {
+        "route_index": 22,
+        "route": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "coefficient": "12203/19866"
+      },
+      {
+        "route_index": 27,
+        "route": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "coefficient": "1781/39732"
+      },
+      {
+        "route_index": 38,
+        "route": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "coefficient": "2119/19866"
+      },
+      {
+        "route_index": 42,
+        "route": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "coefficient": "25/924"
+      },
+      {
+        "route_index": 44,
+        "route": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "5/43"
+      }
+    ],
+    "dual_weights": [
+      {
+        "arc_index": 22,
+        "weight": "1/2"
+      },
+      {
+        "arc_index": 23,
+        "weight": "1/2"
+      }
+    ],
+    "strong_duality_verified": true
+  },
+  "cost_hull": {
+    "entry": "41/44",
+    "previous_level": "19/22",
+    "eligible_route_count_at_entry": 17,
+    "entry_mixture": [
+      {
+        "route_index": 14,
+        "route": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "coefficient": "1/11"
+      },
+      {
+        "route_index": 19,
+        "route": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "coefficient": "232/9933"
+      },
+      {
+        "route_index": 22,
+        "route": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "coefficient": "25259/39732"
+      },
+      {
+        "route_index": 38,
+        "route": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "coefficient": "117/1892"
+      },
+      {
+        "route_index": 42,
+        "route": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "coefficient": "34/473"
+      },
+      {
+        "route_index": 44,
+        "route": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "2839/39732"
+      },
+      {
+        "route_index": 45,
+        "route": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "coefficient": "1781/39732"
+      }
+    ],
+    "strict_separator_below_entry": {
+      "g": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "44/3"
+      ],
+      "h": "0",
+      "fractional_value": "1",
+      "cost_realization": "use private route cost difference -g_i, shifted by a nonnegative terminal-specific constant"
+    },
+    "separator_cost_good_route_indices": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49,
+      51,
+      53,
+      55,
+      57,
+      59,
+      61,
+      63
+    ],
+    "minimum_separator_cost_good_overload": "41/44"
+  }
+}

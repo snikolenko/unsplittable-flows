@@ -1,0 +1,60 @@
+{
+  "statement": "independent cvc5, all-simple-path, primal, dual, hull, and terminal-minimality audit of the k=6 bracket obstruction",
+  "cvc5_bracket_pair_existence_status": "unsat",
+  "prefix_arithmetic": {
+    "good_routes": [
+      {
+        "index": 14,
+        "total": "-1/22"
+      },
+      {
+        "index": 22,
+        "total": "-1/44"
+      },
+      {
+        "index": 27,
+        "total": "1"
+      },
+      {
+        "index": 38,
+        "total": "-5/44"
+      },
+      {
+        "index": 41,
+        "total": "-3/44"
+      },
+      {
+        "index": 42,
+        "total": "-1/11"
+      },
+      {
+        "index": 44,
+        "total": "-5/44"
+      }
+    ],
+    "minimum_crossing_gap": "45/44"
+  },
+  "raw_dag": {
+    "arc_count": 24,
+    "path_counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "all_terminals_have_exactly_two_simple_paths": true
+  },
+  "lb_and_hull": {
+    "upper_good_route_count": 23,
+    "lb_zero_primal_reproduces_fractional_raw_load": true,
+    "hull_entry": "41/44",
+    "previous_level_separated": "19/22"
+  },
+  "terminal_minimality": {
+    "k5_permutation_count": 120,
+    "every_k5_order_has_an_unsat_zero-column_k6_extension": true,
+    "minimum_unsat_extensions_per_k5_order": 28
+  }
+}

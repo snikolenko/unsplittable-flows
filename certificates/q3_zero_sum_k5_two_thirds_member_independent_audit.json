@@ -1,0 +1,1560 @@
+{
+  "agrees_with_primary_value": true,
+  "convention_execution": {
+    "block_hash_verified": true,
+    "both_credit_moments_executed": true,
+    "full_residual_zero_on_every_feasible_support": true,
+    "full_rows_located_by_flag": [
+      "L:5",
+      "R:5"
+    ],
+    "ordered_prefix_instances_executed": 10,
+    "primary_source": "certificates/q3_zero_sum_k5_two_thirds_member_exact.json"
+  },
+  "d_dot_f": "19899999899/10000000000",
+  "exact_half_gap": "69250721371/427100000000",
+  "exact_optimum": "282800721371/427100000000",
+  "executable_convention": {
+    "arithmetic": {
+      "encoding": "Fraction-compatible numerator/denominator strings",
+      "type": "exact_rational"
+    },
+    "block_sha256_without_hash_field": "9d9d61fd9e761238fd2fb43399cc2e586645ca8519da1157ce514aee49dae23b",
+    "boundary_and_prefix_rows": {
+      "deduplication_key": "sorted item set",
+      "empty_prefix_included": false,
+      "full_prefix_included": true,
+      "full_row_handling": {
+        "full_row_source_ids": [
+          "L:5",
+          "R:5"
+        ],
+        "proportional_objective": "evaluate both L:k and R:k; equality makes duplication objective-neutral",
+        "unrestricted_support_lp": "deduplicate identical item sets; retain the full row once"
+      },
+      "ordered_row_instances": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "length": 1,
+          "order": "left"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "length": 2,
+          "order": "left"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "length": 3,
+          "order": "left"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "length": 4,
+          "order": "left"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "length": 5,
+          "order": "left"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "length": 1,
+          "order": "right"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "length": 2,
+          "order": "right"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "length": 3,
+          "order": "right"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "length": 4,
+          "order": "right"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "length": 5,
+          "order": "right"
+        }
+      ],
+      "prefix_lengths_per_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proper_prefixes_included": true,
+      "support_lp_unique_rows": [
+        {
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "row_index": 0,
+          "source_ids": [
+            "L:1"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "row_index": 1,
+          "source_ids": [
+            "L:2"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "row_index": 2,
+          "source_ids": [
+            "L:3"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "row_index": 3,
+          "source_ids": [
+            "L:4"
+          ]
+        },
+        {
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "row_index": 4,
+          "source_ids": [
+            "L:5",
+            "R:5"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "row_index": 5,
+          "source_ids": [
+            "R:1"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            1,
+            2
+          ],
+          "row_index": 6,
+          "source_ids": [
+            "R:2"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            1,
+            2,
+            3
+          ],
+          "row_index": 7,
+          "source_ids": [
+            "R:3"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "row_index": 8,
+          "source_ids": [
+            "R:4"
+          ]
+        }
+      ]
+    },
+    "calibration": {
+      "boundary_equalizer": "282843/427100",
+      "exact_optimum": "282800721371/427100000000",
+      "gap_below_two_thirds": "5797835887/1281300000000",
+      "strict_perturbation_tau": "1/1000000"
+    },
+    "instance": {
+      "D": "1",
+      "complement_mass": "3",
+      "complement_shares_x": [
+        "1414/4271",
+        "1428574271/4271000000",
+        "282843/427100",
+        "1",
+        "2870995729/4271000000"
+      ],
+      "demands_d": [
+        "99/100",
+        "1",
+        "1",
+        "49/50",
+        "9899/10000"
+      ],
+      "fractional_shares_f": [
+        "2857/4271",
+        "2842425729/4271000000",
+        "144257/427100",
+        "0",
+        "1400004271/4271000000"
+      ],
+      "k": 5,
+      "q": 3
+    },
+    "objective": {
+      "fixed_support_code": "minimize over normalized credits the maximum prefix residual",
+      "global_code": "minimize fixed-support value over all 2-element omitted sets",
+      "half_gap_code": "objective_value - Fraction(1, 2)",
+      "half_good_code": "objective_value <= Fraction(1, 2)",
+      "half_threshold": "1/2",
+      "infeasible_support_handling": "exclude supports failing either credit normalization; if none are feasible, report no-feasible-proportional-support, not a finite optimum",
+      "proportional_code": "minimize over all 2-element omitted sets the maximum residual using proportional_credit_code",
+      "sign": "minimize_maximum_positive_upper_residual"
+    },
+    "orders": {
+      "left": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "permutation_validation": "sorted(order)==list(range(k))",
+      "right": [
+        2,
+        1,
+        3,
+        4,
+        0
+      ]
+    },
+    "residual": {
+      "expanded_code": "sum(d[i] * (x[i] - credit[i]) for i in prefix if i not in omitted) - sum(d[i] * (1 - x[i]) for i in prefix if i in omitted)",
+      "fractional_share_code": "f[i] = 1 - x[i]",
+      "full_row_assertion_code": "sum(d[i] * (u[i] - f[i]) for i in range(k)) == 0",
+      "full_row_expected": "0",
+      "prefix_code": "sum(d[i] * (u[i] - f[i]) for i in prefix)",
+      "sign": "positive_is_upper_residual_d_times_u_minus_f",
+      "term_code": "d[i] * (u[i] - f[i])",
+      "units": "D"
+    },
+    "schema_id": "ssuf.q3-weighted-half.executable-convention.v1",
+    "support_and_credit_normalization": {
+      "credit_domain_code": "credit[i] >= 0 for i in selected; credit[i] = 0 for i in omitted",
+      "credit_sum_code": "sum(credit[i] for i in selected) == 1",
+      "omitted_set_size": 2,
+      "proportional_alpha_code": "alpha = (2 - sum(x[j] for j in omitted)) / (3 - sum(x[j] for j in omitted))",
+      "proportional_credit_code": "credit[i] = 0 if i in omitted else x[i] / (3 - sum(x[j] for j in omitted))",
+      "proportional_feasibility_code": "credit[i] = x[i] / (3 - sum(x[j] for j in omitted)) on selected; both credit_sum_code and weighted_credit_sum_code must hold",
+      "selected_set_code": "selected = [i for i in range(k) if i not in omitted]",
+      "u_code": "u[i] = 0 if i in omitted else 1 - credit[i]",
+      "weighted_credit_sum_code": "sum(d[i] * credit[i] for i in selected) == sum(d[i] * x[i] for i in range(k)) - sum(d[i] for i in omitted)"
+    }
+  },
+  "gap_below_two_thirds": "5797835887/1281300000000",
+  "independent_symbolic_family_audit": {
+    "C_in_a_r": "-(a - 1)*(-a + r + 1)/(-3*a + r + 2)",
+    "a_r_parameterization": {
+      "a": "1-p",
+      "b": "1-e",
+      "domain": "0<a<b<1, hence a<r<1",
+      "r": "a/b"
+    },
+    "boundary_complement_x": [
+      "-(e*p - 1)/(3*e*p - e - 2*p) + 1",
+      "2*p*(e*p - 1)/(3*e*p - e - 2*p) - p",
+      "p*(e*p - 1)/(3*e*p - e - 2*p)",
+      "1",
+      "1 - (2*p*(e*p - 1)/(3*e*p - e - 2*p) - 1)/e"
+    ],
+    "boundary_equalizer_C": "p*(e*p - 1)/(3*e*p - e - 2*p)",
+    "boundary_mu": "p + 1",
+    "limit": "C tends to 2/3 when a tends to 0 and r tends to 1 within a<r<1",
+    "positive_gap_numerator": "3*a*(-a + r) - r + 1",
+    "scope": "symbolic family identities and 2/3 ceiling gap; support-cell membership is audited exactly on the promoted strict member",
+    "strict_mu": "e*tau + p - tau + 1",
+    "two_thirds_gap": "(-3*a**2 + 3*a*r - r + 1)/(3*(-3*a + r + 2))"
+  },
+  "kind": "independent_exact_q3_zero_sum_k5_two_thirds_member_audit",
+  "minimizing_omitted_pairs": [
+    [
+      2,
+      3
+    ]
+  ],
+  "moment_feasible_support_count": 6,
+  "rank_only_comparison": {
+    "exact_optimum_without_weighted_moment": "-84705743294271/8456152900000000",
+    "minimizing_omitted_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "support_table": [
+      {
+        "credits_on_selected": [
+          "1",
+          "0",
+          "0"
+        ],
+        "exact_radius": "27425829431371/42710000000000",
+        "maximizing_prefix_ids": [
+          "R:4"
+        ],
+        "omitted_pair": [
+          0,
+          1
+        ],
+        "selected": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "1",
+          "0",
+          "0"
+        ],
+        "exact_radius": "27425829431371/42710000000000",
+        "maximizing_prefix_ids": [
+          "R:4"
+        ],
+        "omitted_pair": [
+          0,
+          2
+        ],
+        "selected": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "9999000101/10000000000",
+          "999899/10000000000",
+          "0"
+        ],
+        "exact_radius": "28280029431371/42710000000000",
+        "maximizing_prefix_ids": [
+          "R:1",
+          "R:4"
+        ],
+        "omitted_pair": [
+          0,
+          3
+        ],
+        "selected": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "0",
+          "1",
+          "0"
+        ],
+        "exact_radius": "4171584271/4271000000",
+        "maximizing_prefix_ids": [
+          "R:3"
+        ],
+        "omitted_pair": [
+          0,
+          4
+        ],
+        "selected": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "28851399568629/84561529000000",
+          "0",
+          "55710129431371/84561529000000"
+        ],
+        "exact_radius": "-84705743294271/8456152900000000",
+        "maximizing_prefix_ids": [
+          "L:1",
+          "R:4"
+        ],
+        "omitted_pair": [
+          1,
+          2
+        ],
+        "selected": [
+          0,
+          3,
+          4
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "284243/849929",
+          "565686/849929",
+          "0"
+        ],
+        "exact_radius": "-282843/84992900",
+        "maximizing_prefix_ids": [
+          "L:1",
+          "R:1"
+        ],
+        "omitted_pair": [
+          1,
+          3
+        ],
+        "selected": [
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "99415729/4271000000",
+          "4171584271/4271000000",
+          "0"
+        ],
+        "exact_radius": "130143842829/427100000000",
+        "maximizing_prefix_ids": [
+          "L:1",
+          "L:4"
+        ],
+        "omitted_pair": [
+          1,
+          4
+        ],
+        "selected": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "28428570568629/84992900000000",
+          "56564329431371/84992900000000",
+          "0"
+        ],
+        "exact_radius": "-28707086294271/8499290000000000",
+        "maximizing_prefix_ids": [
+          "L:1",
+          "R:4"
+        ],
+        "omitted_pair": [
+          2,
+          3
+        ],
+        "selected": [
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "99415729/4271000000",
+          "4171584271/4271000000",
+          "0"
+        ],
+        "exact_radius": "130143842829/427100000000",
+        "maximizing_prefix_ids": [
+          "L:1",
+          "L:4"
+        ],
+        "omitted_pair": [
+          2,
+          4
+        ],
+        "selected": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "13995729/4271000000",
+          "1428574271/4271000000",
+          "282843/427100"
+        ],
+        "exact_radius": "138600422829/427100000000",
+        "maximizing_prefix_ids": [
+          "L:1",
+          "L:2",
+          "L:3",
+          "L:4"
+        ],
+        "omitted_pair": [
+          3,
+          4
+        ],
+        "selected": [
+          0,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "scope": "All ten omitted pairs and ten ordered prefixes rebuilt by exact line-envelope optimization, plus independent symbolic family identities.",
+  "status": "verified",
+  "support_table": [
+    {
+      "credit_moment_target": "9799000101/10000000000",
+      "infeasibility_gap": "999899/10000000000",
+      "moment_feasible": false,
+      "omitted_pair": [
+        0,
+        1
+      ],
+      "selected": [
+        2,
+        3,
+        4
+      ],
+      "selected_demand_interval": [
+        "49/50",
+        "1"
+      ]
+    },
+    {
+      "credit_moment_target": "9799000101/10000000000",
+      "infeasibility_gap": "999899/10000000000",
+      "moment_feasible": false,
+      "omitted_pair": [
+        0,
+        2
+      ],
+      "selected": [
+        1,
+        3,
+        4
+      ],
+      "selected_demand_interval": [
+        "49/50",
+        "1"
+      ]
+    },
+    {
+      "candidate_count": 5,
+      "credit_moment_target": "9999000101/10000000000",
+      "credits_c": [
+        "0",
+        "0",
+        "100000101/101000000",
+        "0",
+        "999899/101000000"
+      ],
+      "exact_radius": "282843/427100",
+      "free_parameter_interval": [
+        "0",
+        "100000101/101000000"
+      ],
+      "free_parameter_item": 1,
+      "maximizing_prefix_ids": [
+        "R:4"
+      ],
+      "minimizing_parameter": "0",
+      "moment_feasible": true,
+      "omitted_pair": [
+        0,
+        3
+      ],
+      "ordered_prefix_values": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "value": "-282843/427100"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "value": "-1399855729/4271000000"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "value": "-28281443/43137100"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "value": "-28281443/43137100"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "value": "-141429001371/431371000000"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "value": "2857/431371"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "value": "2857/431371"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "value": "282843/427100"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "value": "0"
+        }
+      ],
+      "residual_d_times_u_minus_f": [
+        "-282843/427100",
+        "1428574271/4271000000",
+        "-141429001371/431371000000",
+        "0",
+        "28281443/43137100"
+      ],
+      "routing_u": [
+        "0",
+        "1",
+        "999899/101000000",
+        "0",
+        "100000101/101000000"
+      ],
+      "selected": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "candidate_count": 4,
+      "credit_moment_target": "9900000101/10000000000",
+      "credits_c": [
+        "0",
+        "0",
+        "100000101/200000000",
+        "99999899/200000000",
+        "0"
+      ],
+      "exact_radius": "42142942278629/42710000000000",
+      "free_parameter_interval": [
+        "0",
+        "100000101/200000000"
+      ],
+      "free_parameter_item": 1,
+      "maximizing_prefix_ids": [
+        "R:3"
+      ],
+      "minimizing_parameter": "0",
+      "moment_feasible": true,
+      "omitted_pair": [
+        0,
+        4
+      ],
+      "ordered_prefix_values": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "value": "-282843/427100"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "value": "-1399855729/4271000000"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "value": "-141385577171/854200000000"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "value": "13858642278629/42710000000000"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "value": "138585568629/854200000000"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "value": "424300422829/854200000000"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "value": "42142942278629/42710000000000"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "value": "282843/427100"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "value": "0"
+        }
+      ],
+      "residual_d_times_u_minus_f": [
+        "-282843/427100",
+        "1428574271/4271000000",
+        "138585568629/854200000000",
+        "4900004949/10000000000",
+        "-13858642278629/42710000000000"
+      ],
+      "routing_u": [
+        "0",
+        "1",
+        "99999899/200000000",
+        "100000101/200000000",
+        "0"
+      ],
+      "selected": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "credit_moment_target": "9699000101/10000000000",
+      "infeasibility_gap": "100999899/10000000000",
+      "moment_feasible": false,
+      "omitted_pair": [
+        1,
+        2
+      ],
+      "selected": [
+        0,
+        3,
+        4
+      ],
+      "selected_demand_interval": [
+        "49/50",
+        "99/100"
+      ]
+    },
+    {
+      "candidate_count": 2,
+      "credit_moment_target": "9899000101/10000000000",
+      "credits_c": [
+        "0",
+        "0",
+        "1/1000000",
+        "0",
+        "999999/1000000"
+      ],
+      "exact_radius": "2828425729/4271000000",
+      "free_parameter_interval": [
+        "0",
+        "101/1000000"
+      ],
+      "free_parameter_item": 0,
+      "maximizing_prefix_ids": [
+        "R:1"
+      ],
+      "minimizing_parameter": "0",
+      "moment_feasible": true,
+      "omitted_pair": [
+        1,
+        3
+      ],
+      "ordered_prefix_values": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "value": "69993/213550"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "value": "-1442565729/4271000000"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "value": "69293/213550"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "value": "69293/213550"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "value": "2828425729/4271000000"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "value": "-14/4271"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "value": "-14/4271"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "value": "-69993/213550"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "value": "0"
+        }
+      ],
+      "residual_d_times_u_minus_f": [
+        "69993/213550",
+        "-2842425729/4271000000",
+        "2828425729/4271000000",
+        "0",
+        "-69293/213550"
+      ],
+      "routing_u": [
+        "1",
+        "0",
+        "999999/1000000",
+        "0",
+        "1/1000000"
+      ],
+      "selected": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "candidate_count": 2,
+      "credit_moment_target": "9800000101/10000000000",
+      "credits_c": [
+        "0",
+        "0",
+        "101/200000000",
+        "199999899/200000000",
+        "0"
+      ],
+      "exact_radius": "565685568629/854200000000",
+      "free_parameter_interval": [
+        "0",
+        "101/100000000"
+      ],
+      "free_parameter_item": 0,
+      "maximizing_prefix_ids": [
+        "R:1"
+      ],
+      "minimizing_parameter": "0",
+      "moment_feasible": true,
+      "omitted_pair": [
+        1,
+        4
+      ],
+      "ordered_prefix_values": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "value": "69993/213550"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "value": "-1442565729/4271000000"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "value": "277172422829/854200000000"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "value": "13858642278629/42710000000000"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "value": "565685568629/854200000000"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "value": "-2799577171/854200000000"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "value": "-139957721371/42710000000000"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "value": "-69993/213550"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "value": "0"
+        }
+      ],
+      "residual_d_times_u_minus_f": [
+        "69993/213550",
+        "-2842425729/4271000000",
+        "565685568629/854200000000",
+        "4949/10000000000",
+        "-13858642278629/42710000000000"
+      ],
+      "routing_u": [
+        "1",
+        "0",
+        "199999899/200000000",
+        "101/200000000",
+        "0"
+      ],
+      "selected": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "candidate_count": 2,
+      "credit_moment_target": "9899000101/10000000000",
+      "credits_c": [
+        "101/1000000",
+        "0",
+        "0",
+        "0",
+        "999899/1000000"
+      ],
+      "exact_radius": "282800721371/427100000000",
+      "free_parameter_interval": [
+        "0",
+        "101/1000000"
+      ],
+      "free_parameter_item": 0,
+      "maximizing_prefix_ids": [
+        "L:2"
+      ],
+      "minimizing_parameter": "101/1000000",
+      "moment_feasible": true,
+      "omitted_pair": [
+        2,
+        3
+      ],
+      "ordered_prefix_values": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "value": "139943294271/427100000000"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "value": "282800721371/427100000000"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "value": "138543721371/427100000000"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "value": "138543721371/427100000000"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "value": "-144257/427100"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "value": "-13995729/4271000000"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "value": "-13995729/4271000000"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "value": "-139943294271/427100000000"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "value": "0"
+        }
+      ],
+      "residual_d_times_u_minus_f": [
+        "139943294271/427100000000",
+        "1428574271/4271000000",
+        "-144257/427100",
+        "0",
+        "-138543721371/427100000000"
+      ],
+      "routing_u": [
+        "999899/1000000",
+        "1",
+        "0",
+        "0",
+        "101/1000000"
+      ],
+      "selected": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "candidate_count": 2,
+      "credit_moment_target": "9800000101/10000000000",
+      "credits_c": [
+        "101/100000000",
+        "0",
+        "0",
+        "99999899/100000000",
+        "0"
+      ],
+      "exact_radius": "28284300004271/42710000000000",
+      "free_parameter_interval": [
+        "0",
+        "101/100000000"
+      ],
+      "free_parameter_item": 0,
+      "maximizing_prefix_ids": [
+        "L:2"
+      ],
+      "minimizing_parameter": "101/100000000",
+      "moment_feasible": true,
+      "omitted_pair": [
+        2,
+        4
+      ],
+      "ordered_prefix_values": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "value": "13998557294271/42710000000000"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "value": "28284300004271/42710000000000"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "value": "13858600004271/42710000000000"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "value": "13858642278629/42710000000000"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "value": "-144257/427100"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "value": "-13995729/4271000000"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "value": "-69957507821/21355000000000"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "value": "-13998557294271/42710000000000"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "value": "0"
+        }
+      ],
+      "residual_d_times_u_minus_f": [
+        "13998557294271/42710000000000",
+        "1428574271/4271000000",
+        "-144257/427100",
+        "4949/5000000000",
+        "-13858642278629/42710000000000"
+      ],
+      "routing_u": [
+        "99999899/100000000",
+        "1",
+        "0",
+        "101/100000000",
+        "0"
+      ],
+      "selected": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "credit_moment_target": "10000000101/10000000000",
+      "infeasibility_gap": "101/10000000000",
+      "moment_feasible": false,
+      "omitted_pair": [
+        3,
+        4
+      ],
+      "selected": [
+        0,
+        1,
+        2
+      ],
+      "selected_demand_interval": [
+        "99/100",
+        "1"
+      ]
+    }
+  ],
+  "transcript_sha256_without_hash": "983822b3b5e50cee2604860898e3c2a7d425c5f81d33a3b2755ceb053c7f3e71",
+  "translation_warning": "The 2/3 family belongs only to the stronger B_zm program."
+}

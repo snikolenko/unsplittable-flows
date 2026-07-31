@@ -1,0 +1,2315 @@
+{
+  "authoritative_feasible_pair_count": 1,
+  "authoritative_feasible_pairs": [
+    [
+      2,
+      4
+    ]
+  ],
+  "authoritative_infeasible_pair_count": 90,
+  "claim": "Under both rank and weighted-moment credit normalization, the scalar proportional rule has exactly one feasible omitted pair and its maximum prefix residual is strictly above 1/2.",
+  "complement_shares_x": [
+    "82933/250000",
+    "70411/500000",
+    "82973/200000",
+    "73537/1000000",
+    "120871/1000000",
+    "6094/15625",
+    "260313/1000000",
+    "134433/500000",
+    "554903/1000000",
+    "9283/1000000",
+    "23/250000",
+    "1037/40000",
+    "408317/1000000",
+    "229/500000"
+  ],
+  "construction": "legacy x and right order; replace only d_4 by the exact value solving the weighted moment for O={2,4}",
+  "demands": [
+    "1",
+    "994463/1000000",
+    "199393/200000",
+    "983417/1000000",
+    "5470154188105031/6017794294600000",
+    "243641/250000",
+    "247387/250000",
+    "24749/25000",
+    "78741/100000",
+    "23001/25000",
+    "13503/250000",
+    "496539/500000",
+    "996881/1000000",
+    "910367/1000000"
+  ],
+  "exact_half_gap": "24113213169798083/308033000000000000",
+  "exact_minimizers": [
+    [
+      2,
+      4
+    ]
+  ],
+  "exact_optimum_over_feasible_pairs": "178129713169798083/308033000000000000",
+  "executable_convention": {
+    "arithmetic": {
+      "encoding": "Fraction-compatible numerator/denominator strings",
+      "type": "exact_rational"
+    },
+    "block_sha256_without_hash_field": "5956fb59390b860968c4680565a78b40bcb17e81b89af5f7a1cff481996c7f73",
+    "boundary_and_prefix_rows": {
+      "deduplication_key": "sorted item set",
+      "empty_prefix_included": false,
+      "full_prefix_included": true,
+      "full_row_handling": {
+        "full_row_source_ids": [
+          "L:14",
+          "R:14"
+        ],
+        "proportional_objective": "evaluate both L:k and R:k; equality makes duplication objective-neutral",
+        "unrestricted_support_lp": "deduplicate identical item sets; retain the full row once"
+      },
+      "ordered_row_instances": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "length": 1,
+          "order": "left"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "length": 2,
+          "order": "left"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "length": 3,
+          "order": "left"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "length": 4,
+          "order": "left"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "length": 5,
+          "order": "left"
+        },
+        {
+          "id": "L:6",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "length": 6,
+          "order": "left"
+        },
+        {
+          "id": "L:7",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "length": 7,
+          "order": "left"
+        },
+        {
+          "id": "L:8",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "length": 8,
+          "order": "left"
+        },
+        {
+          "id": "L:9",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "length": 9,
+          "order": "left"
+        },
+        {
+          "id": "L:10",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "length": 10,
+          "order": "left"
+        },
+        {
+          "id": "L:11",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "length": 11,
+          "order": "left"
+        },
+        {
+          "id": "L:12",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "length": 12,
+          "order": "left"
+        },
+        {
+          "id": "L:13",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "length": 13,
+          "order": "left"
+        },
+        {
+          "id": "L:14",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "length": 14,
+          "order": "left"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            8
+          ],
+          "length": 1,
+          "order": "right"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            8,
+            12
+          ],
+          "length": 2,
+          "order": "right"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            8,
+            12,
+            4
+          ],
+          "length": 3,
+          "order": "right"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            8,
+            12,
+            4,
+            5
+          ],
+          "length": 4,
+          "order": "right"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": false,
+          "items": [
+            8,
+            12,
+            4,
+            5,
+            11
+          ],
+          "length": 5,
+          "order": "right"
+        },
+        {
+          "id": "R:6",
+          "is_full_row": false,
+          "items": [
+            8,
+            12,
+            4,
+            5,
+            11,
+            7
+          ],
+          "length": 6,
+          "order": "right"
+        },
+        {
+          "id": "R:7",
+          "is_full_row": false,
+          "items": [
+            8,
+            12,
+            4,
+            5,
+            11,
+            7,
+            3
+          ],
+          "length": 7,
+          "order": "right"
+        },
+        {
+          "id": "R:8",
+          "is_full_row": false,
+          "items": [
+            8,
+            12,
+            4,
+            5,
+            11,
+            7,
+            3,
+            6
+          ],
+          "length": 8,
+          "order": "right"
+        },
+        {
+          "id": "R:9",
+          "is_full_row": false,
+          "items": [
+            8,
+            12,
+            4,
+            5,
+            11,
+            7,
+            3,
+            6,
+            1
+          ],
+          "length": 9,
+          "order": "right"
+        },
+        {
+          "id": "R:10",
+          "is_full_row": false,
+          "items": [
+            8,
+            12,
+            4,
+            5,
+            11,
+            7,
+            3,
+            6,
+            1,
+            0
+          ],
+          "length": 10,
+          "order": "right"
+        },
+        {
+          "id": "R:11",
+          "is_full_row": false,
+          "items": [
+            8,
+            12,
+            4,
+            5,
+            11,
+            7,
+            3,
+            6,
+            1,
+            0,
+            13
+          ],
+          "length": 11,
+          "order": "right"
+        },
+        {
+          "id": "R:12",
+          "is_full_row": false,
+          "items": [
+            8,
+            12,
+            4,
+            5,
+            11,
+            7,
+            3,
+            6,
+            1,
+            0,
+            13,
+            2
+          ],
+          "length": 12,
+          "order": "right"
+        },
+        {
+          "id": "R:13",
+          "is_full_row": false,
+          "items": [
+            8,
+            12,
+            4,
+            5,
+            11,
+            7,
+            3,
+            6,
+            1,
+            0,
+            13,
+            2,
+            9
+          ],
+          "length": 13,
+          "order": "right"
+        },
+        {
+          "id": "R:14",
+          "is_full_row": true,
+          "items": [
+            8,
+            12,
+            4,
+            5,
+            11,
+            7,
+            3,
+            6,
+            1,
+            0,
+            13,
+            2,
+            9,
+            10
+          ],
+          "length": 14,
+          "order": "right"
+        }
+      ],
+      "prefix_lengths_per_order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "proper_prefixes_included": true,
+      "support_lp_unique_rows": [
+        {
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "row_index": 0,
+          "source_ids": [
+            "L:1"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "row_index": 1,
+          "source_ids": [
+            "L:2"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "row_index": 2,
+          "source_ids": [
+            "L:3"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "row_index": 3,
+          "source_ids": [
+            "L:4"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "row_index": 4,
+          "source_ids": [
+            "L:5"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "row_index": 5,
+          "source_ids": [
+            "L:6"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "row_index": 6,
+          "source_ids": [
+            "L:7"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "row_index": 7,
+          "source_ids": [
+            "L:8"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "row_index": 8,
+          "source_ids": [
+            "L:9"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "row_index": 9,
+          "source_ids": [
+            "L:10"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "row_index": 10,
+          "source_ids": [
+            "L:11"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "row_index": 11,
+          "source_ids": [
+            "L:12"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "row_index": 12,
+          "source_ids": [
+            "L:13"
+          ]
+        },
+        {
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "row_index": 13,
+          "source_ids": [
+            "L:14",
+            "R:14"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            8
+          ],
+          "row_index": 14,
+          "source_ids": [
+            "R:1"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            8,
+            12
+          ],
+          "row_index": 15,
+          "source_ids": [
+            "R:2"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            4,
+            8,
+            12
+          ],
+          "row_index": 16,
+          "source_ids": [
+            "R:3"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            4,
+            5,
+            8,
+            12
+          ],
+          "row_index": 17,
+          "source_ids": [
+            "R:4"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            4,
+            5,
+            8,
+            11,
+            12
+          ],
+          "row_index": 18,
+          "source_ids": [
+            "R:5"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            4,
+            5,
+            7,
+            8,
+            11,
+            12
+          ],
+          "row_index": 19,
+          "source_ids": [
+            "R:6"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            3,
+            4,
+            5,
+            7,
+            8,
+            11,
+            12
+          ],
+          "row_index": 20,
+          "source_ids": [
+            "R:7"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12
+          ],
+          "row_index": 21,
+          "source_ids": [
+            "R:8"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12
+          ],
+          "row_index": 22,
+          "source_ids": [
+            "R:9"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12
+          ],
+          "row_index": 23,
+          "source_ids": [
+            "R:10"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13
+          ],
+          "row_index": 24,
+          "source_ids": [
+            "R:11"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13
+          ],
+          "row_index": 25,
+          "source_ids": [
+            "R:12"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13
+          ],
+          "row_index": 26,
+          "source_ids": [
+            "R:13"
+          ]
+        }
+      ]
+    },
+    "calibration": {
+      "proportional_feasible_pair_count": 1,
+      "proportional_half_gap": "24113213169798083/308033000000000000",
+      "proportional_infeasible_pair_count": 90,
+      "proportional_minimizers": [
+        [
+          2,
+          4
+        ]
+      ],
+      "proportional_optimum_over_feasible_pairs": "178129713169798083/308033000000000000"
+    },
+    "instance": {
+      "D": "1",
+      "complement_mass": "3",
+      "complement_shares_x": [
+        "82933/250000",
+        "70411/500000",
+        "82973/200000",
+        "73537/1000000",
+        "120871/1000000",
+        "6094/15625",
+        "260313/1000000",
+        "134433/500000",
+        "554903/1000000",
+        "9283/1000000",
+        "23/250000",
+        "1037/40000",
+        "408317/1000000",
+        "229/500000"
+      ],
+      "demands_d": [
+        "1",
+        "994463/1000000",
+        "199393/200000",
+        "983417/1000000",
+        "5470154188105031/6017794294600000",
+        "243641/250000",
+        "247387/250000",
+        "24749/25000",
+        "78741/100000",
+        "23001/25000",
+        "13503/250000",
+        "496539/500000",
+        "996881/1000000",
+        "910367/1000000"
+      ],
+      "fractional_shares_f": [
+        "167067/250000",
+        "429589/500000",
+        "117027/200000",
+        "926463/1000000",
+        "879129/1000000",
+        "9531/15625",
+        "739687/1000000",
+        "365567/500000",
+        "445097/1000000",
+        "990717/1000000",
+        "249977/250000",
+        "38963/40000",
+        "591683/1000000",
+        "499771/500000"
+      ],
+      "k": 14,
+      "q": 3
+    },
+    "objective": {
+      "fixed_support_code": "minimize over normalized credits the maximum prefix residual",
+      "global_code": "minimize fixed-support value over all 2-element omitted sets",
+      "half_gap_code": "objective_value - Fraction(1, 2)",
+      "half_good_code": "objective_value <= Fraction(1, 2)",
+      "half_threshold": "1/2",
+      "infeasible_support_handling": "exclude supports failing either credit normalization; if none are feasible, report no-feasible-proportional-support, not a finite optimum",
+      "proportional_code": "minimize over all 2-element omitted sets the maximum residual using proportional_credit_code",
+      "sign": "minimize_maximum_positive_upper_residual"
+    },
+    "orders": {
+      "left": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "permutation_validation": "sorted(order)==list(range(k))",
+      "right": [
+        8,
+        12,
+        4,
+        5,
+        11,
+        7,
+        3,
+        6,
+        1,
+        0,
+        13,
+        2,
+        9,
+        10
+      ]
+    },
+    "residual": {
+      "expanded_code": "sum(d[i] * (x[i] - credit[i]) for i in prefix if i not in omitted) - sum(d[i] * (1 - x[i]) for i in prefix if i in omitted)",
+      "fractional_share_code": "f[i] = 1 - x[i]",
+      "full_row_assertion_code": "sum(d[i] * (u[i] - f[i]) for i in range(k)) == 0",
+      "full_row_expected": "0",
+      "prefix_code": "sum(d[i] * (u[i] - f[i]) for i in prefix)",
+      "sign": "positive_is_upper_residual_d_times_u_minus_f",
+      "term_code": "d[i] * (u[i] - f[i])",
+      "units": "D"
+    },
+    "schema_id": "ssuf.q3-weighted-half.executable-convention.v1",
+    "support_and_credit_normalization": {
+      "credit_domain_code": "credit[i] >= 0 for i in selected; credit[i] = 0 for i in omitted",
+      "credit_sum_code": "sum(credit[i] for i in selected) == 1",
+      "omitted_set_size": 2,
+      "proportional_alpha_code": "alpha = (2 - sum(x[j] for j in omitted)) / (3 - sum(x[j] for j in omitted))",
+      "proportional_credit_code": "credit[i] = 0 if i in omitted else x[i] / (3 - sum(x[j] for j in omitted))",
+      "proportional_feasibility_code": "credit[i] = x[i] / (3 - sum(x[j] for j in omitted)) on selected; both credit_sum_code and weighted_credit_sum_code must hold",
+      "selected_set_code": "selected = [i for i in range(k) if i not in omitted]",
+      "u_code": "u[i] = 0 if i in omitted else 1 - credit[i]",
+      "weighted_credit_sum_code": "sum(d[i] * credit[i] for i in selected) == sum(d[i] * x[i] for i in range(k)) - sum(d[i] for i in omitted)"
+    }
+  },
+  "kind": "q3_zero_sum_proportional_k14_exact",
+  "left_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "pair_count": 91,
+  "pair_records": [
+    {
+      "alpha": "763723/1263723",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        0,
+        1
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "35780855785773052351411/38024125296773979000000",
+      "weighted_credit_target": "102982295079086799/120355885892000000",
+      "weighted_moment_slack": "12982328258863402512967/152096501187095916000000"
+    },
+    {
+      "alpha": "1253403/2253403",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        0,
+        2
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "2533218549179560452003/2712103143366904760000",
+      "weighted_credit_target": "20536232930517003/24071177178400000",
+      "weighted_moment_slack": "4387962089265402928851/54242062867338095200000"
+    },
+    {
+      "alpha": "1594731/2594731",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        0,
+        3
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "73599479120479129196583/78072787039108763000000",
+      "weighted_credit_target": "104311746194649831/120355885892000000",
+      "weighted_moment_slack": "23736994966526566145871/312291148156435052000000"
+    },
+    {
+      "alpha": "1547397/2547397",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        0,
+        4
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "481701572463/509479400000",
+      "weighted_credit_target": "46383098727/49285280000",
+      "weighted_moment_slack": "2739089142663021/627745872080800000"
+    },
+    {
+      "alpha": "319563/569563",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        0,
+        5
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "4021172196505697991603/4284391214769074750000",
+      "weighted_credit_target": "105377256852451707/120355885892000000",
+      "weighted_moment_slack": "4319768599438216271607/68550259436305196000000"
+    },
+    {
+      "alpha": "281591/481591",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        0,
+        6
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "17006188695524689828537/18113222325816928750000",
+      "weighted_credit_target": "103573844258245979/120355885892000000",
+      "weighted_moment_slack": "22697862977530340893647/289811557213070860000000"
+    },
+    {
+      "alpha": "699701/1199701",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        0,
+        7
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "423542253763010020717/451222114564119662500",
+      "weighted_credit_target": "4140970305330339/4814235435680000",
+      "weighted_moment_slack": "73131392240550844603/931555333293666400000"
+    },
+    {
+      "alpha": "222673/422673",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        0,
+        8
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "6262847940438314942821/6358897919703664500000",
+      "weighted_credit_target": "5116093692827323/4814235435680000",
+      "weighted_moment_slack": "-11607282147224509727/149182355887476000000"
+    },
+    {
+      "alpha": "331797/531797",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        0,
+        9
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "1887961439374960627891/2000153095303372625000",
+      "weighted_credit_target": "22387908234965423/24071177178400000",
+      "weighted_moment_slack": "885653881849204816857/64004899049707924000000"
+    },
+    {
+      "alpha": "104261/166761",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        0,
+        10
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "2367977808775498761869/2508833485904476500000",
+      "weighted_credit_target": "216171108322104091/120355885892000000",
+      "weighted_moment_slack": "-17105087724698410224299/20070667887235812000000"
+    },
+    {
+      "alpha": "1642343/2642343",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        0,
+        11
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "1500015647245826725961/1590107662977624780000",
+      "weighted_credit_target": "103148987981047219/120355885892000000",
+      "weighted_moment_slack": "27448123100361093398083/318021532595524956000000"
+    },
+    {
+      "alpha": "1259951/2259951",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        0,
+        12
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "63527920361587572544979/67999601169377823000000",
+      "weighted_credit_target": "102691274546999943/120355885892000000",
+      "weighted_moment_slack": "2003130258416656545193/24727127697955572000000"
+    },
+    {
+      "alpha": "166781/266781",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        0,
+        13
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "37881446928489543399661/40135829492692065000000",
+      "weighted_credit_target": "113103743659060431/120355885892000000",
+      "weighted_moment_slack": "656138528419169385589/160543317970768260000000"
+    },
+    {
+      "alpha": "1444313/2444313",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        1,
+        2
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "23032736863223963084299/24515621376027683000000",
+      "weighted_credit_target": "103347575192769019/120355885892000000",
+      "weighted_moment_slack": "7926340265508245957547/98062485504110732000000"
+    },
+    {
+      "alpha": "1785641/2785641",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        1,
+        3
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "5291148398710800476627/5587804838867946200000",
+      "weighted_credit_target": "20995631346966767/24071177178400000",
+      "weighted_moment_slack": "151742099501022846269/2031929032315616800000"
+    },
+    {
+      "alpha": "1738307/2738307",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        1,
+        4
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "866732531243/912769000000",
+      "weighted_credit_target": "1166399783059/1232132000000",
+      "weighted_moment_slack": "59551338227631/20448216245600000"
+    },
+    {
+      "alpha": "734581/1234581",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        1,
+        5
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "2336883400142468193949/2476484832673854200000",
+      "weighted_credit_target": "106043667392635711/120355885892000000",
+      "weighted_moment_slack": "3097835691760167638283/49529696653477084000000"
+    },
+    {
+      "alpha": "319773/519773",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        1,
+        6
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "7379250164228163726697/7819717484717814500000",
+      "weighted_credit_target": "104240254798429983/120355885892000000",
+      "weighted_moment_slack": "4852731356480962259717/62557739877742516000000"
+    },
+    {
+      "alpha": "198789/323789",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        1,
+        7
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "36767253731132240633771/38969911937084788000000",
+      "weighted_credit_target": "104190668173442479/120355885892000000",
+      "weighted_moment_slack": "3295066819479862827/42358599931613900000"
+    },
+    {
+      "alpha": "52171/92171",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        1,
+        8
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "8549528283070753422629/8666658092618384375000",
+      "weighted_credit_target": "128568752860867079/120355885892000000",
+      "weighted_moment_slack": "-22672857940210378938597/277333058963788300000000"
+    },
+    {
+      "alpha": "369979/569979",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        1,
+        9
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "40643102217590651534231/42875204678022667500000",
+      "weighted_credit_target": "112605951715011119/120355885892000000",
+      "weighted_moment_slack": "4229678977873599291343/343001637424181340000000"
+    },
+    {
+      "alpha": "929543/1429543",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        1,
+        10
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "8154303674099883833263/8602695709285367800000",
+      "weighted_credit_target": "43367503772457619/24071177178400000",
+      "weighted_moment_slack": "-5875699349798169341013/6882156567428294240000"
+    },
+    {
+      "alpha": "1833253/2833253",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        1,
+        11
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "10096066152809276781359/10656208586598958625000",
+      "weighted_credit_target": "103815398521231223/120355885892000000",
+      "weighted_moment_slack": "28938827583422930745069/340998674771166676000000"
+    },
+    {
+      "alpha": "1450861/2450861",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        1,
+        12
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "69295667221770450497801/73743886713288253000000",
+      "weighted_credit_target": "103357685087183947/120355885892000000",
+      "weighted_moment_slack": "23867349456621066462837/294975546853153012000000"
+    },
+    {
+      "alpha": "11617/17867",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        1,
+        13
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "5095665044822622797009/5375996533080910000000",
+      "weighted_credit_target": "22754030839848887/24071177178400000",
+      "weighted_moment_slack": "27673364255743993293/10751993066161820000000"
+    },
+    {
+      "alpha": "755799/1255799",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        2,
+        3
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "35567989069302456873329/37785700286821927000000",
+      "weighted_credit_target": "104677026308332051/120355885892000000",
+      "weighted_moment_slack": "983513756021158743597/13740254649753428000000"
+    },
+    {
+      "alpha": "183033/308033",
+      "authoritative_feasible": true,
+      "credits": [
+        "82933/616066",
+        "6401/112012",
+        "0",
+        "73537/2464264",
+        "0",
+        "4432/28003",
+        "260313/2464264",
+        "134433/1232132",
+        "554903/2464264",
+        "9283/2464264",
+        "23/616066",
+        "25925/2464264",
+        "408317/2464264",
+        "229/1232132"
+      ],
+      "full_residual": "0",
+      "half_gap": "24113213169798083/308033000000000000",
+      "level": "178129713169798083/308033000000000000",
+      "maximizing_prefix_indices": [
+        24
+      ],
+      "omitted_pair": [
+        2,
+        4
+      ],
+      "prefix_errors": [
+        "15179475789/77008250000",
+        "43175129851050669/154016500000000000",
+        "-93343598653402737/308033000000000000",
+        "-125167348593297/481301562500000",
+        "-13050561662577459/12321320000000000",
+        "-256694012207794683/308033000000000000",
+        "-209546137505021391/308033000000000000",
+        "-160828868886824511/308033000000000000",
+        "-80855130658083921/308033000000000000",
+        "-79291894982390361/308033000000000000",
+        "-79290985472377929/308033000000000000",
+        "-74578700740871979/308033000000000000",
+        "-38157629512419/154016500000000000",
+        "0",
+        "7997373822874059/30803300000000000",
+        "154476123710587731/308033000000000000",
+        "-11460101844267333/38504125000000000",
+        "-2763848174687109/38504125000000000",
+        "-8699250332995461/154016500000000000",
+        "15659383976102979/154016500000000000",
+        "8911052701179723/61606600000000000",
+        "91703138208671907/308033000000000000",
+        "23467098950954649/61606600000000000",
+        "35610679582154649/61606600000000000",
+        "178129713169798083/308033000000000000",
+        "-195518148213249/38504125000000000",
+        "-56844375777/19252062500000000",
+        "0"
+      ],
+      "rank_credit_sum": "1",
+      "residual_d_times_u_minus_f": [
+        "15179475789/77008250000",
+        "1165107115731879/14001500000000000",
+        "-23334364611/40000000000",
+        "13236495553692657/308033000000000000",
+        "-49231387692945279/61606600000000000",
+        "12352633053381/54693359375000",
+        "11786968675693323/77008250000000000",
+        "608965857727461/3850412500000000",
+        "7997373822874059/30803300000000000",
+        "86653862289/17075000000000",
+        "56844375777/19252062500000000",
+        "94245694630119/6160660000000000",
+        "74502385481847141/308033000000000000",
+        "38157629512419/154016500000000000"
+      ],
+      "u": [
+        "533133/616066",
+        "105611/112012",
+        "0",
+        "2390727/2464264",
+        "0",
+        "23571/28003",
+        "2203951/2464264",
+        "1097699/1232132",
+        "1909361/2464264",
+        "2454981/2464264",
+        "616043/616066",
+        "2438339/2464264",
+        "2055947/2464264",
+        "1231903/1232132"
+      ],
+      "weighted_credit_sum": "232663397759/246426400000",
+      "weighted_credit_target": "232663397759/246426400000",
+      "weighted_moment_slack": "0"
+    },
+    {
+      "alpha": "1195119/2195119",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        2,
+        5
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "61875254162216952415723/66048872970840287000000",
+      "weighted_credit_target": "105742536966133927/120355885892000000",
+      "weighted_moment_slack": "15383564646304869960579/264195491883361148000000"
+    },
+    {
+      "alpha": "662411/1162411",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        2,
+        6
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "65561253800224543864223/69951502837802806000000",
+      "weighted_credit_target": "103939124371928199/120355885892000000",
+      "weighted_moment_slack": "10302526100151658000657/139903005675605612000000"
+    },
+    {
+      "alpha": "1316269/2316269",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        2,
+        7
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "13060651924041477572959/13938830372958847400000",
+      "weighted_credit_target": "20777907549388139/24071177178400000",
+      "weighted_moment_slack": "823076910930438991689/11151064298367077920000"
+    },
+    {
+      "alpha": "128779/253779",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        2,
+        8
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "12032995684501786795657/12217518546314347200000",
+      "weighted_credit_target": "25653524486873059/24071177178400000",
+      "weighted_moment_slack": "-197531179401305856853/2443503709262869440000"
+    },
+    {
+      "alpha": "393963/643963",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        2,
+        9
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "14610991318624841933143/15500947469333999200000",
+      "weighted_credit_target": "22460964257701867/24071177178400000",
+      "weighted_moment_slack": "73480696171187277111/7750473734666999600000"
+    },
+    {
+      "alpha": "1585043/2585043",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        2,
+        10
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "73311788898941744929883/77781285083478339000000",
+      "weighted_credit_target": "216536388435786311/120355885892000000",
+      "weighted_moment_slack": "-266508719575443373026841/311125140333913356000000"
+    },
+    {
+      "alpha": "155921/255921",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        2,
+        11
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "116059650208667393357/123206394693466128000",
+      "weighted_credit_target": "103514268094729439/120355885892000000",
+      "weighted_moment_slack": "2523437547095595580931/30801598673366532000000"
+    },
+    {
+      "alpha": "588409/1088409",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        2,
+        12
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "1453914747136032311787/1559481302474117000000",
+      "weighted_credit_target": "103056554660682163/120355885892000000",
+      "weighted_moment_slack": "20623513784157974827/271214139560716000000"
+    },
+    {
+      "alpha": "1584677/2584677",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        2,
+        13
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "24433130958368290449799/25923424173306407000000",
+      "weighted_credit_target": "113469023772742651/120355885892000000",
+      "weighted_moment_slack": "-1205861702053211031/4508421595357636000000"
+    },
+    {
+      "alpha": "225699/350699",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        3,
+        4
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "1333961163193/1402796000000",
+      "weighted_credit_target": "1180009913131/1232132000000",
+      "weighted_moment_slack": "-913824232281/135033581333750"
+    },
+    {
+      "alpha": "1536447/2536447",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        3,
+        5
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "72144269553207070312231/76319081425776431000000",
+      "weighted_credit_target": "107373118508198743/120355885892000000",
+      "weighted_moment_slack": "1475532172005736742073/27752393245736884000000"
+    },
+    {
+      "alpha": "33323/53323",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        3,
+        6
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "75830269191214661760731/80221711292738950000000",
+      "weighted_credit_target": "21113941182798603/24071177178400000",
+      "weighted_moment_slack": "10928202671133085050337/160443422585477900000000"
+    },
+    {
+      "alpha": "1657597/2657597",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        3,
+        7
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "75572275011197505761303/79964360319730381000000",
+      "weighted_credit_target": "105520119289005511/120355885892000000",
+      "weighted_moment_slack": "4371829516537368805629/63971488255784304800000"
+    },
+    {
+      "alpha": "34289/59289",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        3,
+        8
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "70433993813499051874793/71357801186507880000000",
+      "weighted_credit_target": "129898203976430111/120355885892000000",
+      "weighted_moment_slack": "-6581352342086596635997/71357801186507880000000"
+    },
+    {
+      "alpha": "95859/145859",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        3,
+        9
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "83323971984114327562223/87774945801606140000000",
+      "weighted_credit_target": "113935402830574151/120355885892000000",
+      "weighted_moment_slack": "115726188395376054339/43887472900803070000000"
+    },
+    {
+      "alpha": "1926371/2926371",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        3,
+        10
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "83580804289931862826391/88051493538414483000000",
+      "weighted_credit_target": "218166969977851127/120355885892000000",
+      "weighted_moment_slack": "-9810137965849249324663/11361483037214772000000"
+    },
+    {
+      "alpha": "950269/1450269",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        3,
+        11
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "82806296771407238744633/87274205138352474000000",
+      "weighted_credit_target": "21028969927358851/24071177178400000",
+      "weighted_moment_slack": "13124277604910510084671/174548410276704948000000"
+    },
+    {
+      "alpha": "759073/1259073",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        3,
+        12
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "3962968598372415277309/4209356842158281000000",
+      "weighted_credit_target": "104687136202746979/120355885892000000",
+      "weighted_moment_slack": "1206458100133966988073/16837427368633124000000"
+    },
+    {
+      "alpha": "385201/585201",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        3,
+        13
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "5571227217739665949727/5869365398323691000000",
+      "weighted_credit_target": "115099605314807467/120355885892000000",
+      "weighted_moment_slack": "-167225838984884366381/23477461593294764000000"
+    },
+    {
+      "alpha": "1489113/2489113",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        4,
+        5
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "2360144309291/2489113000000",
+      "weighted_credit_target": "1190917977727/1232132000000",
+      "weighted_moment_slack": "-5120008381695249/278810525356000000"
+    },
+    {
+      "alpha": "25294/40919",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        4,
+        6
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "2482647653791/2618816000000",
+      "weighted_credit_target": "1172455711839/1232132000000",
+      "weighted_moment_slack": "-2874039623637553/806681748928000000"
+    },
+    {
+      "alpha": "1610263/2610263",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        4,
+        7
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "494814655391/522052600000",
+      "weighted_credit_target": "234389614691/246426400000",
+      "weighted_moment_slack": "-2141567835950121/643237714143200000"
+    },
+    {
+      "alpha": "662113/1162113",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        4,
+        8
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "460660738217/464845200000",
+      "weighted_credit_target": "284303282011/246426400000",
+      "weighted_moment_slack": "-46595121617254921/286375322983200000"
+    },
+    {
+      "alpha": "934923/1434923",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        4,
+        9
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "546339826199/573969200000",
+      "weighted_credit_target": "251619748579/246426400000",
+      "weighted_moment_slack": "-24473573123111283/353602909167200000"
+    },
+    {
+      "alpha": "1879037/2879037",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        4,
+        10
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "2740234893211/2879037000000",
+      "weighted_credit_target": "2325159554591/1232132000000",
+      "weighted_moment_slack": "-663577857825830603/709470723376800000"
+    },
+    {
+      "alpha": "463301/713301",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        4,
+        11
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "542898863033/570640800000",
+      "weighted_credit_target": "1168106285879/1232132000000",
+      "weighted_moment_slack": "1471222779721933/439440493866000000"
+    },
+    {
+      "alpha": "367703/617703",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        4,
+        12
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "388866067173/411802000000",
+      "weighted_credit_target": "1163420487883/1232132000000",
+      "weighted_moment_slack": "3544132680767/50739442186400000"
+    },
+    {
+      "alpha": "1878671/2878671",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        4,
+        13
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "913274304743/959557000000",
+      "weighted_credit_target": "1270017155731/1232132000000",
+      "weighted_moment_slack": "-93379356250169091/1182300885524000000"
+    },
+    {
+      "alpha": "1349671/2349671",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        5,
+        6
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "16642386303706675107449/17674795922483845750000",
+      "weighted_credit_target": "106635216571794891/120355885892000000",
+      "weighted_moment_slack": "15720504901840928388323/282796734759741532000000"
+    },
+    {
+      "alpha": "670559/1170559",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        5,
+        7
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "2072235969837798263449/2201307272403962937500",
+      "weighted_credit_target": "106585629946807387/120355885892000000",
+      "weighted_moment_slack": "7858333664714180741403/140883665433853628000000"
+    },
+    {
+      "alpha": "1055081/2055081",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        5,
+        8
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "30586634918555545271929/30917636791852156500000",
+      "weighted_credit_target": "130963714634231987/120355885892000000",
+      "weighted_moment_slack": "-4889592457157548780103/49468218866963450400000"
+    },
+    {
+      "alpha": "1600701/2600701",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        5,
+        9
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "9257906000965795778911/9781552274850321625000",
+      "weighted_credit_target": "115000913488376027/120355885892000000",
+      "weighted_moment_slack": "-113199947169102274791/12520386911808411680000"
+    },
+    {
+      "alpha": "402473/652473",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        5,
+        10
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "2322502509798246921733/2454030185487841125000",
+      "weighted_credit_target": "219232480635653003/120355885892000000",
+      "weighted_moment_slack": "-2216877226588468397773/2533192449535836000000"
+    },
+    {
+      "alpha": "1584059/2584059",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        5,
+        11
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "36772786397509638706849/38875838767774453500000",
+      "weighted_credit_target": "106210360294596131/120355885892000000",
+      "weighted_moment_slack": "19728453767583325979063/311006710142195628000000"
+    },
+    {
+      "alpha": "1201667/2201667",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        5,
+        12
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "20690903598105171220209/22081965185348497000000",
+      "weighted_credit_target": "21150529372109771/24071177178400000",
+      "weighted_moment_slack": "5152910140579346233741/88327860741393988000000"
+    },
+    {
+      "alpha": "804763/1304763",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        5,
+        13
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "2476922809656900930499/2617265112401726600000",
+      "weighted_credit_target": "116165115972609343/120355885892000000",
+      "weighted_moment_slack": "-984192210785209456923/52345302248034532000000"
+    },
+    {
+      "alpha": "1470821/2470821",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        6,
+        7
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "5833129222734761323239/6195371881990777750000",
+      "weighted_credit_target": "104782217352601659/120355885892000000",
+      "weighted_moment_slack": "639154534239271509801/9011450010168404000000"
+    },
+    {
+      "alpha": "74049/136549",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        6,
+        8
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "32429634737559340996179/32868951725333416000000",
+      "weighted_credit_target": "129160302040026259/120355885892000000",
+      "weighted_moment_slack": "-2843785428967750284203/32868951725333416000000"
+    },
+    {
+      "alpha": "432601/682601",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        6,
+        9
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "19437311911433489419947/20538762016441273000000",
+      "weighted_credit_target": "113197500894170299/120355885892000000",
+      "weighted_moment_slack": "480520337872417412089/82155048065765092000000"
+    },
+    {
+      "alpha": "347919/547919",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        6,
+        10
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "19501519987887873235989/20607898950643358750000",
+      "weighted_credit_target": "8697162721657891/4814235435680000",
+      "weighted_moment_slack": "-25785751623163888688891/29975125746390340000000"
+    },
+    {
+      "alpha": "856881/1356881",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        6,
+        11
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "38615786216513434431099/40827153701255713000000",
+      "weighted_credit_target": "104406947700390403/120355885892000000",
+      "weighted_moment_slack": "12795341263400307311353/163308614805022852000000"
+    },
+    {
+      "alpha": "133137/233137",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        6,
+        12
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "65758710432323105109127/70148525423008010000000",
+      "weighted_credit_target": "103949234266343127/120355885892000000",
+      "weighted_moment_slack": "10345357718884022221259/140297050846016020000000"
+    },
+    {
+      "alpha": "1739229/2739229",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        6,
+        13
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "7799368392771461936347/8242058323901431700000",
+      "weighted_credit_target": "22872340675680723/24071177178400000",
+      "weighted_moment_slack": "-257631734532535691791/65936466591211453600000"
+    },
+    {
+      "alpha": "1176231/2176231",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        7,
+        8
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "6460127529510152599293/6548055247765826300000",
+      "weighted_credit_target": "25822143083007751/24071177178400000",
+      "weighted_moment_slack": "-4513928027595820172137/52384441982126610400000"
+    },
+    {
+      "alpha": "1721851/2721851",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        7,
+        9
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "1937281336642920042009/2047442427318913075000",
+      "weighted_credit_target": "22629582853836559/24071177178400000",
+      "weighted_moment_slack": "398650052275549393579/65518157674205218400000"
+    },
+    {
+      "alpha": "865521/1365521",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        7,
+        10
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "4859255360720896059033/5135890301847804125000",
+      "weighted_credit_target": "217379481416459771/120355885892000000",
+      "weighted_moment_slack": "-28268015060043377813327/32869697931825946400000"
+    },
+    {
+      "alpha": "1705209/2705209",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        7,
+        11
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "592104448100074714329/626130434073098900000",
+      "weighted_credit_target": "104357361075402899/120355885892000000",
+      "weighted_moment_slack": "178921962339924828323/2276837942083996000000"
+    },
+    {
+      "alpha": "1322817/2322817",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        7,
+        12
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "65500716252305949109699/69891174449999441000000",
+      "weighted_credit_target": "103899647641355623/120355885892000000",
+      "weighted_moment_slack": "4132599434774610457761/55912939559999552800000"
+    },
+    {
+      "alpha": "432669/682669",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        7,
+        13
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "38867844873848731682021/41081616133002874000000",
+      "weighted_credit_target": "114312116753416111/120355885892000000",
+      "weighted_moment_slack": "-301648684240359716217/82163232266005748000000"
+    },
+    {
+      "alpha": "717907/1217907",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        8,
+        9
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "160784382817818550653/162869195465631160000",
+      "weighted_credit_target": "27505199791321479/24071177178400000",
+      "weighted_moment_slack": "-506398495004625489657/3257383909312623200000"
+    },
+    {
+      "alpha": "289001/489001",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        8,
+        10
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "36304902286917941529009/36783842848171182500000",
+      "weighted_credit_target": "241757566103884371/120355885892000000",
+      "weighted_moment_slack": "-300659239616484274284783/294270742785369460000000"
+    },
+    {
+      "alpha": "354793/604793",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        8,
+        11
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "3591764852765562948813/3639519864814017800000",
+      "weighted_credit_target": "128735445762827499/120355885892000000",
+      "weighted_moment_slack": "-6022999393926472626447/72790397296280356000000"
+    },
+    {
+      "alpha": "51839/101839",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        8,
+        12
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "60362435054607495223189/61284615316776940000000",
+      "weighted_credit_target": "128277732328780223/120355885892000000",
+      "weighted_moment_slack": "-154873276829554700853/1915144228649279375000"
+    },
+    {
+      "alpha": "1444639/2444639",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        8,
+        13
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "18149352137499752369383/18389168283195811750000",
+      "weighted_credit_target": "138690201440840711/120355885892000000",
+      "weighted_moment_slack": "-48657841160139356988201/294226692531132988000000"
+    },
+    {
+      "alpha": "637/957",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        9,
+        10
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "3562490947685464947727/3749367929643359375000",
+      "weighted_credit_target": "225794764958028411/120355885892000000",
+      "weighted_moment_slack": "-111089445991599693888361/119979773748587500000000"
+    },
+    {
+      "alpha": "245599/370599",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        9,
+        11
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "2824175840864217822123/2973584730379287200000",
+      "weighted_credit_target": "112772644616971539/120355885892000000",
+      "weighted_moment_slack": "5929253026648249479/464622614121763625000"
+    },
+    {
+      "alpha": "989/1614",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        9,
+        12
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "73252413225222770910619/77701759931875200000000",
+      "weighted_credit_target": "112314931182924263/120355885892000000",
+      "weighted_moment_slack": "32256245805515944253/3378337388342400000000"
+    },
+    {
+      "alpha": "1990259/2990259",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        9,
+        13
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "42743693360307142582481/44986908873940753500000",
+      "weighted_credit_target": "122727400294984751/120355885892000000",
+      "weighted_moment_slack": "-1088572452009724603507/15647620477892436000000"
+    },
+    {
+      "alpha": "1973983/2973983",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        10,
+        11
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "42491053765872034963929/44742044824093479500000",
+      "weighted_credit_target": "43400842352849703/24071177178400000",
+      "weighted_moment_slack": "-27767127871663528333983/32539668962977076000000"
+    },
+    {
+      "alpha": "1591591/2591591",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        10,
+        12
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "73509245531040306174787/77978307668683543000000",
+      "weighted_credit_target": "216546498330201239/120355885892000000",
+      "weighted_moment_slack": "-267162974029903334482101/311913230674734172000000"
+    },
+    {
+      "alpha": "39989/59989",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        10,
+        13
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "8574421902643182042913/9025036548468985000000",
+      "weighted_credit_target": "226958967442261727/120355885892000000",
+      "weighted_moment_slack": "-33777519878896465533363/36100146193875940000000"
+    },
+    {
+      "alpha": "782879/1282879",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        11,
+        12
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "430383065162814686941/456810764903086000000",
+      "weighted_credit_target": "103524377989144367/120355885892000000",
+      "weighted_moment_slack": "14982515402006896797/182724305961234400000"
+    },
+    {
+      "alpha": "1973617/2973617",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        11,
+        13
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "21242427876976799086843/22368269271156960250000",
+      "weighted_credit_target": "22787369420240971/24071177178400000",
+      "weighted_moment_slack": "26202452806958733633/8729080691183204000000"
+    },
+    {
+      "alpha": "63649/103649",
+      "authoritative_feasible": false,
+      "omitted_pair": [
+        12,
+        13
+      ],
+      "rank_credit_sum": "1",
+      "weighted_credit_sum": "73496849507203432594301/77967295105124425000000",
+      "weighted_credit_target": "113479133667157579/120355885892000000",
+      "weighted_moment_slack": "-62570107866667267071/311869180420497700000000"
+    }
+  ],
+  "repaired_demand": "5470154188105031/6017794294600000",
+  "repaired_demand_index": 4,
+  "right_order": [
+    8,
+    12,
+    4,
+    5,
+    11,
+    7,
+    3,
+    6,
+    1,
+    0,
+    13,
+    2,
+    9,
+    10
+  ],
+  "status": "verified"
+}

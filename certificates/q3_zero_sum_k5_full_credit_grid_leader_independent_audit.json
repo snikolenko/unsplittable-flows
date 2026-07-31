@@ -1,0 +1,1534 @@
+{
+  "agrees_with_primary_value": true,
+  "convention_execution": {
+    "block_hash_verified": true,
+    "both_credit_moments_executed": true,
+    "full_residual_zero_on_every_feasible_support": true,
+    "full_rows_located_by_flag": [
+      "L:5",
+      "R:5"
+    ],
+    "ordered_prefix_instances_executed": 10,
+    "primary_source": "certificates/q3_zero_sum_k5_full_credit_grid_leader_exact.json"
+  },
+  "d_dot_f": "1530993/800000",
+  "exact_half_gap": "918713/8000000",
+  "exact_optimum": "4918713/8000000",
+  "executable_convention": {
+    "arithmetic": {
+      "encoding": "Fraction-compatible numerator/denominator strings",
+      "type": "exact_rational"
+    },
+    "block_sha256_without_hash_field": "cd0064ac2c6425792be248d9a4f01012b31eb8bedf0f72f1f74f99a990302d50",
+    "boundary_and_prefix_rows": {
+      "deduplication_key": "sorted item set",
+      "empty_prefix_included": false,
+      "full_prefix_included": true,
+      "full_row_handling": {
+        "full_row_source_ids": [
+          "L:5",
+          "R:5"
+        ],
+        "proportional_objective": "evaluate both L:k and R:k; equality makes duplication objective-neutral",
+        "unrestricted_support_lp": "deduplicate identical item sets; retain the full row once"
+      },
+      "ordered_row_instances": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "length": 1,
+          "order": "left"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "length": 2,
+          "order": "left"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "length": 3,
+          "order": "left"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "length": 4,
+          "order": "left"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "length": 5,
+          "order": "left"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "length": 1,
+          "order": "right"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "length": 2,
+          "order": "right"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "length": 3,
+          "order": "right"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "length": 4,
+          "order": "right"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "length": 5,
+          "order": "right"
+        }
+      ],
+      "prefix_lengths_per_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proper_prefixes_included": true,
+      "support_lp_unique_rows": [
+        {
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "row_index": 0,
+          "source_ids": [
+            "L:1"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "row_index": 1,
+          "source_ids": [
+            "L:2"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "row_index": 2,
+          "source_ids": [
+            "L:3"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "row_index": 3,
+          "source_ids": [
+            "L:4"
+          ]
+        },
+        {
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "row_index": 4,
+          "source_ids": [
+            "L:5",
+            "R:5"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "row_index": 5,
+          "source_ids": [
+            "R:1"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            1,
+            2
+          ],
+          "row_index": 6,
+          "source_ids": [
+            "R:2"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            1,
+            2,
+            3
+          ],
+          "row_index": 7,
+          "source_ids": [
+            "R:3"
+          ]
+        },
+        {
+          "is_full_row": false,
+          "items": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "row_index": 8,
+          "source_ids": [
+            "R:4"
+          ]
+        }
+      ]
+    },
+    "calibration": {
+      "discovery_denominator": 4000,
+      "exact_half_gap": "918713/8000000",
+      "exact_optimum": "4918713/8000000"
+    },
+    "instance": {
+      "D": "1",
+      "complement_mass": "3",
+      "complement_shares_x": [
+        "293/1000",
+        "1391/4000",
+        "2461/4000",
+        "1",
+        "93/125"
+      ],
+      "demands_d": [
+        "731/800",
+        "1",
+        "1",
+        "689/800",
+        "721/800"
+      ],
+      "fractional_shares_f": [
+        "707/1000",
+        "2609/4000",
+        "1539/4000",
+        "0",
+        "32/125"
+      ],
+      "k": 5,
+      "q": 3
+    },
+    "objective": {
+      "fixed_support_code": "minimize over normalized credits the maximum prefix residual",
+      "global_code": "minimize fixed-support value over all 2-element omitted sets",
+      "half_gap_code": "objective_value - Fraction(1, 2)",
+      "half_good_code": "objective_value <= Fraction(1, 2)",
+      "half_threshold": "1/2",
+      "infeasible_support_handling": "exclude supports failing either credit normalization; if none are feasible, report no-feasible-proportional-support, not a finite optimum",
+      "proportional_code": "minimize over all 2-element omitted sets the maximum residual using proportional_credit_code",
+      "sign": "minimize_maximum_positive_upper_residual"
+    },
+    "orders": {
+      "left": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "permutation_validation": "sorted(order)==list(range(k))",
+      "right": [
+        2,
+        1,
+        3,
+        4,
+        0
+      ]
+    },
+    "residual": {
+      "expanded_code": "sum(d[i] * (x[i] - credit[i]) for i in prefix if i not in omitted) - sum(d[i] * (1 - x[i]) for i in prefix if i in omitted)",
+      "fractional_share_code": "f[i] = 1 - x[i]",
+      "full_row_assertion_code": "sum(d[i] * (u[i] - f[i]) for i in range(k)) == 0",
+      "full_row_expected": "0",
+      "prefix_code": "sum(d[i] * (u[i] - f[i]) for i in prefix)",
+      "sign": "positive_is_upper_residual_d_times_u_minus_f",
+      "term_code": "d[i] * (u[i] - f[i])",
+      "units": "D"
+    },
+    "schema_id": "ssuf.q3-weighted-half.executable-convention.v1",
+    "support_and_credit_normalization": {
+      "credit_domain_code": "credit[i] >= 0 for i in selected; credit[i] = 0 for i in omitted",
+      "credit_sum_code": "sum(credit[i] for i in selected) == 1",
+      "omitted_set_size": 2,
+      "proportional_alpha_code": "alpha = (2 - sum(x[j] for j in omitted)) / (3 - sum(x[j] for j in omitted))",
+      "proportional_credit_code": "credit[i] = 0 if i in omitted else x[i] / (3 - sum(x[j] for j in omitted))",
+      "proportional_feasibility_code": "credit[i] = x[i] / (3 - sum(x[j] for j in omitted)) on selected; both credit_sum_code and weighted_credit_sum_code must hold",
+      "selected_set_code": "selected = [i for i in range(k) if i not in omitted]",
+      "u_code": "u[i] = 0 if i in omitted else 1 - credit[i]",
+      "weighted_credit_sum_code": "sum(d[i] * credit[i] for i in selected) == sum(d[i] * x[i] for i in range(k)) - sum(d[i] for i in omitted)"
+    }
+  },
+  "kind": "independent_exact_q3_zero_sum_k5_full_credit_grid_leader_audit",
+  "minimizing_omitted_pairs": [
+    [
+      2,
+      3
+    ]
+  ],
+  "moment_feasible_support_count": 6,
+  "rank_only_comparison": {
+    "exact_optimum_without_weighted_moment": "-83277713/1161600000",
+    "minimizing_omitted_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "support_table": [
+      {
+        "credits_on_selected": [
+          "1",
+          "0",
+          "0"
+        ],
+        "exact_radius": "24739/50000",
+        "maximizing_prefix_ids": [
+          "R:4"
+        ],
+        "omitted_pair": [
+          0,
+          1
+        ],
+        "selected": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "1",
+          "0",
+          "0"
+        ],
+        "exact_radius": "24739/50000",
+        "maximizing_prefix_ids": [
+          "R:4"
+        ],
+        "omitted_pair": [
+          0,
+          2
+        ],
+        "selected": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "0",
+          "1",
+          "0"
+        ],
+        "exact_radius": "63353/100000",
+        "maximizing_prefix_ids": [
+          "R:4"
+        ],
+        "omitted_pair": [
+          0,
+          3
+        ],
+        "selected": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "0",
+          "1",
+          "0"
+        ],
+        "exact_radius": "3297/4000",
+        "maximizing_prefix_ids": [
+          "R:3"
+        ],
+        "omitted_pair": [
+          0,
+          4
+        ],
+        "selected": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "539359/1452000",
+          "0",
+          "912641/1452000"
+        ],
+        "exact_radius": "-83277713/1161600000",
+        "maximizing_prefix_ids": [
+          "L:1",
+          "R:4"
+        ],
+        "omitted_pair": [
+          1,
+          2
+        ],
+        "selected": [
+          0,
+          3,
+          4
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "507359/1531000",
+          "1023641/1531000",
+          "0"
+        ],
+        "exact_radius": "-5370657/153100000",
+        "maximizing_prefix_ids": [
+          "L:1",
+          "R:4"
+        ],
+        "omitted_pair": [
+          1,
+          3
+        ],
+        "selected": [
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "703/4000",
+          "3297/4000",
+          "0"
+        ],
+        "exact_radius": "342839/3200000",
+        "maximizing_prefix_ids": [
+          "L:1",
+          "L:4"
+        ],
+        "omitted_pair": [
+          1,
+          4
+        ],
+        "selected": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "507359/1531000",
+          "1023641/1531000",
+          "0"
+        ],
+        "exact_radius": "-5370657/153100000",
+        "maximizing_prefix_ids": [
+          "L:1",
+          "R:4"
+        ],
+        "omitted_pair": [
+          2,
+          3
+        ],
+        "selected": [
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "703/4000",
+          "3297/4000",
+          "0"
+        ],
+        "exact_radius": "342839/3200000",
+        "maximizing_prefix_ids": [
+          "L:1",
+          "L:4"
+        ],
+        "omitted_pair": [
+          2,
+          4
+        ],
+        "selected": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "credits_on_selected": [
+          "37/1000",
+          "1391/4000",
+          "2461/4000"
+        ],
+        "exact_radius": "731/3125",
+        "maximizing_prefix_ids": [
+          "L:1",
+          "L:2",
+          "L:3",
+          "L:4"
+        ],
+        "omitted_pair": [
+          3,
+          4
+        ],
+        "selected": [
+          0,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "scope": "Convention-driven exact line-segment envelope reconstruction of all ten omitted pairs and all ten ordered prefixes.",
+  "status": "verified",
+  "support_table": [
+    {
+      "credit_moment_target": "679007/800000",
+      "infeasibility_gap": "9993/800000",
+      "moment_feasible": false,
+      "omitted_pair": [
+        0,
+        1
+      ],
+      "selected": [
+        2,
+        3,
+        4
+      ],
+      "selected_demand_interval": [
+        "689/800",
+        "1"
+      ]
+    },
+    {
+      "credit_moment_target": "679007/800000",
+      "infeasibility_gap": "9993/800000",
+      "moment_feasible": false,
+      "omitted_pair": [
+        0,
+        2
+      ],
+      "selected": [
+        1,
+        3,
+        4
+      ],
+      "selected_demand_interval": [
+        "689/800",
+        "1"
+      ]
+    },
+    {
+      "candidate_count": 4,
+      "credit_moment_target": "790007/800000",
+      "credits_c": [
+        "0",
+        "0",
+        "69007/79000",
+        "0",
+        "9993/79000"
+      ],
+      "exact_radius": "516817/800000",
+      "free_parameter_interval": [
+        "0",
+        "69007/79000"
+      ],
+      "free_parameter_item": 1,
+      "maximizing_prefix_ids": [
+        "R:4"
+      ],
+      "minimizing_parameter": "0",
+      "moment_feasible": true,
+      "omitted_pair": [
+        0,
+        3
+      ],
+      "ordered_prefix_values": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "value": "-516817/800000"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "value": "-238617/800000"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "value": "-35172543/63200000"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "value": "-35172543/63200000"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "value": "-81609/316000"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "value": "707/7900"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "value": "707/7900"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "value": "516817/800000"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "value": "0"
+        }
+      ],
+      "residual_d_times_u_minus_f": [
+        "-516817/800000",
+        "1391/4000",
+        "-81609/316000",
+        "0",
+        "35172543/63200000"
+      ],
+      "routing_u": [
+        "0",
+        "1",
+        "9993/79000",
+        "0",
+        "69007/79000"
+      ],
+      "selected": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "candidate_count": 5,
+      "credit_moment_target": "758007/800000",
+      "credits_c": [
+        "0",
+        "0",
+        "69007/111000",
+        "41993/111000",
+        "0"
+      ],
+      "exact_radius": "701393/800000",
+      "free_parameter_interval": [
+        "0",
+        "69007/111000"
+      ],
+      "free_parameter_item": 1,
+      "maximizing_prefix_ids": [
+        "R:3"
+      ],
+      "minimizing_parameter": "0",
+      "moment_feasible": true,
+      "omitted_pair": [
+        0,
+        4
+      ],
+      "ordered_prefix_values": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "value": "-516817/800000"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "value": "-238617/800000"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "value": "-27057887/88800000"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "value": "721/3125"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "value": "-2857/444000"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "value": "18943/55500"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "value": "701393/800000"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "value": "516817/800000"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "value": "0"
+        }
+      ],
+      "residual_d_times_u_minus_f": [
+        "-516817/800000",
+        "1391/4000",
+        "-2857/444000",
+        "47545823/88800000",
+        "-721/3125"
+      ],
+      "routing_u": [
+        "0",
+        "1",
+        "41993/111000",
+        "69007/111000",
+        "0"
+      ],
+      "selected": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "credit_moment_target": "610007/800000",
+      "infeasibility_gap": "78993/800000",
+      "moment_feasible": false,
+      "omitted_pair": [
+        1,
+        2
+      ],
+      "selected": [
+        0,
+        3,
+        4
+      ],
+      "selected_demand_interval": [
+        "689/800",
+        "731/800"
+      ]
+    },
+    {
+      "candidate_count": 2,
+      "credit_moment_target": "721007/800000",
+      "credits_c": [
+        "0",
+        "0",
+        "7/79000",
+        "0",
+        "78993/79000"
+      ],
+      "exact_radius": "194391/316000",
+      "free_parameter_interval": [
+        "0",
+        "7/10000"
+      ],
+      "free_parameter_item": 0,
+      "maximizing_prefix_ids": [
+        "R:1"
+      ],
+      "minimizing_parameter": "0",
+      "moment_feasible": true,
+      "omitted_pair": [
+        1,
+        3
+      ],
+      "ordered_prefix_values": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "value": "214183/800000"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "value": "-307617/800000"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "value": "14576457/63200000"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "value": "14576457/63200000"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "value": "194391/316000"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "value": "-293/7900"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "value": "-293/7900"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "value": "-214183/800000"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "value": "0"
+        }
+      ],
+      "residual_d_times_u_minus_f": [
+        "214183/800000",
+        "-2609/4000",
+        "194391/316000",
+        "0",
+        "-14576457/63200000"
+      ],
+      "routing_u": [
+        "1",
+        "0",
+        "78993/79000",
+        "0",
+        "7/79000"
+      ],
+      "selected": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "candidate_count": 2,
+      "credit_moment_target": "689007/800000",
+      "credits_c": [
+        "0",
+        "0",
+        "7/111000",
+        "110993/111000",
+        "0"
+      ],
+      "exact_radius": "273143/444000",
+      "free_parameter_interval": [
+        "0",
+        "1/6000"
+      ],
+      "free_parameter_item": 0,
+      "maximizing_prefix_ids": [
+        "R:1"
+      ],
+      "minimizing_parameter": "0",
+      "moment_feasible": true,
+      "omitted_pair": [
+        1,
+        4
+      ],
+      "ordered_prefix_values": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "value": "214183/800000"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "value": "-307617/800000"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "value": "20483113/88800000"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "value": "721/3125"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "value": "273143/444000"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "value": "-2057/55500"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "value": "-29607/800000"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "value": "-214183/800000"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "value": "0"
+        }
+      ],
+      "residual_d_times_u_minus_f": [
+        "214183/800000",
+        "-2609/4000",
+        "273143/444000",
+        "4823/88800000",
+        "-721/3125"
+      ],
+      "routing_u": [
+        "1",
+        "0",
+        "110993/111000",
+        "7/111000",
+        "0"
+      ],
+      "selected": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "candidate_count": 2,
+      "credit_moment_target": "721007/800000",
+      "credits_c": [
+        "7/10000",
+        "0",
+        "0",
+        "0",
+        "9993/10000"
+      ],
+      "exact_radius": "4918713/8000000",
+      "free_parameter_interval": [
+        "0",
+        "7/10000"
+      ],
+      "free_parameter_item": 0,
+      "maximizing_prefix_ids": [
+        "L:2"
+      ],
+      "minimizing_parameter": "7/10000",
+      "moment_feasible": true,
+      "omitted_pair": [
+        2,
+        3
+      ],
+      "ordered_prefix_values": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "value": "2136713/8000000"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "value": "4918713/8000000"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "value": "1840713/8000000"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "value": "1840713/8000000"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "value": "-1539/4000"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "value": "-37/1000"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "value": "-37/1000"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "value": "-2136713/8000000"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "value": "0"
+        }
+      ],
+      "residual_d_times_u_minus_f": [
+        "2136713/8000000",
+        "1391/4000",
+        "-1539/4000",
+        "0",
+        "-1840713/8000000"
+      ],
+      "routing_u": [
+        "9993/10000",
+        "1",
+        "0",
+        "0",
+        "7/10000"
+      ],
+      "selected": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "candidate_count": 2,
+      "credit_moment_target": "689007/800000",
+      "credits_c": [
+        "1/6000",
+        "0",
+        "0",
+        "5999/6000",
+        "0"
+      ],
+      "exact_radius": "2953567/4800000",
+      "free_parameter_interval": [
+        "0",
+        "1/6000"
+      ],
+      "free_parameter_item": 0,
+      "maximizing_prefix_ids": [
+        "L:2"
+      ],
+      "minimizing_parameter": "1/6000",
+      "moment_feasible": true,
+      "omitted_pair": [
+        2,
+        4
+      ],
+      "ordered_prefix_values": [
+        {
+          "id": "L:1",
+          "is_full_row": false,
+          "items": [
+            0
+          ],
+          "value": "1284367/4800000"
+        },
+        {
+          "id": "L:2",
+          "is_full_row": false,
+          "items": [
+            0,
+            1
+          ],
+          "value": "2953567/4800000"
+        },
+        {
+          "id": "L:3",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2
+          ],
+          "value": "1106767/4800000"
+        },
+        {
+          "id": "L:4",
+          "is_full_row": false,
+          "items": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "value": "721/3125"
+        },
+        {
+          "id": "L:5",
+          "is_full_row": true,
+          "items": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "value": "0"
+        },
+        {
+          "id": "R:1",
+          "is_full_row": false,
+          "items": [
+            2
+          ],
+          "value": "-1539/4000"
+        },
+        {
+          "id": "R:2",
+          "is_full_row": false,
+          "items": [
+            2,
+            1
+          ],
+          "value": "-37/1000"
+        },
+        {
+          "id": "R:3",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3
+          ],
+          "value": "-176911/4800000"
+        },
+        {
+          "id": "R:4",
+          "is_full_row": false,
+          "items": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "value": "-1284367/4800000"
+        },
+        {
+          "id": "R:5",
+          "is_full_row": true,
+          "items": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "value": "0"
+        }
+      ],
+      "residual_d_times_u_minus_f": [
+        "1284367/4800000",
+        "1391/4000",
+        "-1539/4000",
+        "689/4800000",
+        "-721/3125"
+      ],
+      "routing_u": [
+        "5999/6000",
+        "1",
+        "0",
+        "1/6000",
+        "0"
+      ],
+      "selected": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "credit_moment_target": "800007/800000",
+      "infeasibility_gap": "7/800000",
+      "moment_feasible": false,
+      "omitted_pair": [
+        3,
+        4
+      ],
+      "selected": [
+        0,
+        1,
+        2
+      ],
+      "selected_demand_interval": [
+        "731/800",
+        "1"
+      ]
+    }
+  ],
+  "transcript_sha256_without_hash": "ce19bac620b9de6fd95f6168d2a69fd6966e79b3226ae91703d79d1003be5c75",
+  "translation_warning": "This refutes only the stronger two-moment B_zm statement, not original rank-only W1."
+}

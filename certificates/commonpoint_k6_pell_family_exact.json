@@ -1,0 +1,2200 @@
+{
+  "intervals": [
+    [
+      4,
+      8
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "kind": "exact_commonpoint_k6_pell_lower_bound_family",
+  "rational_examples": [
+    {
+      "C": "961/800",
+      "C_decimal": 1.20125,
+      "eta": "1/800",
+      "p": 49,
+      "pell_index": 2,
+      "q": 20
+    },
+    {
+      "C": "94249/78408",
+      "C_decimal": 1.2020329558208347,
+      "eta": "1/78408",
+      "p": 485,
+      "pell_index": 3,
+      "q": 198
+    },
+    {
+      "C": "9235521/7683200",
+      "C_decimal": 1.202040946480633,
+      "eta": "1/7683200",
+      "p": 4801,
+      "pell_index": 4,
+      "q": 1960
+    }
+  ],
+  "row_masks": [
+    48,
+    56,
+    60,
+    62,
+    63,
+    47,
+    43,
+    41,
+    9
+  ],
+  "selected_raw_member": {
+    "all_routings": 64,
+    "convex_hull_entry": {
+      "barycenter_checked_exactly": true,
+      "entry_combination": [
+        {
+          "coefficient": "179/1600",
+          "overload": "341/800",
+          "route": "000000"
+        },
+        {
+          "coefficient": "19/800",
+          "overload": "251/400",
+          "route": "000101"
+        },
+        {
+          "coefficient": "341/1600",
+          "overload": "341/400",
+          "route": "000110"
+        },
+        {
+          "coefficient": "341/800",
+          "overload": "459/800",
+          "route": "010001"
+        },
+        {
+          "coefficient": "19/1600",
+          "overload": "961/800",
+          "route": "101010"
+        },
+        {
+          "coefficient": "341/1600",
+          "overload": "961/800",
+          "route": "101100"
+        }
+      ],
+      "level": "961/800",
+      "strict_lower_vertices": 20,
+      "strict_separator": {
+        "coefficients": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "gap": "1/800",
+        "maximum_on_strict_lower_vertices": "2",
+        "value_at_fractional_point": "1601/800"
+      }
+    },
+    "cost_activity": {
+      "cost_good_among_them": 0,
+      "unrestricted_routings_at_most_one": 20
+    },
+    "cost_good_routings": 42,
+    "demands": [
+      "1",
+      "1",
+      "1",
+      "31/40",
+      "1",
+      "31/40"
+    ],
+    "eta": "1/800",
+    "exact_lower_bound": "961/800",
+    "exact_lower_bound_decimal": 1.20125,
+    "firewall": {
+      "K3,3_branch_sides": [
+        [
+          "v2",
+          "v4",
+          "v7"
+        ],
+        [
+          "v9",
+          "v3",
+          "v6"
+        ]
+      ],
+      "K3,3_paths": [
+        [
+          "v2",
+          "v1",
+          "t3",
+          "v9"
+        ],
+        [
+          "v2",
+          "v3"
+        ],
+        [
+          "v2",
+          "t2",
+          "v6"
+        ],
+        [
+          "v4",
+          "t0",
+          "v9"
+        ],
+        [
+          "v4",
+          "v3"
+        ],
+        [
+          "v4",
+          "v5",
+          "v6"
+        ],
+        [
+          "v7",
+          "v8",
+          "v9"
+        ],
+        [
+          "v7",
+          "t1",
+          "v3"
+        ],
+        [
+          "v7",
+          "v6"
+        ]
+      ],
+      "cost_active": true,
+      "divisibility_chain": false,
+      "nonplanar": true,
+      "series_parallel": false
+    },
+    "fractional_cost": "3199/800",
+    "late_shares": [
+      "9/40",
+      "341/800",
+      "9/40",
+      "9/20",
+      "9/40",
+      "9/20"
+    ],
+    "margin_above_6/5": "1/800",
+    "p": 49,
+    "pell_identity": 1,
+    "pell_index": 2,
+    "q": 20,
+    "rank_three_minimizers": [
+      {
+        "late_count": 3,
+        "overload": "961/800",
+        "route": "010011",
+        "witness_arcs": [
+          [
+            "v0",
+            "v1"
+          ],
+          [
+            "v3",
+            "v4"
+          ]
+        ]
+      },
+      {
+        "late_count": 3,
+        "overload": "961/800",
+        "route": "010101",
+        "witness_arcs": [
+          [
+            "v6",
+            "v7"
+          ]
+        ]
+      },
+      {
+        "late_count": 3,
+        "overload": "961/800",
+        "route": "010110",
+        "witness_arcs": [
+          [
+            "v3",
+            "v4"
+          ]
+        ]
+      },
+      {
+        "late_count": 3,
+        "overload": "961/800",
+        "route": "011001",
+        "witness_arcs": [
+          [
+            "v3",
+            "v4"
+          ],
+          [
+            "v5",
+            "v6"
+          ]
+        ]
+      },
+      {
+        "late_count": 3,
+        "overload": "961/800",
+        "route": "011100",
+        "witness_arcs": [
+          [
+            "v3",
+            "v4"
+          ],
+          [
+            "v5",
+            "v6"
+          ]
+        ]
+      },
+      {
+        "late_count": 3,
+        "overload": "961/800",
+        "route": "100011",
+        "witness_arcs": [
+          [
+            "v0",
+            "v1"
+          ]
+        ]
+      },
+      {
+        "late_count": 3,
+        "overload": "961/800",
+        "route": "100110",
+        "witness_arcs": [
+          [
+            "v8",
+            "v9"
+          ]
+        ]
+      },
+      {
+        "late_count": 3,
+        "overload": "961/800",
+        "route": "101001",
+        "witness_arcs": [
+          [
+            "v5",
+            "v6"
+          ]
+        ]
+      },
+      {
+        "late_count": 3,
+        "overload": "961/800",
+        "route": "101010",
+        "witness_arcs": [
+          [
+            "v4",
+            "v5"
+          ]
+        ]
+      },
+      {
+        "late_count": 3,
+        "overload": "961/800",
+        "route": "101100",
+        "witness_arcs": [
+          [
+            "v5",
+            "v6"
+          ],
+          [
+            "v8",
+            "v9"
+          ]
+        ]
+      },
+      {
+        "late_count": 3,
+        "overload": "961/800",
+        "route": "110010",
+        "witness_arcs": [
+          [
+            "v4",
+            "v5"
+          ]
+        ]
+      }
+    ],
+    "raw_dag": {
+      "all_route_checks": [
+        {
+          "cost": "6",
+          "cost_good": false,
+          "late_count": 0,
+          "overload": "341/800",
+          "route": "000000",
+          "witness_arcs": [
+            [
+              "v3",
+              "t1"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "late_count": 1,
+          "overload": "341/800",
+          "route": "000001",
+          "witness_arcs": [
+            [
+              "v3",
+              "t1"
+            ],
+            [
+              "v8",
+              "t5"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "late_count": 1,
+          "overload": "31/40",
+          "route": "000010",
+          "witness_arcs": [
+            [
+              "v5",
+              "t4"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "961/800",
+          "route": "000011",
+          "witness_arcs": [
+            [
+              "v0",
+              "v1"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "late_count": 1,
+          "overload": "341/800",
+          "route": "000100",
+          "witness_arcs": [
+            [
+              "v3",
+              "t1"
+            ],
+            [
+              "v9",
+              "t3"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "251/400",
+          "route": "000101",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v7",
+              "v8"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "341/400",
+          "route": "000110",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "651/400",
+          "route": "000111",
+          "witness_arcs": [
+            [
+              "v1",
+              "v2"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "late_count": 1,
+          "overload": "31/40",
+          "route": "001000",
+          "witness_arcs": [
+            [
+              "v6",
+              "t2"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "31/40",
+          "route": "001001",
+          "witness_arcs": [
+            [
+              "v6",
+              "t2"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "341/400",
+          "route": "001010",
+          "witness_arcs": [
+            [
+              "v2",
+              "v3"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "651/400",
+          "route": "001011",
+          "witness_arcs": [
+            [
+              "v2",
+              "v3"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "31/40",
+          "route": "001100",
+          "witness_arcs": [
+            [
+              "v6",
+              "t2"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "561/400",
+          "route": "001101",
+          "witness_arcs": [
+            [
+              "v2",
+              "v3"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "651/400",
+          "route": "001110",
+          "witness_arcs": [
+            [
+              "v2",
+              "v3"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "961/400",
+          "route": "001111",
+          "witness_arcs": [
+            [
+              "v2",
+              "v3"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "late_count": 1,
+          "overload": "459/800",
+          "route": "010000",
+          "witness_arcs": [
+            [
+              "v7",
+              "t1"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "459/800",
+          "route": "010001",
+          "witness_arcs": [
+            [
+              "v7",
+              "t1"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "31/40",
+          "route": "010010",
+          "witness_arcs": [
+            [
+              "v5",
+              "t4"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "961/800",
+          "route": "010011",
+          "witness_arcs": [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "459/800",
+          "route": "010100",
+          "witness_arcs": [
+            [
+              "v7",
+              "t1"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "961/800",
+          "route": "010101",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "961/800",
+          "route": "010110",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1581/800",
+          "route": "010111",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "31/40",
+          "route": "011000",
+          "witness_arcs": [
+            [
+              "v6",
+              "t2"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "961/800",
+          "route": "011001",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "1141/800",
+          "route": "011010",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1761/800",
+          "route": "011011",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "961/800",
+          "route": "011100",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1581/800",
+          "route": "011101",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1761/800",
+          "route": "011110",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "1",
+          "cost_good": true,
+          "late_count": 5,
+          "overload": "2381/800",
+          "route": "011111",
+          "witness_arcs": [
+            [
+              "v3",
+              "v4"
+            ]
+          ]
+        },
+        {
+          "cost": "5",
+          "cost_good": false,
+          "late_count": 1,
+          "overload": "31/40",
+          "route": "100000",
+          "witness_arcs": [
+            [
+              "v9",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "341/400",
+          "route": "100001",
+          "witness_arcs": [
+            [
+              "v7",
+              "v8"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "31/40",
+          "route": "100010",
+          "witness_arcs": [
+            [
+              "v9",
+              "t0"
+            ],
+            [
+              "v5",
+              "t4"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "961/800",
+          "route": "100011",
+          "witness_arcs": [
+            [
+              "v0",
+              "v1"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "961/800",
+          "route": "100100",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "651/400",
+          "route": "100101",
+          "witness_arcs": [
+            [
+              "v7",
+              "v8"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "961/800",
+          "route": "100110",
+          "witness_arcs": [
+            [
+              "v8",
+              "v9"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1401/800",
+          "route": "100111",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "31/40",
+          "route": "101000",
+          "witness_arcs": [
+            [
+              "v9",
+              "t0"
+            ],
+            [
+              "v6",
+              "t2"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "961/800",
+          "route": "101001",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "961/800",
+          "route": "101010",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1581/800",
+          "route": "101011",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "961/800",
+          "route": "101100",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ],
+            [
+              "v8",
+              "v9"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1581/800",
+          "route": "101101",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1581/800",
+          "route": "101110",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "1",
+          "cost_good": true,
+          "late_count": 5,
+          "overload": "2201/800",
+          "route": "101111",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "4",
+          "cost_good": false,
+          "late_count": 2,
+          "overload": "31/40",
+          "route": "110000",
+          "witness_arcs": [
+            [
+              "v9",
+              "t0"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "1141/800",
+          "route": "110001",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "961/800",
+          "route": "110010",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1581/800",
+          "route": "110011",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "1141/800",
+          "route": "110100",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1761/800",
+          "route": "110101",
+          "witness_arcs": [
+            [
+              "v6",
+              "v7"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1581/800",
+          "route": "110110",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "1",
+          "cost_good": true,
+          "late_count": 5,
+          "overload": "2201/800",
+          "route": "110111",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "3",
+          "cost_good": true,
+          "late_count": 3,
+          "overload": "1141/800",
+          "route": "111000",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1761/800",
+          "route": "111001",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1761/800",
+          "route": "111010",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "1",
+          "cost_good": true,
+          "late_count": 5,
+          "overload": "2381/800",
+          "route": "111011",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "2",
+          "cost_good": true,
+          "late_count": 4,
+          "overload": "1761/800",
+          "route": "111100",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "1",
+          "cost_good": true,
+          "late_count": 5,
+          "overload": "2381/800",
+          "route": "111101",
+          "witness_arcs": [
+            [
+              "v5",
+              "v6"
+            ]
+          ]
+        },
+        {
+          "cost": "1",
+          "cost_good": true,
+          "late_count": 5,
+          "overload": "2381/800",
+          "route": "111110",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        },
+        {
+          "cost": "0",
+          "cost_good": true,
+          "late_count": 6,
+          "overload": "3001/800",
+          "route": "111111",
+          "witness_arcs": [
+            [
+              "v4",
+              "v5"
+            ]
+          ]
+        }
+      ],
+      "arcs": [
+        [
+          "v0",
+          "v1"
+        ],
+        [
+          "v1",
+          "v2"
+        ],
+        [
+          "v2",
+          "v3"
+        ],
+        [
+          "v3",
+          "v4"
+        ],
+        [
+          "v4",
+          "v5"
+        ],
+        [
+          "v5",
+          "v6"
+        ],
+        [
+          "v6",
+          "v7"
+        ],
+        [
+          "v7",
+          "v8"
+        ],
+        [
+          "v8",
+          "v9"
+        ],
+        [
+          "v4",
+          "t0"
+        ],
+        [
+          "v9",
+          "t0"
+        ],
+        [
+          "v3",
+          "t1"
+        ],
+        [
+          "v7",
+          "t1"
+        ],
+        [
+          "v2",
+          "t2"
+        ],
+        [
+          "v6",
+          "t2"
+        ],
+        [
+          "v1",
+          "t3"
+        ],
+        [
+          "v9",
+          "t3"
+        ],
+        [
+          "v0",
+          "t4"
+        ],
+        [
+          "v5",
+          "t4"
+        ],
+        [
+          "v0",
+          "t5"
+        ],
+        [
+          "v8",
+          "t5"
+        ]
+      ],
+      "simple_path_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "simple_paths": [
+        [
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "v6"
+            ],
+            [
+              "v6",
+              "v7"
+            ],
+            [
+              "v7",
+              "v8"
+            ],
+            [
+              "v8",
+              "v9"
+            ],
+            [
+              "v9",
+              "t0"
+            ]
+          ],
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "t0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "v6"
+            ],
+            [
+              "v6",
+              "v7"
+            ],
+            [
+              "v7",
+              "t1"
+            ]
+          ],
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "t1"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "v6"
+            ],
+            [
+              "v6",
+              "t2"
+            ]
+          ],
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "t2"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "v6"
+            ],
+            [
+              "v6",
+              "v7"
+            ],
+            [
+              "v7",
+              "v8"
+            ],
+            [
+              "v8",
+              "v9"
+            ],
+            [
+              "v9",
+              "t3"
+            ]
+          ],
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "t3"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "t4"
+            ]
+          ],
+          [
+            [
+              "v0",
+              "t4"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "v0",
+              "v1"
+            ],
+            [
+              "v1",
+              "v2"
+            ],
+            [
+              "v2",
+              "v3"
+            ],
+            [
+              "v3",
+              "v4"
+            ],
+            [
+              "v4",
+              "v5"
+            ],
+            [
+              "v5",
+              "v6"
+            ],
+            [
+              "v6",
+              "v7"
+            ],
+            [
+              "v7",
+              "v8"
+            ],
+            [
+              "v8",
+              "t5"
+            ]
+          ],
+          [
+            [
+              "v0",
+              "t5"
+            ]
+          ]
+        ]
+      ],
+      "source": "v0"
+    },
+    "share_sum": "1601/800"
+  },
+  "symbolic_certificate": {
+    "congestion": "(r - 4)**2/2",
+    "demands": [
+      "1",
+      "1",
+      "1",
+      "2 - r/2",
+      "1",
+      "2 - r/2"
+    ],
+    "eta": "r**2/2 - 3",
+    "higher_rank_monotonicity": "Every >=4 route dominates a 3-subroute coordinatewise; all shared row incidences are nonnegative.",
+    "limit": "11-4*sqrt(6)",
+    "mixture_route_upper_checks": [
+      {
+        "all_rows_C_minus_error_bernstein_nonnegative": [
+          [
+            "9/5",
+            "143/80",
+            "71/40"
+          ],
+          [
+            "53/25",
+            "849/400",
+            "1699/800"
+          ],
+          [
+            "58/25",
+            "467/200",
+            "1879/800"
+          ],
+          [
+            "14/5",
+            "223/80",
+            "111/40"
+          ],
+          [
+            "3",
+            "3",
+            "3"
+          ],
+          [
+            "14/5",
+            "223/80",
+            "111/40"
+          ],
+          [
+            "13/5",
+            "103/40",
+            "51/20"
+          ],
+          [
+            "53/25",
+            "849/400",
+            "1699/800"
+          ],
+          [
+            "9/5",
+            "143/80",
+            "71/40"
+          ]
+        ],
+        "route": "000000"
+      },
+      {
+        "all_rows_C_minus_error_bernstein_nonnegative": [
+          [
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "13/25",
+            "219/400",
+            "459/800"
+          ],
+          [
+            "18/25",
+            "19/25",
+            "639/800"
+          ],
+          [
+            "6/5",
+            "97/80",
+            "49/40"
+          ],
+          [
+            "7/5",
+            "57/40",
+            "29/20"
+          ],
+          [
+            "6/5",
+            "97/80",
+            "49/40"
+          ],
+          [
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "13/25",
+            "219/400",
+            "459/800"
+          ],
+          [
+            "1",
+            "1",
+            "1"
+          ]
+        ],
+        "route": "000101"
+      },
+      {
+        "all_rows_C_minus_error_bernstein_nonnegative": [
+          [
+            "4/5",
+            "63/80",
+            "31/40"
+          ],
+          [
+            "8/25",
+            "67/200",
+            "279/800"
+          ],
+          [
+            "13/25",
+            "219/400",
+            "459/800"
+          ],
+          [
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "6/5",
+            "97/80",
+            "49/40"
+          ],
+          [
+            "2",
+            "2",
+            "2"
+          ],
+          [
+            "9/5",
+            "143/80",
+            "71/40"
+          ],
+          [
+            "33/25",
+            "267/200",
+            "1079/800"
+          ],
+          [
+            "1",
+            "1",
+            "1"
+          ]
+        ],
+        "route": "000110"
+      },
+      {
+        "all_rows_C_minus_error_bernstein_nonnegative": [
+          [
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "33/25",
+            "267/200",
+            "1079/800"
+          ],
+          [
+            "38/25",
+            "619/400",
+            "1259/800"
+          ],
+          [
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "6/5",
+            "97/80",
+            "49/40"
+          ],
+          [
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "4/5",
+            "63/80",
+            "31/40"
+          ],
+          [
+            "33/25",
+            "267/200",
+            "1079/800"
+          ],
+          [
+            "9/5",
+            "143/80",
+            "71/40"
+          ]
+        ],
+        "route": "010001"
+      },
+      {
+        "all_rows_C_minus_error_bernstein_nonnegative": [
+          [
+            "4/5",
+            "63/80",
+            "31/40"
+          ],
+          [
+            "28/25",
+            "449/400",
+            "899/800"
+          ],
+          [
+            "8/25",
+            "67/200",
+            "279/800"
+          ],
+          [
+            "4/5",
+            "63/80",
+            "31/40"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "4/5",
+            "63/80",
+            "31/40"
+          ],
+          [
+            "8/5",
+            "63/40",
+            "31/20"
+          ],
+          [
+            "28/25",
+            "449/400",
+            "899/800"
+          ],
+          [
+            "4/5",
+            "63/80",
+            "31/40"
+          ]
+        ],
+        "route": "101010"
+      },
+      {
+        "all_rows_C_minus_error_bernstein_nonnegative": [
+          [
+            "9/5",
+            "143/80",
+            "71/40"
+          ],
+          [
+            "33/25",
+            "267/200",
+            "1079/800"
+          ],
+          [
+            "13/25",
+            "219/400",
+            "459/800"
+          ],
+          [
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "1/5",
+            "17/80",
+            "9/40"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "4/5",
+            "63/80",
+            "31/40"
+          ],
+          [
+            "8/25",
+            "67/200",
+            "279/800"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "route": "101100"
+      }
+    ],
+    "parameter": "r=p/q",
+    "parameter_interval": [
+      "12/5",
+      "49/20"
+    ],
+    "pell_equation": "p^2-6q^2=1",
+    "pell_indices": "n>=2 in (5+2*sqrt(6))^n",
+    "private_overload_bound": "at most d_max=1<C",
+    "rank_three_minimizers": [
+      "010011",
+      "010101",
+      "010110",
+      "011001",
+      "011100",
+      "100011",
+      "100110",
+      "101001",
+      "101010",
+      "101100",
+      "110010"
+    ],
+    "rank_three_route_witnesses": [
+      {
+        "gap_above_C": "(r - 4)*(r - 3)/2",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "12/25",
+          "181/400",
+          "341/800"
+        ],
+        "route": "000111",
+        "witness_error": "(r - 4)*(2*r - 7)/2",
+        "witness_row_mask": 56
+      },
+      {
+        "gap_above_C": "(r - 4)*(r - 3)/2",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "12/25",
+          "181/400",
+          "341/800"
+        ],
+        "route": "001011",
+        "witness_error": "(r - 4)*(2*r - 7)/2",
+        "witness_row_mask": 60
+      },
+      {
+        "gap_above_C": "(r**2 - 8*r + 14)/2",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "7/25",
+          "6/25",
+          "161/800"
+        ],
+        "route": "001101",
+        "witness_error": "(r - 5)*(r - 3)",
+        "witness_row_mask": 60
+      },
+      {
+        "gap_above_C": "(r - 4)*(r - 3)/2",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "12/25",
+          "181/400",
+          "341/800"
+        ],
+        "route": "001110",
+        "witness_error": "(r - 4)*(2*r - 7)/2",
+        "witness_row_mask": 60
+      },
+      {
+        "gap_above_C": "0",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "0",
+          "0",
+          "0"
+        ],
+        "route": "010011",
+        "witness_error": "(r - 4)**2/2",
+        "witness_row_mask": 48
+      },
+      {
+        "gap_above_C": "0",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "0",
+          "0",
+          "0"
+        ],
+        "route": "010101",
+        "witness_error": "(r - 4)**2/2",
+        "witness_row_mask": 43
+      },
+      {
+        "gap_above_C": "0",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "0",
+          "0",
+          "0"
+        ],
+        "route": "010110",
+        "witness_error": "(r - 4)**2/2",
+        "witness_row_mask": 62
+      },
+      {
+        "gap_above_C": "0",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "0",
+          "0",
+          "0"
+        ],
+        "route": "011001",
+        "witness_error": "(r - 4)**2/2",
+        "witness_row_mask": 62
+      },
+      {
+        "gap_above_C": "(r - 2)/2",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "1/5",
+          "17/80",
+          "9/40"
+        ],
+        "route": "011010",
+        "witness_error": "(r**2 - 7*r + 14)/2",
+        "witness_row_mask": 62
+      },
+      {
+        "gap_above_C": "0",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "0",
+          "0",
+          "0"
+        ],
+        "route": "011100",
+        "witness_error": "(r - 4)**2/2",
+        "witness_row_mask": 62
+      },
+      {
+        "gap_above_C": "0",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "0",
+          "0",
+          "0"
+        ],
+        "route": "100011",
+        "witness_error": "(r - 4)**2/2",
+        "witness_row_mask": 48
+      },
+      {
+        "gap_above_C": "(r - 4)*(r - 3)/2",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "12/25",
+          "181/400",
+          "341/800"
+        ],
+        "route": "100101",
+        "witness_error": "(r - 4)*(2*r - 7)/2",
+        "witness_row_mask": 41
+      },
+      {
+        "gap_above_C": "0",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "0",
+          "0",
+          "0"
+        ],
+        "route": "100110",
+        "witness_error": "(r - 4)**2/2",
+        "witness_row_mask": 9
+      },
+      {
+        "gap_above_C": "0",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "0",
+          "0",
+          "0"
+        ],
+        "route": "101001",
+        "witness_error": "(r - 4)**2/2",
+        "witness_row_mask": 47
+      },
+      {
+        "gap_above_C": "0",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "0",
+          "0",
+          "0"
+        ],
+        "route": "101010",
+        "witness_error": "(r - 4)**2/2",
+        "witness_row_mask": 63
+      },
+      {
+        "gap_above_C": "0",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "0",
+          "0",
+          "0"
+        ],
+        "route": "101100",
+        "witness_error": "(r - 4)**2/2",
+        "witness_row_mask": 47
+      },
+      {
+        "gap_above_C": "(r - 2)/2",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "1/5",
+          "17/80",
+          "9/40"
+        ],
+        "route": "110001",
+        "witness_error": "(r**2 - 7*r + 14)/2",
+        "witness_row_mask": 43
+      },
+      {
+        "gap_above_C": "0",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "0",
+          "0",
+          "0"
+        ],
+        "route": "110010",
+        "witness_error": "(r - 4)**2/2",
+        "witness_row_mask": 63
+      },
+      {
+        "gap_above_C": "(r - 2)/2",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "1/5",
+          "17/80",
+          "9/40"
+        ],
+        "route": "110100",
+        "witness_error": "(r**2 - 7*r + 14)/2",
+        "witness_row_mask": 43
+      },
+      {
+        "gap_above_C": "(r - 2)/2",
+        "gap_bernstein_coefficients_on_[12/5,49/20]": [
+          "1/5",
+          "17/80",
+          "9/40"
+        ],
+        "route": "111000",
+        "witness_error": "(r**2 - 7*r + 14)/2",
+        "witness_row_mask": 47
+      }
+    ],
+    "share_sum": "(r**2 - 2)/2",
+    "shares": [
+      "r/2 - 1",
+      "r**2/2 - 7*r/2 + 6",
+      "r/2 - 1",
+      "r - 2",
+      "r/2 - 1",
+      "r - 2"
+    ]
+  },
+  "theorem": {
+    "C_n": "(p_n-4q_n)^2/(2q_n^2)",
+    "limit": "11-4*sqrt(6)",
+    "limit_above_6/5_decimal": 0.002041028867288519,
+    "limit_decimal": 1.2020410288672885,
+    "strictly_above": "6/5 for every n>=2"
+  }
+}

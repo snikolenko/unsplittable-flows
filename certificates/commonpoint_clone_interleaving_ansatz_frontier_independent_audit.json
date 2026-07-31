@@ -1,0 +1,32 @@
+{
+  "certificate": "certificates/commonpoint_clone_interleaving_ansatz_frontier_exact.json",
+  "endpoints_rebuilt": 69,
+  "every_endpoint_below_k17": true,
+  "k_values": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "kind": "independent_exact_clone_interleaving_frontier_audit",
+  "maximum_exact_endpoint_witness": "1221623116867287239/1000000000000000000",
+  "minimum_gap_below_k17": "30435840558778141/500000000000000000",
+  "verified": true
+}

@@ -1,0 +1,284 @@
+{
+  "audited_sha256": {
+    "certificates/commonpoint_clone_interleaving_ansatz_frontier_exact.json": "bd5528cf9dca45ea957d5ad9effd160e236278670981e4247de2ee19f6b2dd31",
+    "certificates/commonpoint_multistar_extended_record_chain_exact.json": "283d5e895ae3bd33392b70c56840833203fad6e40ea8ad26e6a8cc5ae3c5dad5",
+    "certificates/commonpoint_sandwich_phase2_exact.json": "c6553345493cbda75a7c53196467b7a4775a2644d21ec4cfd768a82120d9ec47",
+    "certificates/commonpoint_sandwich_phase2_table.csv": "8c051b6ff7658ff6279e7988e6b7da6933f2f187ccb577fb35c98e5036d18f5f"
+  },
+  "clone_endpoint_audits": [
+    {
+      "cost_good": true,
+      "exact_defeating_route": "01010100100100001101",
+      "exact_full_overload": "1221623116867287239/1000000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 20,
+      "rank": 8,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "101000001100101000011",
+      "exact_full_overload": "277847118012860927/250000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 21,
+      "rank": 8,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "1010100010001001010110",
+      "exact_full_overload": "109261189877447413/100000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 22,
+      "rank": 9,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "10000111000100010100110",
+      "exact_full_overload": "999998350000616109/1000000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 23,
+      "rank": 9,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "011010000100100100001101",
+      "exact_full_overload": "71247464286674657/62500000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 24,
+      "rank": 9,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "1010001011001100010000111",
+      "exact_full_overload": "1094425363599764587/1000000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 25,
+      "rank": 11,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "01101001010001000001010111",
+      "exact_full_overload": "269151526878286031/250000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 26,
+      "rank": 11,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "001011010000100001000110110",
+      "exact_full_overload": "100652657925291931/100000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 27,
+      "rank": 10,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "0110100000101000100000101111",
+      "exact_full_overload": "5555574460452557/5000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 28,
+      "rank": 11,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "01011000010000100001001001101",
+      "exact_full_overload": "1038033934743823631/1000000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 29,
+      "rank": 10,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "100001011001000110001010001100",
+      "exact_full_overload": "6399975711993/6400000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 30,
+      "rank": 11,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "0110010100010010001001100001110",
+      "exact_full_overload": "65704286792935121/62500000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 31,
+      "rank": 12,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "00110100010000011000110010111110",
+      "exact_full_overload": "548815786974365437/500000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 32,
+      "rank": 14,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "000101010001011100001110100001100",
+      "exact_full_overload": "977342445682186677/1000000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 33,
+      "rank": 13,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "0011010100010100001100000100011101",
+      "exact_full_overload": "507859675848659243/500000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 34,
+      "rank": 13,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "00111000011000000001010000110111001",
+      "exact_full_overload": "124999236001167/125000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 35,
+      "rank": 13,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "100010100010010100100011001000010011",
+      "exact_full_overload": "4444932799286889/4000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 36,
+      "rank": 13,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "0101010100000010100000111000100010101",
+      "exact_full_overload": "1030929584283830377/1000000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 37,
+      "rank": 13,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "10010100010010100001000001110001111001",
+      "exact_full_overload": "131758413250220911/125000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 38,
+      "rank": 15,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "010011000010000111100001001001000001111",
+      "exact_full_overload": "262699527936335781/250000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 39,
+      "rank": 15,
+      "verified": true
+    },
+    {
+      "cost_good": true,
+      "exact_defeating_route": "1000110011000001000011100001100010111001",
+      "exact_full_overload": "1049881015987528393/1000000000000000000",
+      "interpretation": "Exact defeating-route upper witness for this tested endpoint only; not a multi-star threshold, class upper bound, or record.",
+      "k": 40,
+      "rank": 16,
+      "verified": true
+    }
+  ],
+  "clone_endpoint_count": 21,
+  "clone_interpretation": "Every clone value audited here is only an exact cost-good defeating-route upper witness for one tested endpoint.",
+  "convention_version": "commonpoint_sandwich_phase2_v2",
+  "csv_audit": {
+    "clone_row_count": 21,
+    "record_row_count": 7,
+    "row_count": 28,
+    "sha256": "8c051b6ff7658ff6279e7988e6b7da6933f2f187ccb577fb35c98e5036d18f5f",
+    "verified": true
+  },
+  "kind": "independent_commonpoint_sandwich_phase2_audit",
+  "record_audits": [
+    {
+      "eta": "1/1000000000",
+      "k": 7,
+      "l1_bound": "7/1000000000",
+      "l1_distance": "925863359/333333333000000000",
+      "profile_bound": "6515307593/1000000000000000000",
+      "profile_distance": "32668029544163249/27027027000000000000000000",
+      "rank": 4,
+      "verified": true
+    },
+    {
+      "eta": "1/1000000",
+      "k": 8,
+      "l1_bound": "1/125000",
+      "l1_distance": "477541/142857000000",
+      "profile_bound": "7398187/1000000000000",
+      "profile_distance": "55216655089/45454500000000000",
+      "rank": 4,
+      "verified": true
+    },
+    {
+      "eta": "1/1000000000",
+      "k": 11,
+      "l1_bound": "11/1000000000",
+      "l1_distance": "4623724933/999999999000000000",
+      "profile_bound": "10369640019/1000000000000000000",
+      "profile_distance": "6976366526401123/5555555550000000000000000",
+      "rank": 5,
+      "verified": true
+    },
+    {
+      "eta": "1/1000000000",
+      "k": 13,
+      "l1_bound": "13/1000000000",
+      "l1_distance": "354856303/66666666600000000",
+      "profile_bound": "3078737667/250000000000000000",
+      "profile_distance": "630928211671408217/499999999500000000000000000",
+      "rank": 6,
+      "verified": true
+    },
+    {
+      "eta": "1/1000000000",
+      "k": 15,
+      "l1_bound": "3/200000000",
+      "l1_distance": "7244235491/999999999000000000",
+      "profile_bound": "7129440589/500000000000000000",
+      "profile_distance": "1271981601327696511/999999999000000000000000000",
+      "rank": 7,
+      "verified": true
+    },
+    {
+      "eta": "1/1000000000",
+      "k": 16,
+      "l1_bound": "1/62500000",
+      "l1_distance": "2210437783/333333333000000000",
+      "profile_bound": "15145552467/1000000000000000000",
+      "profile_distance": "944344050250789/740740740000000000000000",
+      "rank": 7,
+      "verified": true
+    },
+    {
+      "eta": "1/1000000000",
+      "k": 17,
+      "l1_bound": "17/1000000000",
+      "l1_distance": "112324009/13333333320000000",
+      "profile_bound": "494943533/31250000000000000",
+      "profile_distance": "34662021567157933/27027027000000000000000000",
+      "rank": 7,
+      "verified": true
+    }
+  ],
+  "record_count": 7,
+  "verified": true
+}

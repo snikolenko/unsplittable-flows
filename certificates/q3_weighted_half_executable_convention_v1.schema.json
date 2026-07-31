@@ -1,0 +1,130 @@
+{
+  "$id": "ssuf.q3-weighted-half.executable-convention.v1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "arithmetic": {"type": "object"},
+    "block_sha256_without_hash_field": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "boundary_and_prefix_rows": {
+      "properties": {
+        "empty_prefix_included": {"const": false},
+        "full_prefix_included": {"const": true},
+        "full_row_handling": {"type": "object"},
+        "ordered_row_instances": {"type": "array"},
+        "proper_prefixes_included": {"const": true},
+        "support_lp_unique_rows": {"type": "array"}
+      },
+      "required": [
+        "empty_prefix_included",
+        "proper_prefixes_included",
+        "full_prefix_included",
+        "ordered_row_instances",
+        "support_lp_unique_rows",
+        "full_row_handling"
+      ],
+      "type": "object"
+    },
+    "calibration": {"type": "object"},
+    "instance": {
+      "properties": {
+        "D": {"const": "1"},
+        "complement_mass": {"const": "3"},
+        "complement_shares_x": {"type": "array"},
+        "demands_d": {"type": "array"},
+        "fractional_shares_f": {"type": "array"},
+        "k": {"minimum": 3, "type": "integer"},
+        "q": {"const": 3}
+      },
+      "required": [
+        "k",
+        "q",
+        "D",
+        "complement_shares_x",
+        "fractional_shares_f",
+        "demands_d",
+        "complement_mass"
+      ],
+      "type": "object"
+    },
+    "objective": {"type": "object"},
+    "orders": {
+      "properties": {
+        "left": {"type": "array"},
+        "right": {"type": "array"}
+      },
+      "required": ["left", "right"],
+      "type": "object"
+    },
+    "residual": {
+      "properties": {
+        "expanded_code": {"type": "string"},
+        "fractional_share_code": {"const": "f[i] = 1 - x[i]"},
+        "full_row_assertion_code": {
+          "const": "sum(d[i] * (u[i] - f[i]) for i in range(k)) == 0"
+        },
+        "full_row_expected": {"const": "0"},
+        "prefix_code": {
+          "const": "sum(d[i] * (u[i] - f[i]) for i in prefix)"
+        },
+        "sign": {
+          "const": "positive_is_upper_residual_d_times_u_minus_f"
+        },
+        "term_code": {"const": "d[i] * (u[i] - f[i])"}
+      },
+      "required": [
+        "fractional_share_code",
+        "full_row_assertion_code",
+        "full_row_expected",
+        "term_code",
+        "prefix_code",
+        "expanded_code",
+        "sign"
+      ],
+      "type": "object"
+    },
+    "schema_id": {
+      "const": "ssuf.q3-weighted-half.executable-convention.v1"
+    },
+    "support_and_credit_normalization": {
+      "properties": {
+        "credit_sum_code": {
+          "const": "sum(credit[i] for i in selected) == 1"
+        },
+        "omitted_set_size": {"const": 2},
+        "proportional_credit_code": {"type": "string"},
+        "proportional_feasibility_code": {"type": "string"},
+        "u_code": {
+          "const": "u[i] = 0 if i in omitted else 1 - credit[i]"
+        },
+        "weighted_credit_sum_code": {
+          "const": "sum(d[i] * credit[i] for i in selected) == sum(d[i] * x[i] for i in range(k)) - sum(d[i] for i in omitted)"
+        }
+      },
+      "required": [
+        "omitted_set_size",
+        "credit_sum_code",
+        "weighted_credit_sum_code",
+        "u_code",
+        "proportional_credit_code",
+        "proportional_feasibility_code"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema_id",
+    "arithmetic",
+    "instance",
+    "orders",
+    "support_and_credit_normalization",
+    "residual",
+    "boundary_and_prefix_rows",
+    "objective",
+    "calibration",
+    "block_sha256_without_hash_field"
+  ],
+  "type": "object"
+}
