@@ -174,6 +174,10 @@ Tested with Python 3.10, SymPy 1.14, NumPy 1.26, SciPy 1.13, NetworkX 3.2.
 }
 ```
 
+My personal website: [Sergey Nikolenko](https://www.sergeynikolenko.ru/en)
+
+My Telegram channel (in Russian): [Sineкура](https://t.me/sinecor)
+
 ## License
 
 Code: MIT (see `LICENSE`). The paper text and figures: CC BY 4.0.
