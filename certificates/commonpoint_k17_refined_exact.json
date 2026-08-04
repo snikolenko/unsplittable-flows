@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "title": "Exact 17-Terminal Common-Point Certificate (1.282600690125... Refinement)",
+    "author": "Alfredo de la Fuente",
+    "date": "2026-08-03",
+    "description": "Exact refinement of Nikolenko's 17-terminal certificate by transposing endpoints for terminals 1 and 4.",
+    "baseline_certified_value": "1.282494797984843521",
+    "new_certified_value_exact": "160325086265636045340018727271 / 125000000000000000000000000000",
+    "new_certified_value_float": 1.2826006901250884,
+    "exact_improvement": "13236517530605215018727271 / 125000000000000000000000000000"
+  },
+  "graph_parameters": {
+    "num_terminals": 17,
+    "num_vertices": 51,
+    "num_arcs": 67,
+    "spine_vertices": 34,
+    "scaling_factor_Q": 1000000000000000
+  },
+  "terminals": [
+    { "index": 0,  "a_i": 0,  "b_i": 16, "D_i": 1000000000000000, "F_i": 141606132761254 },
+    { "index": 1,  "a_i": 1,  "b_i": 19, "D_i": 858393867241515,  "F_i": 505813311259968 },
+    { "index": 2,  "a_i": 2,  "b_i": 17, "D_i": 1000000000000000, "F_i": 424206822884194 },
+    { "index": 3,  "a_i": 3,  "b_i": 21, "D_i": 858393867241515,  "F_i": 505813311262898 },
+    { "index": 4,  "a_i": 4,  "b_i": 18, "D_i": 1000000000000000, "F_i": 141606132758738 },
+    { "index": 5,  "a_i": 5,  "b_i": 25, "D_i": 788277893510092,  "F_i": 193268091609523 },
+    { "index": 6,  "a_i": 6,  "b_i": 20, "D_i": 1000000000000000, "F_i": 635928929373725 },
+    { "index": 7,  "a_i": 7,  "b_i": 27, "D_i": 843862199642941,  "F_i": 65868937079789 },
+    { "index": 8,  "a_i": 8,  "b_i": 26, "D_i": 903365952966881,  "F_i": 193268090530434 },
+    { "index": 9,  "a_i": 9,  "b_i": 22, "D_i": 1000000000000000, "F_i": 884911940543826 },
+    { "index": 10, "a_i": 10, "b_i": 30, "D_i": 856688474148761,  "F_i": 66214441719928 },
+    { "index": 11, "a_i": 11, "b_i": 23, "D_i": 999999999999506,  "F_i": 315124734351381 },
+    { "index": 12, "a_i": 12, "b_i": 31, "D_i": 799963325105069,  "F_i": 219659854159410 },
+    { "index": 13, "a_i": 13, "b_i": 29, "D_i": 917435984766947,  "F_i": 194258970913591 },
+    { "index": 14, "a_i": 14, "b_i": 24, "D_i": 1000000000000000, "F_i": 288280150799138 },
+    { "index": 15, "a_i": 15, "b_i": 28, "D_i": 999999999999996,  "F_i": 882527340338262 },
+    { "index": 16, "a_i": 16, "b_i": 32, "D_i": 1000000000000000, "F_i": 341642807653942 }
+  ],
+  "verification_summary": {
+    "total_routings_checked": 131072,
+    "cost_preserving_routings": 109294,
+    "more_expensive_routings": 21778,
+    "min_numerator_over_Q_sq": "1282600690125088362720149818168",
+    "minimizing_routing_count": 7
+  }
+}
